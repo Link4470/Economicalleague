@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1113B1F0-412E-49F3-A013-F00B908B9E5D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Economicalleague.FavoritItemJob</RootNamespace>
+    <AssemblyName>Economicalleague.FavoritItemJob</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.3.4.1\lib\net40\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.Core.3.4.1\lib\net40\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Log4Net1211, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.Log4Net1211.3.4.1\lib\net40\Common.Logging.Log4Net1211.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Economicalleague.EntityFramework\bin\Debug\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\Economicalleague.EntityFramework\bin\Debug\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Economicalleague.Api\bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Quartz, Version=3.0.4.0, Culture=neutral, PublicKeyToken=f6b8c98a402cc8a4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Quartz.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TopSdk, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\TaoBao\TopSdk.dll</HintPath>
+    </Reference>
+    <Reference Include="Topshelf, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b800c4cfcdeea87b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Topshelf.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FavoritItemJobService.cs" />
+    <Compile Include="log.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceRunner.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="log4net.config" />
+    <None Include="packages.config" />
+    <None Include="quartz.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Economicalleague.Api\Economicalleague.Api.csproj">
+      <Project>{1a1b5a83-a4fd-4174-be45-8b0c3c112403}</Project>
+      <Name>Economicalleague.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Economicalleague.Common\Economicalleague.Common.csproj">
+      <Project>{E7C62F89-9908-48AA-B3B2-2DAAD4B3EBAB}</Project>
+      <Name>Economicalleague.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Economicalleague.DatabaseDAL\Economicalleague.DatabaseDAL.csproj">
+      <Project>{a31a4865-de0b-420e-a07f-12e6eba73ae9}</Project>
+      <Name>Economicalleague.DatabaseDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Economicalleague.Domain\Economicalleague.Domain.csproj">
+      <Project>{33becf52-174d-4f2e-a906-97852f77a3fe}</Project>
+      <Name>Economicalleague.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Economicalleague.EntityFramework\Economicalleague.EntityFramework.csproj">
+      <Project>{b48e7500-41d4-41bc-8753-7d25aa8bbd4e}</Project>
+      <Name>Economicalleague.EntityFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Economicalleague.Infrastructure\Economicalleague.Infrastructure.csproj">
+      <Project>{4474568b-fb4d-4b63-aa2e-931bcca1f0ac}</Project>
+      <Name>Economicalleague.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Economicalleague.RedisDAL\Economicalleague.RedisDAL.csproj">
+      <Project>{70f1358c-1384-4872-b74f-f8369ad475bb}</Project>
+      <Name>Economicalleague.RedisDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Economicalleague.Services\Economicalleague.Services.csproj">
+      <Project>{8570878D-9F7E-438D-9794-3E491B324615}</Project>
+      <Name>Economicalleague.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Economicalleague.Web\Economicalleague.Web.csproj">
+      <Project>{f0ddf196-a06c-42a8-b91f-61dd5d06c606}</Project>
+      <Name>Economicalleague.Web</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="quartz_jobs.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

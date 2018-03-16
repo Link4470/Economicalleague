@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs" Space="C-S">
+  <Alias Key="Model" Value="Economicalleague" />
+  <Alias Key="Target" Value="Economicalleague.Store" />
+  <EntityContainerMapping CdmEntityContainer="EconomicalleagueContainer" StorageEntityContainer="EconomicalleagueStoreContainer">
+    <EntitySetMapping Name="CustomerInfo">
+      <EntityTypeMapping TypeName="Economicalleague.CustomerInfo">
+        <MappingFragment StoreEntitySet="CustomerInfo">
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="Avatar" ColumnName="Avatar" />
+          <ScalarProperty Name="AlipayAccount" ColumnName="AlipayAccount" />
+          <ScalarProperty Name="CustomerIdentity" ColumnName="CustomerIdentity" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="CustomerTel" ColumnName="CustomerTel" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PassWord" ColumnName="PassWord" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_ExceptionLog">
+      <EntityTypeMapping TypeName="Economicalleague.Log_ExceptionLog">
+        <MappingFragment StoreEntitySet="Log_ExceptionLog">
+          <ScalarProperty Name="AppId" ColumnName="AppId" />
+          <ScalarProperty Name="OccurTime" ColumnName="OccurTime" />
+          <ScalarProperty Name="LoginUser" ColumnName="LoginUser" />
+          <ScalarProperty Name="RequestID" ColumnName="RequestID" />
+          <ScalarProperty Name="RemoteAddr" ColumnName="RemoteAddr" />
+          <ScalarProperty Name="StackTrace" ColumnName="StackTrace" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="ActionName" ColumnName="ActionName" />
+          <ScalarProperty Name="ControllerName" ColumnName="ControllerName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_LoginLog">
+      <EntityTypeMapping TypeName="Economicalleague.Log_LoginLog">
+        <MappingFragment StoreEntitySet="Log_LoginLog">
+          <ScalarProperty Name="OccurTime" ColumnName="OccurTime" />
+          <ScalarProperty Name="RemoteAddr" ColumnName="RemoteAddr" />
+          <ScalarProperty Name="ApiType" ColumnName="ApiType" />
+          <ScalarProperty Name="ApiVersion" ColumnName="ApiVersion" />
+          <ScalarProperty Name="AppType" ColumnName="AppType" />
+          <ScalarProperty Name="AppVersion" ColumnName="AppVersion" />
+          <ScalarProperty Name="LoginCustomer" ColumnName="LoginCustomer" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PlatformCommission">
+      <EntityTypeMapping TypeName="Economicalleague.PlatformCommission">
+        <MappingFragment StoreEntitySet="PlatformCommission">
+          <ScalarProperty Name="UpdateTimed" ColumnName="UpdateTimed" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="Complete" ColumnName="Complete" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="Teamcommission" ColumnName="Teamcommission" />
+          <ScalarProperty Name="InDirectcommission" ColumnName="InDirectcommission" />
+          <ScalarProperty Name="commission" ColumnName="commission" />
+          <ScalarProperty Name="WeChatAccount" ColumnName="WeChatAccount" />
+          <ScalarProperty Name="trade_id" ColumnName="trade_id" />
+          <ScalarProperty Name="trade_parent_id" ColumnName="trade_parent_id" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sys_UserInfo">
+      <EntityTypeMapping TypeName="Economicalleague.Sys_UserInfo">
+        <MappingFragment StoreEntitySet="Sys_UserInfo">
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="Avatar" ColumnName="Avatar" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PassWord" ColumnName="PassWord" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerRelatedInfo">
+      <EntityTypeMapping TypeName="Economicalleague.CustomerRelatedInfo">
+        <MappingFragment StoreEntitySet="CustomerRelatedInfo">
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="InDirectId" ColumnName="InDirectId" />
+          <ScalarProperty Name="DirectId" ColumnName="DirectId" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PlatformOrders">
+      <EntityTypeMapping TypeName="Economicalleague.PlatformOrders">
+        <MappingFragment StoreEntitySet="PlatformOrders">
+          <ScalarProperty Name="unid" ColumnName="unid" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="trade_id" ColumnName="trade_id" />
+          <ScalarProperty Name="trade_parent_id" ColumnName="trade_parent_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBItemsList">
+      <EntityTypeMapping TypeName="Economicalleague.TBItemsList">
+        <MappingFragment StoreEntitySet="TBItemsList">
+          <ScalarProperty Name="favorites_title" ColumnName="favorites_title" />
+          <ScalarProperty Name="favorites_id" ColumnName="favorites_id" />
+          <ScalarProperty Name="type" ColumnName="type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserRelation">
+      <EntityTypeMapping TypeName="Economicalleague.UserRelation">
+        <MappingFragment StoreEntitySet="UserRelation">
+          <ScalarProperty Name="adzoneid" ColumnName="adzoneid" />
+          <ScalarProperty Name="openid" ColumnName="openid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserInfo">
+      <EntityTypeMapping TypeName="Economicalleague.UserInfo">
+        <MappingFragment StoreEntitySet="UserInfo">
+          <ScalarProperty Name="adzoneid" ColumnName="adzoneid" />
+          <ScalarProperty Name="language" ColumnName="language" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="province" ColumnName="province" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="avatarUrl" ColumnName="avatarUrl" />
+          <ScalarProperty Name="nickName" ColumnName="nickName" />
+          <ScalarProperty Name="createtime" ColumnName="createtime" />
+          <ScalarProperty Name="openid" ColumnName="openid" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserManager">
+      <EntityTypeMapping TypeName="Economicalleague.UserManager">
+        <MappingFragment StoreEntitySet="UserManager">
+          <ScalarProperty Name="PassWord" ColumnName="PassWord" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBrebateOrders">
+      <EntityTypeMapping TypeName="Economicalleague.TBrebateOrders">
+        <MappingFragment StoreEntitySet="TBrebateOrders">
+          <ScalarProperty Name="EarningTime" ColumnName="EarningTime" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ClickTime" ColumnName="ClickTime" />
+          <ScalarProperty Name="AdzoneName" ColumnName="AdzoneName" />
+          <ScalarProperty Name="AdzoneId" ColumnName="AdzoneId" />
+          <ScalarProperty Name="Tk3rdPubName" ColumnName="Tk3rdPubName" />
+          <ScalarProperty Name="Tk3rdPubId" ColumnName="Tk3rdPubId" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Tk3rdType" ColumnName="Tk3rdType" />
+          <ScalarProperty Name="TerminalType" ColumnName="TerminalType" />
+          <ScalarProperty Name="SubsidyType" ColumnName="SubsidyType" />
+          <ScalarProperty Name="SubsidyFee" ColumnName="SubsidyFee" />
+          <ScalarProperty Name="SubsidyRate" ColumnName="SubsidyRate" />
+          <ScalarProperty Name="CommissionRate" ColumnName="CommissionRate" />
+          <ScalarProperty Name="Commission" ColumnName="Commission" />
+          <ScalarProperty Name="PrePay" ColumnName="PrePay" />
+          <ScalarProperty Name="StatementPrice" ColumnName="StatementPrice" />
+          <ScalarProperty Name="PubSharePreFee" ColumnName="PubSharePreFee" />
+          <ScalarProperty Name="OrderType" ColumnName="OrderType" />
+          <ScalarProperty Name="Proportions" ColumnName="Proportions" />
+          <ScalarProperty Name="IncomeRate" ColumnName="IncomeRate" />
+          <ScalarProperty Name="TkStatus" ColumnName="TkStatus" />
+          <ScalarProperty Name="SellerShopTitle" ColumnName="SellerShopTitle" />
+          <ScalarProperty Name="SellerNick" ColumnName="SellerNick" />
+          <ScalarProperty Name="PayPrice" ColumnName="PayPrice" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="ItemNum" ColumnName="ItemNum" />
+          <ScalarProperty Name="ItemText" ColumnName="ItemText" />
+          <ScalarProperty Name="NumIid" ColumnName="NumIid" />
+          <ScalarProperty Name="TradeId" ColumnName="TradeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Favorites">
+      <EntityTypeMapping TypeName="Economicalleague.Favorites">
+        <MappingFragment StoreEntitySet="Favorites">
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="FavoritesTitle" ColumnName="FavoritesTitle" />
+          <ScalarProperty Name="FavoritesId" ColumnName="FavoritesId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UatmFavoritItems">
+      <EntityTypeMapping TypeName="Economicalleague.UatmFavoritItems">
+        <MappingFragment StoreEntitySet="UatmFavoritItems">
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="score" ColumnName="score" />
+          <ScalarProperty Name="isSale" ColumnName="isSale" />
+          <ScalarProperty Name="FavoritesId" ColumnName="FavoritesId" />
+          <ScalarProperty Name="FavoritesTitle" ColumnName="FavoritesTitle" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="ShopTitle" ColumnName="ShopTitle" />
+          <ScalarProperty Name="EventStartTime" ColumnName="EventStartTime" />
+          <ScalarProperty Name="EventEndTime" ColumnName="EventEndTime" />
+          <ScalarProperty Name="CommissionRate" ColumnName="CommissionRate" />
+          <ScalarProperty Name="CouponRemainCount" ColumnName="CouponRemainCount" />
+          <ScalarProperty Name="CouponTotalCount" ColumnName="CouponTotalCount" />
+          <ScalarProperty Name="CouponStartTime" ColumnName="CouponStartTime" />
+          <ScalarProperty Name="CouponInfo" ColumnName="CouponInfo" />
+          <ScalarProperty Name="CouponEndTime" ColumnName="CouponEndTime" />
+          <ScalarProperty Name="CouponClickUrl" ColumnName="CouponClickUrl" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="ZkFinalPriceWap" ColumnName="ZkFinalPriceWap" />
+          <ScalarProperty Name="TkRate" ColumnName="TkRate" />
+          <ScalarProperty Name="Volume" ColumnName="Volume" />
+          <ScalarProperty Name="SellerId" ColumnName="SellerId" />
+          <ScalarProperty Name="Nick" ColumnName="Nick" />
+          <ScalarProperty Name="ClickUrl" ColumnName="ClickUrl" />
+          <ScalarProperty Name="ItemUrl" ColumnName="ItemUrl" />
+          <ScalarProperty Name="Provcity" ColumnName="Provcity" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="ZkFinalPrice" ColumnName="ZkFinalPrice" />
+          <ScalarProperty Name="ReservePrice" ColumnName="ReservePrice" />
+          <ScalarProperty Name="SmallImages" ColumnName="SmallImages" />
+          <ScalarProperty Name="PictUrl" ColumnName="PictUrl" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Typeid" ColumnName="Typeid" />
+          <ScalarProperty Name="NumIid" ColumnName="NumIid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

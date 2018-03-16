@@ -1,0 +1,36 @@
+
+ 
+记录时间：2017-10-23 15:56:20,245 
+线程ID:[6] 
+日志级别：  INFO  
+日志描述：RequestID:cf8ea6a7-0915-4920-a12c-6ab1be4d4e2e
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg={"Head":{"Token":"","AppType":0,"AppVersion":"1.0"},"Content":{"customerName":"admin","PassWord":"admin123"}}
+ 
+
+ 
+记录时间：2017-10-23 15:56:20,969 
+线程ID:[6] 
+日志级别：  INFO  
+日志描述：RequestID:cf8ea6a7-0915-4920-a12c-6ab1be4d4e2e
+HTTP/1.1 200 OK
+ControllerName=CustomerApi,ActionName=Login,Msg={"Head":{"Ret":0,"Code":10000,"Token":"f5b2f750-f825-4f8b-93e9-290e63714f8c","Msg":"接口调用成功"},"Content":{"CustomerId":0,"CustomerName":"admin","PassWord":null,"Email":"admin123@qq.com","CustomerTel":null,"Sex":null,"Avatar":null,"IsDeleted":false,"CreateTime":"0001-01-01T00:00:00","UpdateTime":"0001-01-01T00:00:00"}}
+ 
+
+ 
+记录时间：2017-10-23 17:57:13,534 
+线程ID:[102] 
+日志级别：  INFO  
+日志描述：RequestID:e19d57d9-f22f-49e1-9415-2ba3970e730f
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg={"Head":{"Token":"","AppType":0,"AppVersion":"1.0"},"Content":{"customerName":"admin","PassWord":"admin123"}}
+ 
+
+ 
+记录时间：2017-10-23 17:57:14,228 
+线程ID:[102] 
+日志级别：  INFO  
+日志描述：RequestID:e19d57d9-f22f-49e1-9415-2ba3970e730f
+HTTP/1.1 200 OK
+ControllerName=CustomerApi,ActionName=Login,Msg={"Head":{"Ret":0,"Code":10000,"Token":"43c592df-5413-4e4b-8d38-79cc2da273ff","Msg":"接口调用成功"},"Content":{"CustomerId":0,"CustomerName":"admin","PassWord":null,"Email":"admin123@qq.com","CustomerTel":null,"Sex":null,"Avatar":null,"IsDeleted":false,"CreateTime":"0001-01-01T00:00:00","UpdateTime":"0001-01-01T00:00:00"}}
+ 

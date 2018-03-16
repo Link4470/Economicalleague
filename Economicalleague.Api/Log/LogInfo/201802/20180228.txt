@@ -1,0 +1,387 @@
+
+ 
+记录时间：2018-02-28 13:50:37,498 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:e0408ed5-1852-4416-93d4-79d47e8c0d3c
+GET http://localhost:18428/api/goods/createpid HTTP/1.1
+ControllerName=Orders,ActionName=CreatePid,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-28 13:50:38,031 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:e0408ed5-1852-4416-93d4-79d47e8c0d3c
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=CreatePid,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"mm_57936098_42412357_268706133"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_adzone_create_response\":{\"data\":{\"model\":\"mm_57936098_42412357_268706133\"},\"request_id\":\"el0v1dubbixd\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-28 13:51:17,128 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:73f4cf40-ba65-4334-9a6a-bbbebb5bd765
+GET http://localhost:18428/api/goods/createpid HTTP/1.1
+ControllerName=Orders,ActionName=CreatePid,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-28 13:51:17,166 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:73f4cf40-ba65-4334-9a6a-bbbebb5bd765
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=CreatePid,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"mm_57936098_42412357_268696286"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_adzone_create_response\":{\"data\":{\"model\":\"mm_57936098_42412357_268696286\"},\"request_id\":\"13oze00nmygxb\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-28 13:51:28,538 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:4873c757-3492-4eb7-b27a-5af895bfdb13
+GET http://localhost:18428/api/goods/createpid HTTP/1.1
+ControllerName=Orders,ActionName=CreatePid,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-28 13:51:28,586 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:4873c757-3492-4eb7-b27a-5af895bfdb13
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=CreatePid,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"mm_57936098_42412357_268680969"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_adzone_create_response\":{\"data\":{\"model\":\"mm_57936098_42412357_268680969\"},\"request_id\":\"2ello8tgacc1\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-28 13:51:31,452 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:e4ac1d66-46a4-41ea-8a61-886775da0962
+GET http://localhost:18428/api/goods/createpid HTTP/1.1
+ControllerName=Orders,ActionName=CreatePid,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-28 13:51:31,492 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:e4ac1d66-46a4-41ea-8a61-886775da0962
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=CreatePid,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"mm_57936098_42412357_268704119"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_adzone_create_response\":{\"data\":{\"model\":\"mm_57936098_42412357_268704119\"},\"request_id\":\"eq6wel8adpvl\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-28 13:54:41,721 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:d5aacb7f-e0a1-4023-9cf1-a65d8ef37dea
+GET http://localhost:18428/api/goods/createpid HTTP/1.1
+ControllerName=Orders,ActionName=CreatePid,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-28 13:54:42,001 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:d5aacb7f-e0a1-4023-9cf1-a65d8ef37dea
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=CreatePid,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"mm_57936098_42412357_268706269"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_adzone_create_response\":{\"data\":{\"model\":\"mm_57936098_42412357_268706269\"},\"request_id\":\"11iejd222k6ir\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-28 13:54:46,325 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:0e4de73e-a27f-45fb-8097-f52ec70574a9
+GET http://localhost:18428/api/goods/createpid HTTP/1.1
+ControllerName=Orders,ActionName=CreatePid,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-28 13:54:46,368 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:0e4de73e-a27f-45fb-8097-f52ec70574a9
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=CreatePid,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"mm_57936098_42412357_268720076"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_adzone_create_response\":{\"data\":{\"model\":\"mm_57936098_42412357_268720076\"},\"request_id\":\"zt8wyb6z6tfh\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-28 13:54:47,705 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:23590f2d-0aa0-4205-a99f-2bbd1a14251d
+GET http://localhost:18428/api/goods/createpid HTTP/1.1
+ControllerName=Orders,ActionName=CreatePid,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-28 13:54:47,743 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:23590f2d-0aa0-4205-a99f-2bbd1a14251d
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=CreatePid,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"mm_57936098_42412357_268704216"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_adzone_create_response\":{\"data\":{\"model\":\"mm_57936098_42412357_268704216\"},\"request_id\":\"zqcgp6rbj240\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-28 13:54:50,626 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:f828ae81-6d95-4912-8326-8335add2ebf4
+GET http://localhost:18428/api/goods/createpid HTTP/1.1
+ControllerName=Orders,ActionName=CreatePid,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-28 13:54:50,672 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:f828ae81-6d95-4912-8326-8335add2ebf4
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=CreatePid,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"mm_57936098_42412357_268700256"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_adzone_create_response\":{\"data\":{\"model\":\"mm_57936098_42412357_268700256\"},\"request_id\":\"3dp2eazg0t8a\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-28 14:22:04,350 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:c1915c5d-3eaa-445b-a86c-b246bc3a999e
+GET http://localhost:18428/api/goods/createpid HTTP/1.1
+ControllerName=Orders,ActionName=CreatePid,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-28 14:22:04,603 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:c1915c5d-3eaa-445b-a86c-b246bc3a999e
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=CreatePid,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"42412357"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_adzone_create_response\":{\"data\":{\"model\":\"mm_57936098_42412357_268738509\"},\"request_id\":\"epvdpugvu6nf\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-28 14:22:09,195 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:6ae94bda-d7f4-413a-99e4-9814d13eb6be
+GET http://localhost:18428/api/goods/createpid HTTP/1.1
+ControllerName=Orders,ActionName=CreatePid,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-28 14:22:09,247 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:6ae94bda-d7f4-413a-99e4-9814d13eb6be
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=CreatePid,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"42412357"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_adzone_create_response\":{\"data\":{\"model\":\"mm_57936098_42412357_268754126\"},\"request_id\":\"eic15ysrm2tt\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-28 14:22:10,203 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:726c548a-164b-45e0-b5ca-135f8a0ab32e
+GET http://localhost:18428/api/goods/createpid HTTP/1.1
+ControllerName=Orders,ActionName=CreatePid,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-28 14:22:10,250 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:726c548a-164b-45e0-b5ca-135f8a0ab32e
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=CreatePid,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"42412357"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_adzone_create_response\":{\"data\":{\"model\":\"mm_57936098_42412357_268744379\"},\"request_id\":\"usy2fq9e0aw\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-28 14:22:47,158 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:ac2d2fd1-43cb-462c-8d53-de98a22af254
+GET http://localhost:18428/api/goods/createpid HTTP/1.1
+ControllerName=Orders,ActionName=CreatePid,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-28 14:22:47,409 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:ac2d2fd1-43cb-462c-8d53-de98a22af254
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=CreatePid,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"268734702"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_adzone_create_response\":{\"data\":{\"model\":\"mm_57936098_42412357_268734702\"},\"request_id\":\"2msib5u4yg1g\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-28 14:22:48,346 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:5cdd33b8-0d83-48ee-9ccb-11f8d947247c
+GET http://localhost:18428/api/goods/createpid HTTP/1.1
+ControllerName=Orders,ActionName=CreatePid,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-28 14:22:48,389 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:5cdd33b8-0d83-48ee-9ccb-11f8d947247c
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=CreatePid,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"268734703"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_adzone_create_response\":{\"data\":{\"model\":\"mm_57936098_42412357_268734703\"},\"request_id\":\"z2bu5otzd45t\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-28 14:22:50,569 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：RequestID:55bc2d23-9f0a-47f3-ba97-e67e08558134
+GET http://localhost:18428/api/goods/createpid HTTP/1.1
+ControllerName=Orders,ActionName=CreatePid,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-28 14:22:50,609 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：RequestID:55bc2d23-9f0a-47f3-ba97-e67e08558134
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=CreatePid,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"268740549"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_adzone_create_response\":{\"data\":{\"model\":\"mm_57936098_42412357_268740549\"},\"request_id\":\"euc4n404jgzp\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-28 14:22:51,828 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:52083126-39d3-481d-b1fa-89c9968580d7
+GET http://localhost:18428/api/goods/createpid HTTP/1.1
+ControllerName=Orders,ActionName=CreatePid,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-28 14:22:51,868 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:52083126-39d3-481d-b1fa-89c9968580d7
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=CreatePid,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"268746426"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_adzone_create_response\":{\"data\":{\"model\":\"mm_57936098_42412357_268746426\"},\"request_id\":\"10wc8lm1pv0jf\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-28 14:22:52,610 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:8ba4c498-8497-4129-a754-0fc76f172cef
+GET http://localhost:18428/api/goods/createpid HTTP/1.1
+ControllerName=Orders,ActionName=CreatePid,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-28 14:22:52,648 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:8ba4c498-8497-4129-a754-0fc76f172cef
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=CreatePid,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"268734706"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_adzone_create_response\":{\"data\":{\"model\":\"mm_57936098_42412357_268734706\"},\"request_id\":\"ryx5ugy303re\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-28 14:22:53,162 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:36d3770e-3bea-4d7a-b809-b6e9a1007dfb
+GET http://localhost:18428/api/goods/createpid HTTP/1.1
+ControllerName=Orders,ActionName=CreatePid,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-28 14:22:53,214 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:36d3770e-3bea-4d7a-b809-b6e9a1007dfb
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=CreatePid,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"268732844"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_adzone_create_response\":{\"data\":{\"model\":\"mm_57936098_42412357_268732844\"},\"request_id\":\"10fdgs7e898wu\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-28 14:22:53,894 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:4ac2d6dc-220f-4235-90c4-264887c1c174
+GET http://localhost:18428/api/goods/createpid HTTP/1.1
+ControllerName=Orders,ActionName=CreatePid,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-28 14:22:53,932 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:4ac2d6dc-220f-4235-90c4-264887c1c174
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=CreatePid,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"268740553"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_adzone_create_response\":{\"data\":{\"model\":\"mm_57936098_42412357_268740553\"},\"request_id\":\"s753wbij77q6\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-28 14:22:54,435 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：RequestID:5c51fed6-04ba-4f7e-a5e0-e7d89fd2e494
+GET http://localhost:18428/api/goods/createpid HTTP/1.1
+ControllerName=Orders,ActionName=CreatePid,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-28 14:22:54,484 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：RequestID:5c51fed6-04ba-4f7e-a5e0-e7d89fd2e494
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=CreatePid,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"268732847"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_adzone_create_response\":{\"data\":{\"model\":\"mm_57936098_42412357_268732847\"},\"request_id\":\"rx6dbuo39uo3\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-28 17:30:56,325 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：RequestID:35a879b6-3010-44ff-8c9c-c94df23bb3ff
+GET http://localhost:18428/api/goods/getincominfo?openId=openid123 HTTP/1.1
+ControllerName=Orders,ActionName=GetIncomInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-28 17:32:06,293 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：RequestID:35a879b6-3010-44ff-8c9c-c94df23bb3ff
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=GetIncomInfo,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"PrePay":null,"StatementPrice":null}}
+ 
+
+ 
+记录时间：2018-02-28 17:32:11,845 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:7ad1caef-497a-4257-b854-6a36c20a2a9f
+GET http://localhost:18428/api/goods/getincominfo?openId=openid123 HTTP/1.1
+ControllerName=Orders,ActionName=GetIncomInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-28 17:34:03,315 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:c564ea31-151d-419f-b725-277b679b4711
+GET http://localhost:18428/api/goods/getincominfo?openId=openid123 HTTP/1.1
+ControllerName=Orders,ActionName=GetIncomInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-28 17:34:15,159 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:c564ea31-151d-419f-b725-277b679b4711
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=GetIncomInfo,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"PrePay":3.5,"StatementPrice":50.2}}
+ 

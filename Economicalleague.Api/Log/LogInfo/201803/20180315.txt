@@ -1,0 +1,63 @@
+
+ 
+记录时间：2018-03-15 14:28:28,566 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:0319436d-a531-4d2e-bb07-f47184e98281
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-15 16:51:42,201 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:f2633701-838e-4ba6-a290-a5ce845b9826
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-15 16:51:42,931 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:f2633701-838e-4ba6-a290-a5ce845b9826
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Count":3,"DataList":[{"FavoritesId":16310879,"FavoritesTitle":"自用冲量","Type":1},{"FavoritesId":16122045,"FavoritesTitle":"家居生活","Type":1},{"FavoritesId":16120037,"FavoritesTitle":"9块9","Type":1}]}}
+ 
+
+ 
+记录时间：2018-03-15 16:53:51,387 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:e2e92eb1-d704-4272-8d46-6b3b70a41012
+GET http://localhost:18428/api/goods/getfavoriteslist?favoritesId=16120037 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavoritesList,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-15 16:53:52,425 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:e2e92eb1-d704-4272-8d46-6b3b70a41012
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavoritesList,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Count":1,"DataList":[{"NumIid":523989497714,"Typeid":null,"Title":"包邮中华牌101木制铅笔HB 2B小学生儿童写字素描绘图铅笔批发36支","PictUrl":"https://img.alicdn.com/tfscom/i2/2298088647/TB1ZfZ.d0fJ8KJjy0FeXXXKEXXa_!!0-item_pic.jpg","SmallImages":"https://img.alicdn.com/tfscom/i2/2298088647/TB22qL4eBDH8KJjSspnXXbNAVXa_!!2298088647.jpg,https://img.alicdn.com/tfscom/i3/2298088647/TB2vmDQex6I8KJjSszfXXaZVXXa_!!2298088647.jpg,https://img.alicdn.com/tfscom/i3/2298088647/TB2y6zZetrJ8KJjSspaXXXuKpXa_!!2298088647.jpg,https://img.alicdn.com/tfscom/i1/2298088647/TB2ijv4ewnH8KJjSspcXXb3QFXa_!!2298088647.jpg","ReservePrice":18.0,"ZkFinalPrice":9.8,"UserType":1,"Provcity":"江苏 南京","ItemUrl":"http://item.taobao.com/item.htm?id=523989497714","ClickUrl":"https://s.click.taobao.com/t?e=m%3D2%26s%3DOIkWA4cHhwUcQipKwQzePOeEDrYVVa64yK8Cckff7TXjf2vlNIV67qgVs9UcXtkTrbXOwzJUOFB3iOcHyAYtgvsv%2FT9tXJOO1BpjrjGvygsXjBJ65A1PIotgwMO1YqTJ4q%2BRXokHRqt5Mf2rIwS0mYRPvA9GPmsyATWpNZv3pbrARqPkAA2fe7gfLTp2JzcV8NnJalNZ8xownCkpnOTio7iW7yyR9SMFZ5057c%2BtdZPGDmntuH4VtA%3D%3D","Nick":"圣龙办公专营店","SellerId":2298088647,"Volume":929,"TkRate":5.3,"ZkFinalPriceWap":9.8,"Category":0,"CouponClickUrl":"https://uland.taobao.com/coupon/edetail?e=B2iPz6ZudesGQASttHIRqTSB%2BqpbIq%2BjFzf5%2FbfoR16qOtq4kBWE6kgkDtaW5Twc2XgXPuotmyqPYyF42vrmm5Q5wfGz%2Fu%2BNUF9ZLCTRXDKeaD2hx1IMBxlqjQc7%2B9fT","CouponEndTime":null,"CouponInfo":"2","CouponStartTime":null,"CouponTotalCount":0,"CouponRemainCount":0,"CommissionRate":null,"EventEndTime":null,"EventStartTime":null,"ShopTitle":"圣龙办公专营店","Status":1,"Type":4,"FavoritesTitle":"9块9","FavoritesId":16120037,"isSale":1,"score":null}]}}
+ 
+
+ 
+记录时间：2018-03-15 16:54:21,400 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:cf752678-bf1f-4f03-b945-34f6ef879ab4
+GET http://localhost:18428/api/goods/getfavoritesdetail?favoritesId=16120037&numiid= 523989497714 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoUatmTbkItemDetail,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-15 16:54:21,460 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:cf752678-bf1f-4f03-b945-34f6ef879ab4
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoUatmTbkItemDetail,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"NumIid":523989497714,"Typeid":null,"Title":"包邮中华牌101木制铅笔HB 2B小学生儿童写字素描绘图铅笔批发36支","PictUrl":"https://img.alicdn.com/tfscom/i2/2298088647/TB1ZfZ.d0fJ8KJjy0FeXXXKEXXa_!!0-item_pic.jpg","SmallImages":"https://img.alicdn.com/tfscom/i2/2298088647/TB22qL4eBDH8KJjSspnXXbNAVXa_!!2298088647.jpg,https://img.alicdn.com/tfscom/i3/2298088647/TB2vmDQex6I8KJjSszfXXaZVXXa_!!2298088647.jpg,https://img.alicdn.com/tfscom/i3/2298088647/TB2y6zZetrJ8KJjSspaXXXuKpXa_!!2298088647.jpg,https://img.alicdn.com/tfscom/i1/2298088647/TB2ijv4ewnH8KJjSspcXXb3QFXa_!!2298088647.jpg","ReservePrice":18.0,"ZkFinalPrice":9.8,"UserType":1,"Provcity":"江苏 南京","ItemUrl":"http://item.taobao.com/item.htm?id=523989497714","ClickUrl":"https://s.click.taobao.com/t?e=m%3D2%26s%3DOIkWA4cHhwUcQipKwQzePOeEDrYVVa64yK8Cckff7TXjf2vlNIV67qgVs9UcXtkTrbXOwzJUOFB3iOcHyAYtgvsv%2FT9tXJOO1BpjrjGvygsXjBJ65A1PIotgwMO1YqTJ4q%2BRXokHRqt5Mf2rIwS0mYRPvA9GPmsyATWpNZv3pbrARqPkAA2fe7gfLTp2JzcV8NnJalNZ8xownCkpnOTio7iW7yyR9SMFZ5057c%2BtdZPGDmntuH4VtA%3D%3D","Nick":"圣龙办公专营店","SellerId":2298088647,"Volume":929,"TkRate":5.3,"ZkFinalPriceWap":9.8,"Category":0,"CouponClickUrl":"https://uland.taobao.com/coupon/edetail?e=B2iPz6ZudesGQASttHIRqTSB%2BqpbIq%2BjFzf5%2FbfoR16qOtq4kBWE6kgkDtaW5Twc2XgXPuotmyqPYyF42vrmm5Q5wfGz%2Fu%2BNUF9ZLCTRXDKeaD2hx1IMBxlqjQc7%2B9fT","CouponEndTime":null,"CouponInfo":"2","CouponStartTime":null,"CouponTotalCount":0,"CouponRemainCount":0,"CommissionRate":null,"EventEndTime":null,"EventStartTime":null,"ShopTitle":"圣龙办公专营店","Status":1,"Type":4,"FavoritesTitle":"9块9","FavoritesId":16120037,"isSale":1,"score":null}}
+ 

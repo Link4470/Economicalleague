@@ -1,0 +1,216 @@
+
+ 
+记录时间：2018-02-27 09:32:33,931 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:c82dcf96-2e76-4e54-8cde-73481869755a
+POST http://localhost:18428/api/goods/tbpwdcreate?url=https://s.click.taobao.com/t?e=m%3D2%26s%3DKnJBQa3hVgMcQipKwQzePOeEDrYVVa64yK8Cckff7TXjf2vlNIV67td86Tm%2FLZxFxeoNewupcd53iOcHyAYtgvsv%2FT9tXJOO1BpjrjGvygsXjBJ65A1PIotgwMO1YqTJ4q%2BRXokHRqt5Mf2rIwS0mYRPvA9GPmsyATWpNZv3pboTN2LkV%2FXJjZbcTvZvFkvsOT5gkNAyE%2FD34hvkKwkjtn17PAD6xvuFZ5057c%2BtdZPGDmntuH4VtA%3D%3D&text=淘口令测试 HTTP/1.1
+ControllerName=FavoritItems,ActionName=TpwdCreate,Msg=
+ 
+
+ 
+记录时间：2018-02-27 09:32:58,246 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:c82dcf96-2e76-4e54-8cde-73481869755a
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=TpwdCreate,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"￥kY9W0MDC2Mn￥"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_tpwd_create_response\":{\"data\":{\"model\":\"￥kY9W0MDC2Mn￥\"},\"request_id\":\"3gj6ffwp5cot\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-27 09:35:22,140 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:de1e08a7-b722-4ca0-98a3-8bac7b6063a1
+GET http://localhost:18428/api/goods/tbpwdcreate?url=https://s.click.taobao.com/t?e=m%3D2%26s%3DKnJBQa3hVgMcQipKwQzePOeEDrYVVa64yK8Cckff7TXjf2vlNIV67td86Tm%2FLZxFxeoNewupcd53iOcHyAYtgvsv%2FT9tXJOO1BpjrjGvygsXjBJ65A1PIotgwMO1YqTJ4q%2BRXokHRqt5Mf2rIwS0mYRPvA9GPmsyATWpNZv3pboTN2LkV%2FXJjZbcTvZvFkvsOT5gkNAyE%2FD34hvkKwkjtn17PAD6xvuFZ5057c%2BtdZPGDmntuH4VtA%3D%3D&text=淘口令测试 HTTP/1.1
+ControllerName=FavoritItems,ActionName=TpwdCreate,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-27 09:35:24,255 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:de1e08a7-b722-4ca0-98a3-8bac7b6063a1
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=TpwdCreate,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"￥8QKH0MDyHOk￥"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_tpwd_create_response\":{\"data\":{\"model\":\"￥8QKH0MDyHOk￥\"},\"request_id\":\"12ckmh7qlcs45\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-27 09:43:25,794 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:0163da95-0ca0-49e8-aaa9-0f2cc94cbcc8
+GET http://localhost:18428/api/goods/tbpwdcreate?url=https://s.click.taobao.com/t?e=m%3D2%26s%3DKnJBQa3hVgMcQipKwQzePOeEDrYVVa64yK8Cckff7TXjf2vlNIV67td86Tm%2FLZxFxeoNewupcd53iOcHyAYtgvsv%2FT9tXJOO1BpjrjGvygsXjBJ65A1PIotgwMO1YqTJ4q%2BRXokHRqt5Mf2rIwS0mYRPvA9GPmsyATWpNZv3pboTN2LkV%2FXJjZbcTvZvFkvsOT5gkNAyE%2FD34hvkKwkjtn17PAD6xvuFZ5057c%2BtdZPGDmntuH4VtA%3D%3D&text=淘口令测试 HTTP/1.1
+ControllerName=FavoritItems,ActionName=TpwdCreate,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-27 09:43:38,935 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:0163da95-0ca0-49e8-aaa9-0f2cc94cbcc8
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=TpwdCreate,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"￥WZfm0MxZuLf￥"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_tpwd_create_response\":{\"data\":{\"model\":\"￥WZfm0MxZuLf￥\"},\"request_id\":\"z27xt96t1ju8\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-27 09:45:48,389 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:a25a7389-c6fb-4d63-8821-dd9d4a4d13bd
+GET http://localhost:18428/api/goods/tbpwdcreate?url=https://s.click.taobao.com/t?e=m%3D2%26s%3DKnJBQa3hVgMcQipKwQzePOeEDrYVVa64yK8Cckff7TXjf2vlNIV67td86Tm%2FLZxFxeoNewupcd53iOcHyAYtgvsv%2FT9tXJOO1BpjrjGvygsXjBJ65A1PIotgwMO1YqTJ4q%2BRXokHRqt5Mf2rIwS0mYRPvA9GPmsyATWpNZv3pboTN2LkV%2FXJjZbcTvZvFkvsOT5gkNAyE%2FD34hvkKwkjtn17PAD6xvuFZ5057c%2BtdZPGDmntuH4VtA%3D%3D&text=淘口令测试 HTTP/1.1
+ControllerName=FavoritItems,ActionName=TpwdCreate,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-27 09:47:17,200 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:a25a7389-c6fb-4d63-8821-dd9d4a4d13bd
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=TpwdCreate,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"￥wwPt0MxY2F3￥"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_tpwd_create_response\":{\"data\":{\"model\":\"￥wwPt0MxY2F3￥\"},\"request_id\":\"3bt2rkwe0i3t\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-27 09:48:55,944 
+线程ID:[17] 
+日志级别：  INFO  
+日志描述：RequestID:47888bd3-01b8-4d68-aa73-35da3c9ecaab
+GET http://localhost:18428/api/goods/tbpwdcreate?url=https://s.click.taobao.com/t?e=m%3D2%26s%3DKnJBQa3hVgMcQipKwQzePOeEDrYVVa64yK8Cckff7TXjf2vlNIV67td86Tm%2FLZxFxeoNewupcd53iOcHyAYtgvsv%2FT9tXJOO1BpjrjGvygsXjBJ65A1PIotgwMO1YqTJ4q%2BRXokHRqt5Mf2rIwS0mYRPvA9GPmsyATWpNZv3pboTN2LkV%2FXJjZbcTvZvFkvsOT5gkNAyE%2FD34hvkKwkjtn17PAD6xvuFZ5057c%2BtdZPGDmntuH4VtA%3D%3D&text=淘口令测试 HTTP/1.1
+ControllerName=FavoritItems,ActionName=TpwdCreate,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-27 09:49:11,689 
+线程ID:[17] 
+日志级别：  INFO  
+日志描述：RequestID:47888bd3-01b8-4d68-aa73-35da3c9ecaab
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=TpwdCreate,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"￥OAZd0Mx1qbf￥"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_tpwd_create_response\":{\"data\":{\"model\":\"￥OAZd0Mx1qbf￥\"},\"request_id\":\"12clbf72z9prh\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-27 09:58:25,943 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：RequestID:791f95af-6848-4328-97a3-dc01e2fecc4c
+GET http://localhost:18428/api/goods/tbpwdcreate?url=https://s.click.taobao.com/t?e=m%3D2%26s%3DKnJBQa3hVgMcQipKwQzePOeEDrYVVa64yK8Cckff7TXjf2vlNIV67td86Tm%2FLZxFxeoNewupcd53iOcHyAYtgvsv%2FT9tXJOO1BpjrjGvygsXjBJ65A1PIotgwMO1YqTJ4q%2BRXokHRqt5Mf2rIwS0mYRPvA9GPmsyATWpNZv3pboTN2LkV%2FXJjZbcTvZvFkvsOT5gkNAyE%2FD34hvkKwkjtn17PAD6xvuFZ5057c%2BtdZPGDmntuH4VtA%3D%3D&text=淘口令测试 HTTP/1.1
+ControllerName=FavoritItems,ActionName=TpwdCreate,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-27 09:58:27,809 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：RequestID:791f95af-6848-4328-97a3-dc01e2fecc4c
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=TpwdCreate,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"￥toz30Mx35to￥"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_tpwd_create_response\":{\"data\":{\"model\":\"￥toz30Mx35to￥\"},\"request_id\":\"3i3zt2xb9y9z\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-27 10:08:51,445 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:4b5e3b2f-a8db-4378-9358-b762663e2967
+GET http://localhost:18428/api/goods/tbpwdcreate?url=https://s.click.taobao.com/t?e=m%3D2%26s%3DKnJBQa3hVgMcQipKwQzePOeEDrYVVa64yK8Cckff7TXjf2vlNIV67td86Tm%2FLZxFxeoNewupcd53iOcHyAYtgvsv%2FT9tXJOO1BpjrjGvygsXjBJ65A1PIotgwMO1YqTJ4q%2BRXokHRqt5Mf2rIwS0mYRPvA9GPmsyATWpNZv3pboTN2LkV%2FXJjZbcTvZvFkvsOT5gkNAyE%2FD34hvkKwkjtn17PAD6xvuFZ5057c%2BtdZPGDmntuH4VtA%3D%3D&text=淘口令测试&logo=https://img.alicdn.com/tfscom/i1/TB10YSSSXXXXXXwXpXXXXXXXXXX_!!0-item_pic.jpg HTTP/1.1
+ControllerName=FavoritItems,ActionName=TpwdCreate,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-27 10:08:58,543 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:4b5e3b2f-a8db-4378-9358-b762663e2967
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=TpwdCreate,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"￥lnVS0MxgcTh￥"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_tpwd_create_response\":{\"data\":{\"model\":\"￥lnVS0MxgcTh￥\"},\"request_id\":\"zt9ybylwpyhb\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-27 10:33:43,240 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:0af25c87-c0f4-4c42-b7e4-80d595315a4b
+GET http://localhost:18428/api/goods/tbpwdcreate?url=https://s.click.taobao.com/t?e=m%3D2%26s%3DKnJBQa3hVgMcQipKwQzePOeEDrYVVa64yK8Cckff7TXjf2vlNIV67td86Tm%2FLZxFxeoNewupcd53iOcHyAYtgvsv%2FT9tXJOO1BpjrjGvygsXjBJ65A1PIotgwMO1YqTJ4q%2BRXokHRqt5Mf2rIwS0mYRPvA9GPmsyATWpNZv3pboTN2LkV%2FXJjZbcTvZvFkvsOT5gkNAyE%2FD34hvkKwkjtn17PAD6xvuFZ5057c%2BtdZPGDmntuH4VtA%3D%3D&text=淘口令测试&logo=https://img.alicdn.com/tfscom/i1/TB10YSSSXXXXXXwXpXXXXXXXXXX_!!0-item_pic.jpg HTTP/1.1
+ControllerName=FavoritItems,ActionName=TpwdCreate,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-27 10:33:52,171 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:0af25c87-c0f4-4c42-b7e4-80d595315a4b
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=TpwdCreate,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Data":{"Model":"￥n4Km0MxNqol￥"},"ErrCode":null,"ErrMsg":null,"SubErrCode":null,"SubErrMsg":null,"Body":"{\"tbk_tpwd_create_response\":{\"data\":{\"model\":\"￥n4Km0MxNqol￥\"},\"request_id\":\"s7f2fcdpuxlp\"}}","IsError":false}}
+ 
+
+ 
+记录时间：2018-02-27 23:02:04,780 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:dfc3b447-8e1b-41c7-8242-ab7ed9b3eebf
+GET http://localhost:18428/api/goods/getshopinfo?shopTitle=雷米眼镜旗舰店&userId=2493745504 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetShopInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-27 23:02:05,290 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:dfc3b447-8e1b-41c7-8242-ab7ed9b3eebf
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetShopInfo,Msg={"Head":{"Ret":-1,"Code":10144,"Token":null,"Msg":"搜索宝贝信息失败"},"Content":null}
+ 
+
+ 
+记录时间：2018-02-27 23:02:14,421 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:dbbdfe4c-1a90-4b63-80f9-455f0e078f3c
+GET http://localhost:18428/api/goods/getshopinfo?shopTitle=雷米眼镜旗舰店&userId=2493745504 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetShopInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-27 23:03:22,051 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:dbbdfe4c-1a90-4b63-80f9-455f0e078f3c
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetShopInfo,Msg={"Head":{"Ret":-1,"Code":10144,"Token":null,"Msg":"搜索宝贝信息失败"},"Content":null}
+ 
+
+ 
+记录时间：2018-02-27 23:03:29,512 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：RequestID:7edecc3e-afb3-4bb1-ac55-244008c5720f
+GET http://localhost:18428/api/goods/getshopinfo?shopTitle=雷米眼镜旗舰店&userId=2455044937 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetShopInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-27 23:03:43,515 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：RequestID:7edecc3e-afb3-4bb1-ac55-244008c5720f
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetShopInfo,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"ClickUrl":null,"PictUrl":"http://logo.taobaocdn.com/shop-logo/4f/28/TB1kA4SMXXXXXXtXXXXwu0bFXXX.png","SellerNick":"雷米眼镜旗舰店","ShopTitle":"雷米眼镜旗舰店","ShopType":"B","ShopUrl":"http://store.taobao.com/shop/view_shop.htm?user_number_id=2455044937","UserId":2455044937}}
+ 
+
+ 
+记录时间：2018-02-27 23:16:05,283 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：RequestID:7089c35f-1c97-477c-9122-a8575190e25f
+GET http://localhost:18428/api/goods/getfavoriteslist?favoritesId=16122045 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavoritesList,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-27 23:16:10,561 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：RequestID:7089c35f-1c97-477c-9122-a8575190e25f
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavoritesList,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Count":30,"DataList":[{"Category":0,"ClickUrl":"https://s.click.taobao.com/t?e=m%3D2%26s%3DQPpFGav5KVUcQipKwQzePOeEDrYVVa64yK8Cckff7TXjf2vlNIV67nj8rhM8zgO1wg1qdhPjl1R3iOcHyAYtgvsv%2FT9tXJOO1BpjrjGvygsXjBJ65A1PIotgwMO1YqTJ4q%2BRXokHRqt5Mf2rIwS0mYRPvA9GPmsyATWpNZv3pboTN2LkV%2FXJjZbcTvZvFkvsOT5gkNAyE%2FD34hvkKwkjtn17PAD6xvuFZ5057c%2BtdZPGDmntuH4VtA%3D%3D","CommissionRate":null,"CouponClickUrl":"https://uland.taobao.com/coupon/edetail?e=HYGSK000%2FgIGQASttHIRqQuBUK6zsResKWPoQeVS1feqOtq4kBWE6kgkDtaW5Twc2XgXPuotmyqPYyF42vrmm5Q5wfGz%2Fu%2BNUF9ZLCTRXDKeaD2hx1IMBxlqjQc7%2B9fT","CouponEndTime":"2018-02-28","CouponInfo":"满59元减20元","CouponRemainCount":0,"CouponStartTime":null,"CouponTotalCount":0,"EventEndTime":"1970-01-01 00:00:00","EventStartTime":"1970-01-01 00:00:00","ItemUrl":"http://item.taobao.com/item.htm?id=525691135247","Nick":"riwa雷瓦豪易得专卖店","NumIid":525691135247,"PictUrl":"https://img.alicdn.com/tfscom/i4/2710691177/TB1u5ala1SSBuNjy0FlXXbBpVXa_!!0-item_pic.jpg","Provcity":"浙江 宁波","ReservePrice":"196.00","SellerId":2710691177,"ShopTitle":"riwa雷瓦豪易得专卖店","SmallImages":["https://img.alicdn.com/tfscom/i1/2710691177/TB2W6sCg.dnpuFjSZPhXXbChpXa_!!2710691177.jpg","https://img.alicdn.com/tfscom/i1/2710691177/TB2FP5otFXXXXbaXXXXXXXXXXXX_!!2710691177.jpg","https://img.alicdn.com/tfscom/i2/2710691177/TB2ORjKaqi5V1BjSszbXXb0hVXa_!!2710691177.jpg","https://img.alicdn.com/tfscom/i3/2710691177/TB255dgtFXXXXbJXXXXXXXXXXXX_!!2710691177.jpg"],"Status":1,"Title":"雷瓦电卷发棒直发器韩国学生直卷两用夹板大卷内扣刘海神器不伤发","TkRate":"10.30","Type":4,"UserType":1,"Volume":29816,"ZkFinalPrice":"59.90","ZkFinalPriceWap":"59.90"},{"Category":0,"ClickUrl":"https://s.click.taobao.com/t?e=m%3D2%26s%3D1ysw5qCcnm0cQipKwQzePOeEDrYVVa64yK8Cckff7TXjf2vlNIV67nj8rhM8zgO1wg1qdhPjl1R3iOcHyAYtgvsv%2FT9tXJOO1BpjrjGvygsXjBJ65A1PIotgwMO1YqTJ4q%2BRXokHRqt5Mf2rIwS0mYRPvA9GPmsyATWpNZv3pbqteADRFGnVnFJzJJTfQdfm4C8M%2BuP%2FlW0V6%2BIWmzpSCqMFBq3fqcDgZ5057c%2BtdZPGDmntuH4VtA%3D%3D","CommissionRate":null,"CouponClickUrl":"https://uland.taobao.com/coupon/edetail?e=6dq%2FnGUQ5V4GQASttHIRqbSXpi69Uwo6rXxsxcZOZuSqOtq4kBWE6kgkDtaW5Twc2XgXPuotmyqPYyF42vrmm5Q5wfGz%2Fu%2BNUF9ZLCTRXDKeaD2hx1IMBxlqjQc7%2B9fT","CouponEndTime":"2018-02-28","CouponInfo":"满85元减60元","CouponRemainCount":0,"CouponStartTime":null,"CouponTotalCount":0,"EventEndTime":"1970-01-01 00:00:00","EventStartTime":"1970-01-01 00:00:00","ItemUrl":"http://item.taobao.com/item.htm?id=540790849058","Nick":"浪天电器专营店","NumIid":540790849058,"PictUrl":"https://img.alicdn.com/tfscom/i3/1652518524/TB1w2_8a21TBuNjy0FjXXajyXXa_!!0-item_pic.jpg","Provcity":"浙江 宁波","ReservePrice":"199.00","SellerId":1652518524,"ShopTitle":"浪天电器专营店","SmallImages":["https://img.alicdn.com/tfscom/i2/1652518524/TB2zHKlXr1YBuNjSszeXXablFXa_!!1652518524.jpg","https://img.alicdn.com/tfscom/i4/1652518524/TB2k1pscxmI.eBjy0FlXXbgkVXa_!!1652518524.jpg","https://img.alicdn.com/tfscom/i4/TB1CInPmBDH8KJjy1zeYXFjepXa_M2.SS2","https://img.alicdn.com/tfscom/i4/TB1TCKIliqAXuNjy1XdYXGYcVXa_M2.SS2"],"Status":1,"Title":"langtian浪天LT-Z18声波电动牙刷成人家用无需充电式自动牙刷软毛","TkRate":"30.80","Type":4,"UserType":1,"Volume":55849,"ZkFinalPrice":"88.00","ZkFinalPriceWap":"88.00"},{"Category":0,"ClickUrl":"https://s.click.taobao.com/t?e=m%3D2%26s%3D8xOEVHUDSPwcQipKwQzePOeEDrYVVa64yK8Cckff7TXjf2vlNIV67nj8rhM8zgO1wg1qdhPjl1R3iOcHyAYtgvsv%2FT9tXJOO1BpjrjGvygsXjBJ65A1PIotgwMO1YqTJ4q%2BRXokHRqt5Mf2rIwS0mYRPvA9GPmsyATWpNZv3pbodO4Kp5Hr%2F%2FFP4c7jyBsjldf0MkeYNExvAnvqCbPtkd9UpX36oZoyiZ5057c%2BtdZPGDmntuH4VtA%3D%3D","CommissionRate":null,"CouponClickUrl":"https://uland.taobao.com/coupon/edetail?e=OKqhSyH0M9QGQASttHIRqbWH%2F4p4NlvI2z%2BI%2BsnQd5CqOtq4kBWE6kgkDtaW5Twc2XgXPuotmyqPYyF42vrmm5Q5wfGz%2Fu%2BNUF9ZLCTRXDKeaD2hx1IMBxlqjQc7%2B9fT","CouponEndTime":"2018-02-28","CouponInfo":"满169元减80元","CouponRemainCount":0,"CouponStartTime":null,"CouponTotalCount":0,"EventEndTime":"1970-01-01 00:00:00","EventStartTime":"1970-01-01 00:00:00","ItemUrl":"http://item.taobao.com/item.htm?id=549108717296","Nick":"doxo多希尔旗舰店","NumIid":549108717296,"PictUrl":"https://img.alicdn.com/tfscom/i3/2948309249/TB1y6cTa7OWBuNjSsppXXXPgpXa_!!0-item_pic.jpg","Provcity":"浙江 杭州","ReservePrice":"499.00","SellerId":2948309249,"ShopTitle":"doxo多希尔旗舰店","SmallImages":["https://img.alicdn.com/tfscom/i3/2948309249/TB2sEC8es2vU1JjSZFwXXX2cpXa_!!2948309249.jpg","https://img.alicdn.com/tfscom/i3/2948309249/TB2f8GahZrI8KJjy0FhXXbfnpXa_!!2948309249.jpg","https://img.alicdn.com/tfscom/i3/2948309249/TB2Mho4aMfN8KJjSZFIXXc0UFXa_!!2948309249.jpg","https://img.alicdn.com/tfscom/i1/2948309249/TB2HjIQX6gy_uJjSZKzXXb_jXXa_!!2948309249.jpg"],"Status":1,"Title":"doxo多希尔电动牙刷成人充电式家用超自动声波牙刷软毛亮白情侣","TkRate":"25.30","Type":4,"UserType":1,"Volume":31432,"ZkFinalPrice":"169.00","ZkFinalPriceWap":"169.00"},{"Category":0,"ClickUrl":"https://s.click.taobao.com/t?e=m%3D2%26s%3DAp9XBUFELnscQipKwQzePOeEDrYVVa64yK8Cckff7TXjf2vlNIV67nj8rhM8zgO1wg1qdhPjl1R3iOcHyAYtgvsv%2FT9tXJOO1BpjrjGvygsXjBJ65A1PIotgwMO1YqTJ4q%2BRXokHRqt5Mf2rIwS0mYRPvA9GPmsyATWpNZv3pbru5AyF%2BN8GONpMrWEgjFNjflyHO90zentTH1KgJp%2Bpx9Vscnj%2FSKaDZ5057c%2BtdZPGDmntuH4VtA%3D%3D","CommissionRate":null,"CouponClickUrl":"https://uland.taobao.com/coupon/edetail?e=3x8arC14oogGQASttHIRqb64vrX9j1tpKbary4Y9YO%2BqOtq4kBWE6kgkDtaW5Twc2XgXPuotmyqPYyF42vrmm5Q5wfGz%2Fu%2BNUF9ZLCTRXDKeaD2hx1IMBxlqjQc7%2B9fT","CouponEndTime":"2018-02-28","CouponInfo":"满22元减3元","CouponRemainCount":0,"CouponStartTime":null,"CouponTotalCount":0,"EventEndTime":"1970-01-01 00:00:00","EventStartTime":"1970-01-01 00:00:00","ItemUrl":"http://item.taobao.com/item.htm?id=542170274622","Nick":"家里人天隆专卖店","NumIid":542170274622,"PictUrl":"https://img.alicdn.com/tfscom/i3/2358095841/TB14eBblmYH8KJjSspdXXcRgVXa_!!0-item_pic.jpg","Provcity":"福建 泉州","ReservePrice":"79.80","SellerId":2358095841,"ShopTitle":"家里人天隆专卖店","SmallImages":["https://img.alicdn.com/tfscom/i4/2358095841/TB2pCGdpm_I8KJjy0FoXXaFnVXa_!!2358095841.jpg","https://img.alicdn.com/tfscom/i3/2358095841/TB2hpuUpcbI8KJjy1zdXXbe1VXa_!!2358095841.jpg","https://img.alicdn.com/tfscom/i1/2358095841/TB2fZd_pf2H8KJjy0FcXXaDlFXa_!!2358095841.jpg","https://img.alicdn.com/tfscom/i3/2358095841/TB2b6MHigvD8KJjy0FlXXagBFXa_!!2358095841.jpg"],"Status":1,"Title":"家里人简易衣帽架经济型卧室衣服架子落地挂衣架家用单杆式挂包架","TkRate":"20.50","Type":4,"UserType":1,"Volume":17153,"ZkFinalPrice":"39.90","ZkFinalPriceWap":"39.90"},{"Category":0,"ClickUrl":"https://s.click.taobao.com/t?e=m%3D2%26s%3DzAJuvw3tI8scQipKwQzePOeEDrYVVa64yK8Cckff7TXjf2vlNIV67nj8rhM8zgO1wg1qdhPjl1R3iOcHyAYtgvsv%2FT9tXJOO1BpjrjGvygsXjBJ65A1PIotgwMO1YqTJ4q%2BRXokHRqt5Mf2rIwS0mYRPvA9GPmsyATWpNZv3pbozKCqBlr3U%2BayC%2FBQXhD5jh3nHE57JfjOzSpMNmGZhfrzYPzA1snFRcSpj5qSCmbA%3D","CommissionRate":null,"CouponClickUrl":"https://uland.taobao.com/coupon/edetail?e=q3LT9eSFBRxD6TM1M2v5G3vgY4OCNqIiXosERC3uTtP3%2F0QMZlwBFrVYVR6wHnCK0jwAhQuCSkCnAMpqce6obJBh%2BsFgnewCbd3f57MDPhDYhpVVy38fp9pR0UZ0ttC1","CouponEndTime":"2018-03-29","CouponInfo":"满38元减10元","CouponRemainCount":0,"CouponStartTime":null,"CouponTotalCount":0,"EventEndTime":"1970-01-01 00:00:00","EventStartTime":"1970-01-01 00:00:00","ItemUrl":"http://item.taobao.com/item.htm?id=17029781400","Nick":"百易特家居旗舰店","NumIid":17029781400,"PictUrl":"https://img.alicdn.com/tfscom/i3/1044357136/TB1r1QYa9tYBeNjSspkXXbU8VXa_!!0-item_pic.jpg","Provcity":"上海","ReservePrice":"79.80","SellerId":1044357136,"ShopTitle":"百易特家居旗舰店","SmallImages":["https://img.alicdn.com/tfscom/i7/TB1wfvEbC7PL1JjSZFHYXIciXXa_M2.SS2","https://img.alicdn.com/tfscom/i7/TB1b.7Xa6gy_uJjSZSgYXHz0XXa_M2.SS2","https://img.alicdn.com/tfscom/i5/TB1c6aebEo09KJjSZFDYXH9npXa_M2.SS2","https://img.alicdn.com/tfscom/i1/1044357136/TB2AXeZof2H8KJjy0FcXXaDlFXa_!!1044357136.jpg"],"Status":1,"Title":"百易特真空压缩袋11件套 加厚真空收纳袋特大棉被衣服整理袋送泵","TkRate":"15.50","Type":1,"UserType":1,"Volume":14408,"ZkFinalPrice":"38.50","ZkFinalPriceWap":"38.50"},{"Category":0,"ClickUrl":"https://s.click.taobao.com/t?e=m%3D2%26s%3Dq13PHPsCHogcQipKwQzePOeEDrYVVa64yK8Cckff7TXjf2vlNIV67nj8rhM8zgO1wg1qdhPjl1R3iOcHyAYtgvsv%2FT9tXJOO1BpjrjGvygsXjBJ65A1PIotgwMO1YqTJ4q%2BRXokHRqt5Mf2rIwS0mYRPvA9GPmsyATWpNZv3pbqtIVhfJiwdEBjfqOadEPOsDu8nbFqGvoBYoW4yAWM9m7zYPzA1snFRcSpj5qSCmbA%3D","CommissionRate":null,"CouponClickUrl":"https://uland.taobao.com/coupon/edetail?e=1lYZCOSrgzUGQASttHIRqbRU0%2BiOd6fcCBX1HHKDKn2qOtq4kBWE6kgkDtaW5Twc2XgXPuotmyqPYyF42vrmm5Q5wfGz%2Fu%2BNUF9ZLCTRXDIvunQ1jiRzuXvlGh6jLO1J","CouponEndTime":"2018-05-01","CouponInfo":"满79元减10元","CouponRemainCount":0,"CouponStartTime":null,"CouponTotalCount":0,"EventEndTime":"1970-01-01 00:00:00","EventStartTime":"1970-01-01 00:00:00","ItemUrl":"http://item.taobao.com/item.htm?id=534299967311","Nick":"富光旗舰店","NumIid":534299967311,"PictUrl":"https://img.alicdn.com/tfscom/i2/341393033/TB1k2VteUEIL1JjSZFFXXc5kVXa_!!0-item_pic.jpg","Provcity":"安徽 合肥","ReservePrice":"299.00","SellerId":341393033,"ShopTitle":"富光旗舰店","SmallImages":["https://img.alicdn.com/tfscom/i2/341393033/TB1jkcZcnnI8KJjy0FfXXcdoVXa_!!0-item_pic.jpg","https://img.alicdn.com/tfscom/i2/341393033/TB2LqcpcZjI8KJjSsppXXXbyVXa_!!341393033.jpg","https://img.alicdn.com/tfscom/i3/341393033/TB2__W6bmOI.eBjSspmXXatOVXa_!!341393033.jpg","https://img.alicdn.com/tfscom/i1/341393033/TB15S2fiZrI8KJjy0FhXXbfnpXa_!!0-item_pic.jpg"],"Status":1,"Title":"富光家用保温壶不锈钢户外大容量车载便携大号保温瓶热水瓶开水瓶","TkRate":"2.00","Type":1,"UserType":1,"Volume":16371,"ZkFinalPrice":"89.00","ZkFinalPriceWap":"89.00"},{"Category":0,"ClickUrl":"https://s.click.taobao.com/t?e=m%3D2%26s%3DMeSvn1MpM3IcQipKwQzePOeEDrYVVa64yK8Cckff7TXjf2vlNIV67nj8rhM8zgO1wg1qdhPjl1R3iOcHyAYtgvsv%2FT9tXJOO1BpjrjGvygsXjBJ65A1PIotgwMO1YqTJ4q%2BRXokHRqt5Mf2rIwS0mYRPvA9GPmsyATWpNZv3pbqtIVhfJiwdEBjfqOadEPOsmaBfGnl4X%2BaY%2FuF0VrEPErzYPzA1snFRcSpj5qSCmbA%3D","CommissionRate":null,"CouponClickUrl":"https://uland.taobao.com/coupon/edetail?e=BoL1aWMXKO8GQASttHIRqSUAkVBhAbTLRWLuGffBceuqOtq4kBWE6kgkDtaW5Twc2XgXPuotmyqPYyF42vrmm5Q5wfGz%2Fu%2BNUF9ZLCTRXDIvunQ1jiRzuXvlGh6jLO1J","CouponEndTime":"2018-05-01","CouponInfo":"满79元减10元","CouponRemainCount":0,"CouponStartTime":null,"CouponTotalCount":0,"EventEndTime":"1970-01-01 00:00:00","EventStartTime":"1970-01-01 00:00:00","ItemUrl":"http://item.taobao.com/item.htm?id=546356639443","Nick":"富光旗舰店","NumIid":546356639443,"PictUrl":"https://img.alicdn.com/tfscom/i2/341393033/TB1VEZFcgvD8KJjSsplXXaIEFXa_!!0-item_pic.jpg","Provcity":"安徽 合肥","ReservePrice":"299.00","SellerId":341393033,"ShopTitle":"富光旗舰店","SmallImages":["https://img.alicdn.com/tfscom/i1/341393033/TB2f8f6nr0kpuFjy0FjXXcBbVXa_!!341393033.jpg","https://img.alicdn.com/tfscom/i4/341393033/TB2ary.XvAkyKJjy0FfXXaxhpXa_!!341393033.jpg","https://img.alicdn.com/tfscom/i3/341393033/TB2CDz9kR8kpuFjSspeXXc7IpXa_!!341393033.jpg","https://img.alicdn.com/tfscom/i4/341393033/TB21v6CaBHH8KJjy0FbXXcqlpXa_!!341393033.jpg"],"Status":1,"Title":"富光保温水壶不锈钢家用户外保温水杯男大号旅行车载大容量保温瓶","TkRate":"2.00","Type":1,"UserType":1,"Volume":12936,"ZkFinalPrice":"99.00","ZkFinalPriceWap":"99.00"},{"Category":0,"ClickUrl":"https://s.click.taobao.com/t?e=m%3D2%26s%3D%2F7alKV1thGYcQipKwQzePOeEDrYVVa64yK8Cckff7TXjf2vlNIV67nj8rhM8zgO1wg1qdhPjl1R3iOcHyAYtgvsv%2FT9tXJOO1BpjrjGvygsXjBJ65A1PIotgwMO1YqTJ4q%2BRXokHRqt5Mf2rIwS0mYRPvA9GPmsyATWpNZv3pbq%2Bs1Ge2W11PBpyMNpaCsVHy3b4YY80e8z8k8kuVGeVkdUpX36oZoyiZ5057c%2BtdZPGDmntuH4VtA%3D%3D","CommissionRate":null,"CouponClickUrl":"https://uland.taobao.com/coupon/edetail?e=FkRRZfAi9b8GQASttHIRqTtakpGGCbmmAghG46HkG0GqOtq4kBWE6kgkDtaW5Twc2XgXPuotmyqPYyF42vrmm5Q5wfGz%2Fu%2BNUF9ZLCTRXDKeaD2hx1IMBxlqjQc7%2B9fT","CouponEndTime":"2018-02-28","CouponInfo":"满29元减5元","CouponRemainCount":0,"CouponStartTime":null,"CouponTotalCount":0,"EventEndTime":"1970-01-01 00:00:00","EventStartTime":"1970-01-01 00:00:00","ItemUrl":"http://item.taobao.com/item.htm?id=555856528776","Nick":"开心妈妈爱润专卖店","NumIid":555856528776,"PictUrl":"https://img.alicdn.com/tfscom/i1/3243177896/TB1c_sidGLN8KJjSZFvXXXW8VXa_!!0-item_pic.jpg","Provcity":"浙江 金华","ReservePrice":"123.00","SellerId":3243177896,"ShopTitle":"开心妈妈爱润专卖店","SmallImages":["https://img.alicdn.com/tfscom/i4/3243177896/TB28wJYbTAlyKJjSZFhXXc8XFXa_!!3243177896.jpg","https://img.alicdn.com/tfscom/i2/3243177896/TB2rL8paVojyKJjy0FiXXbCrVXa_!!3243177896.jpg","https://img.alicdn.com/tfscom/i3/3243177896/TB2_GIQXL5TBuNjSspcXXbnGFXa_!!3243177896.jpg","https://img.alicdn.com/tfscom/i4/3243177896/TB2ySuxo46I8KJjy0FgXXXXzVXa_!!3243177896.jpg"],"Status":1,"Title":"海绵拖把免手洗不锈钢滚轮式挤水家用胶棉大号吸水拖把头墩布地拖","TkRate":"20.50","Type":4,"UserType":1,"Volume":50788,"ZkFinalPrice":"29.80","ZkFinalPriceWap":"29.80"},{"Category":0,"ClickUrl":"https://s.click.taobao.com/t?e=m%3D2%26s%3DAjatl074W4UcQipKwQzePOeEDrYVVa64yK8Cckff7TXjf2vlNIV67nj8rhM8zgO1wg1qdhPjl1R3iOcHyAYtgvsv%2FT9tXJOO1BpjrjGvygsXjBJ65A1PIotgwMO1YqTJ4q%2BRXokHRqt5Mf2rIwS0mYRPvA9GPmsyATWpNZv3pbrWfyBNWK%2BjDrjt4yKfk2weumEPftxQbid08IUaCKUhNGYfzlT3ApeZZ5057c%2BtdZPGDmntuH4VtA%3D%3D","CommissionRate":null,"CouponClickUrl":"https://uland.taobao.com/coupon/edetail?e=zcgYA8qlFngGQASttHIRqe17pwGjl4kajSsDEwaP11WqOtq4kBWE6kgkDtaW5Twc2XgXPuotmyqPYyF42vrmm5Q5wfGz%2Fu%2BNUF9ZLCTRXDKeaD2hx1IMBxlqjQc7%2B9fT","CouponEndTime":"2018-02-28","CouponInfo":"满59元减30元","CouponRemainCount":0,"CouponStartTime":null,"CouponTotalCount":0,"EventEndTime":"1970-01-01 00:00:00","EventStartTime":"1970-01-01 00:00:00","ItemUrl":"http://item.taobao.com/item.htm?id=560449794145","Nick":"维尔美旗舰店","NumIid":560449794145,"PictUrl":"https://img.alicdn.com/tfscom/i3/3230275722/TB1kwz5aL1TBuNjy0FjXXajyXXa_!!0-item_pic.jpg","Provcity":"重庆","ReservePrice":"129.00","SellerId":3230275722,"ShopTitle":"维尔美旗舰店","SmallImages":["https://img.alicdn.com/tfscom/i2/3230275722/TB2PpX0mMnH8KJjSspcXXb3QFXa_!!3230275722.jpg","https://img.alicdn.com/tfscom/i2/3230275722/TB25H.Fi8TH8KJjy0FiXXcRsXXa_!!3230275722.jpg","https://img.alicdn.com/tfscom/i4/3230275722/TB21nHlXLal9eJjSZFzXXaITVXa_!!3230275722.jpg","https://img.alicdn.com/tfscom/i3/3230275722/TB2trc2i2DH8KJjy1XcXXcpdXXa_!!3230275722.jpg"],"Status":1,"Title":"维尔美卫生卷纸批发家用厕纸家庭装48卷4层竹浆本色无芯卷筒纸巾","TkRate":"20.00","Type":4,"UserType":1,"Volume":22691,"ZkFinalPrice":"69.99","ZkFinalPriceWap":"69.99"}]}}
+ 

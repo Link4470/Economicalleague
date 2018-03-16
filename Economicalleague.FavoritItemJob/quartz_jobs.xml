@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file contains job definitions in schema version 2.0 format -->
+
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+
+  <processing-directives>
+    <overwrite-existing-data>true</overwrite-existing-data>
+  </processing-directives>
+
+  <schedule>
+    <!--保存淘宝联盟数据到本地 任务配置-->
+    <!--0 0 10,14,16 * * ? 每天上午10点，下午2点，4点0 0/30 9-17 * * ??? 朝九晚五工作时间内每半小时0 0 12 ? * WED 表示每个星期三中午12点-->
+    
+    <job>
+      <name>SyncFavoritInfoJob</name>
+      <group>SyncFavoritInfo</group>
+      <description>保存淘宝联盟数据到本地</description>
+      <job-type>FavoritItemJob.FavoritItemJobService,Economicalleague.FavoritItemJob</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>SyncFavorit</name>
+        <group>SyncFavorit</group>
+        <job-name>SyncFavoritInfoJob</job-name>
+        <job-group>SyncFavoritInfo</job-group>
+        <misfire-instruction>DoNothing</misfire-instruction>
+        <cron-expression>0 0 04 * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+  </schedule>
+</job-scheduling-data>

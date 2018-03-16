@@ -1,0 +1,54 @@
+
+ 
+记录时间：2018-03-16 13:45:42,272 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:815e9f7b-0b15-4d08-9f62-c79dca4dc0ae
+GET http://localhost:18428/api/goods/getfavoriteslist?favoritesId=16120037 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavoritesList,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-16 13:45:43,559 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:815e9f7b-0b15-4d08-9f62-c79dca4dc0ae
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavoritesList,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Count":1,"DataList":[{"NumIid":523989497714,"Typeid":null,"Title":"包邮中华牌101木制铅笔HB 2B小学生儿童写字素描绘图铅笔批发36支","PictUrl":"https://img.alicdn.com/tfscom/i2/2298088647/TB1ZfZ.d0fJ8KJjy0FeXXXKEXXa_!!0-item_pic.jpg","SmallImages":"https://img.alicdn.com/tfscom/i2/2298088647/TB22qL4eBDH8KJjSspnXXbNAVXa_!!2298088647.jpg,https://img.alicdn.com/tfscom/i3/2298088647/TB2vmDQex6I8KJjSszfXXaZVXXa_!!2298088647.jpg,https://img.alicdn.com/tfscom/i3/2298088647/TB2y6zZetrJ8KJjSspaXXXuKpXa_!!2298088647.jpg,https://img.alicdn.com/tfscom/i1/2298088647/TB2ijv4ewnH8KJjSspcXXb3QFXa_!!2298088647.jpg","ReservePrice":18.0,"ZkFinalPrice":9.8,"UserType":1,"Provcity":"江苏 南京","ItemUrl":"http://item.taobao.com/item.htm?id=523989497714","ClickUrl":"https://s.click.taobao.com/t?e=m%3D2%26s%3DOIkWA4cHhwUcQipKwQzePOeEDrYVVa64yK8Cckff7TXjf2vlNIV67qgVs9UcXtkTrbXOwzJUOFB3iOcHyAYtgvsv%2FT9tXJOO1BpjrjGvygsXjBJ65A1PIotgwMO1YqTJ4q%2BRXokHRqt5Mf2rIwS0mYRPvA9GPmsyATWpNZv3pbrARqPkAA2fe7gfLTp2JzcV8NnJalNZ8xownCkpnOTio7iW7yyR9SMFZ5057c%2BtdZPGDmntuH4VtA%3D%3D","Nick":"圣龙办公专营店","SellerId":2298088647,"Volume":929,"TkRate":5.3,"ZkFinalPriceWap":9.8,"Category":0,"CouponClickUrl":"https://uland.taobao.com/coupon/edetail?e=B2iPz6ZudesGQASttHIRqTSB%2BqpbIq%2BjFzf5%2FbfoR16qOtq4kBWE6kgkDtaW5Twc2XgXPuotmyqPYyF42vrmm5Q5wfGz%2Fu%2BNUF9ZLCTRXDKeaD2hx1IMBxlqjQc7%2B9fT","CouponEndTime":null,"CouponInfo":"2","CouponStartTime":null,"CouponTotalCount":0,"CouponRemainCount":0,"CommissionRate":null,"EventEndTime":null,"EventStartTime":null,"ShopTitle":"圣龙办公专营店","Status":1,"Type":4,"FavoritesTitle":"9块9","FavoritesId":16120037,"isSale":1,"score":null,"CreateTime":null}]}}
+ 
+
+ 
+记录时间：2018-03-16 13:46:15,281 
+线程ID:[13] 
+日志级别：  INFO  
+日志描述：RequestID:8f173029-13f3-4fdb-b3e5-f65211d1d822
+GET http://localhost:18428/api/goods/gettest?favoritesTitle=9块9 HTTP/1.1
+ControllerName=FavoritItems,ActionName=Test,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-16 13:46:15,282 
+线程ID:[13] 
+日志级别：  INFO  
+日志描述：RequestID:8f173029-13f3-4fdb-b3e5-f65211d1d822
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=Test,Msg={"Head":{"Ret":-1,"Code":10040,"Token":null,"Msg":"授权认证失败"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-16 13:46:27,790 
+线程ID:[13] 
+日志级别：  INFO  
+日志描述：RequestID:529fcfc5-6493-4954-bbda-afbb0aeb50e3
+GET http://localhost:18428/api/goods/gettest?favoritesTitle=9块9 HTTP/1.1
+ControllerName=FavoritItems,ActionName=Test,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-16 13:47:20,406 
+线程ID:[13] 
+日志级别：  INFO  
+日志描述：RequestID:529fcfc5-6493-4954-bbda-afbb0aeb50e3
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=Test,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"totalcount":10,"list":[{"Title":"苹果6s数据线iPhone6Plus充电器8puls平果x球i7P快充lphone7短六s","ItemUrl":"http://item.taobao.com/item.htm?id=554862362669","CouponInfo":"6.9","Commission":"2.9997","Volume":1617,"Score":null},{"Title":"iPhone6s数据线苹果加长5s手机充电器线六8x 7plus短2米快充安卓","ItemUrl":"http://item.taobao.com/item.htm?id=550338729101","CouponInfo":"3.9","Commission":"0.6077","Volume":25000,"Score":null},{"Title":"英菲克鼠标有线静音无声USB笔记本家用电脑牧马人游戏电竞机械lol","ItemUrl":"http://item.taobao.com/item.htm?id=549111425823","CouponInfo":"9.9","Commission":"1.0547","Volume":69146,"Score":null},{"Title":"日本自封口保鲜密实袋家用加厚食品密封分装袋大号食物自封拉链式","ItemUrl":"http://item.taobao.com/item.htm?id=547178659007","CouponInfo":"9.8","Commission":"2.5728","Volume":861,"Score":null},{"Title":"天天见梳子深山老桃木木梳雕刻梳檀木梳防静电按摩梳定制礼品梳子","ItemUrl":"http://item.taobao.com/item.htm?id=542885740352","CouponInfo":"9.9","Commission":"0.7095","Volume":1389,"Score":null},{"Title":"一次性手套食品餐饮薄膜透明加厚塑料PVC龙虾抽取烘焙手膜手套pe","ItemUrl":"http://item.taobao.com/item.htm?id=531529041557","CouponInfo":"4.49","Commission":"0.09735","Volume":43740,"Score":null},{"Title":"男女运动沙滩鞋赤足贴肤软鞋潜水浮潜鞋涉水鞋泳鞋瑜伽跑步机鞋","ItemUrl":"http://item.taobao.com/item.htm?id=531115471998","CouponInfo":"9.5","Commission":"2.9","Volume":5742,"Score":null},{"Title":"typec数据线mix2小米5x魅族pro6加长note8三星s8手机c9充电器plus","ItemUrl":"http://item.taobao.com/item.htm?id=526513159135","CouponInfo":"9.9","Commission":"5.36769","Volume":940,"Score":null},{"Title":"买1送1眼线笔持久防水防汗不晕染不脱色大眼定妆眼线液初学者学生","ItemUrl":"http://item.taobao.com/item.htm?id=526325457330","CouponInfo":"6.9","Commission":"1.089","Volume":109991,"Score":null},{"Title":"包邮中华牌101木制铅笔HB 2B小学生儿童写字素描绘图铅笔批发36支","ItemUrl":"http://item.taobao.com/item.htm?id=523989497714","CouponInfo":"7.8","Commission":"0.5194","Volume":929,"Score":null}]}}
+ 

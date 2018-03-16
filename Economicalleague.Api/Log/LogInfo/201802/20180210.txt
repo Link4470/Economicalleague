@@ -1,0 +1,72 @@
+
+ 
+记录时间：2018-02-10 12:36:37,631 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:c8006028-55a8-48c0-b255-b36dd88778eb
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-10 12:36:38,152 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:c8006028-55a8-48c0-b255-b36dd88778eb
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Count":1,"DataList":[{"FavoritesId":16072504,"FavoritesTitle":"777","Type":1}]}}
+ 
+
+ 
+记录时间：2018-02-10 12:38:05,874 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:6cded65c-f283-467d-b4c0-90c33e549a88
+GET http://localhost:18428/api/goods/getfavoriteslist?favoritesId=16072504 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavoritesList,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-10 12:38:32,925 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:6cded65c-f283-467d-b4c0-90c33e549a88
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavoritesList,Msg={"Head":{"Ret":-1,"Code":10141,"Token":null,"Msg":"获取淘宝联盟选品库的宝贝信息失败"},"Content":null}
+ 
+
+ 
+记录时间：2018-02-10 19:26:34,293 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:cb28c868-6628-40bf-8d48-4758647de70d
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-10 19:26:34,812 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:cb28c868-6628-40bf-8d48-4758647de70d
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Count":1,"DataList":[{"FavoritesId":16072504,"FavoritesTitle":"777","Type":1}]}}
+ 
+
+ 
+记录时间：2018-02-10 19:27:10,230 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:289ee6cd-622c-49a0-92d4-25f7c11ee056
+GET http://localhost:18428/api/goods/getfavoriteslist?favoritesId=16072504 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavoritesList,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-10 19:27:20,685 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:289ee6cd-622c-49a0-92d4-25f7c11ee056
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavoritesList,Msg={"Head":{"Ret":-1,"Code":10141,"Token":null,"Msg":"获取淘宝联盟选品库的宝贝信息失败"},"Content":null}
+ 

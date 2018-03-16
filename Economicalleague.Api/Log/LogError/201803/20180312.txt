@@ -1,0 +1,309 @@
+
+ 
+记录时间：2018-03-12 10:12:07,028 
+线程ID:[5] 
+日志级别：  ERROR 
+错误描述：ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=未能加载文件或程序集“System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。系统找不到指定的文件。
+ 
+System.IO.FileNotFoundException: 未能加载文件或程序集“System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+   在 Economicalleague.Api.Functions.ApiLogTrackFilterAttribute.OnActionExecuting(HttpActionContext actionContext)
+   在 System.Web.Http.Filters.ActionFilterAttribute.OnActionExecutingAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+
+=== 预绑定状态信息 ===
+日志: DisplayName = System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+ (Fully-specified)
+日志: Appbase = file:///D:/WorkProject/Economicalleague/Economicalleague.Api/
+日志: 初始 PrivatePath = D:\WorkProject\Economicalleague\Economicalleague.Api\bin
+调用程序集: Economicalleague.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: D:\WorkProject\Economicalleague\Economicalleague.Api\web.config
+日志: 使用主机配置文件: C:\Users\pc\Documents\IISExpress\config\aspnet.config
+日志: 使用 C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 策略后引用: System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+日志: 尝试下载新的 URL file:///C:/Users/pc/AppData/Local/Temp/Temporary ASP.NET Files/vs/9604e6b9/f23b9eeb/System.Net.Http.DLL。
+日志: 尝试下载新的 URL file:///C:/Users/pc/AppData/Local/Temp/Temporary ASP.NET Files/vs/9604e6b9/f23b9eeb/System.Net.Http/System.Net.Http.DLL。
+日志: 尝试下载新的 URL file:///D:/WorkProject/Economicalleague/Economicalleague.Api/bin/System.Net.Http.DLL。
+日志: 尝试下载新的 URL file:///D:/WorkProject/Economicalleague/Economicalleague.Api/bin/System.Net.Http/System.Net.Http.DLL。
+日志: 尝试下载新的 URL file:///C:/Users/pc/AppData/Local/Temp/Temporary ASP.NET Files/vs/9604e6b9/f23b9eeb/System.Net.Http.EXE。
+日志: 尝试下载新的 URL file:///C:/Users/pc/AppData/Local/Temp/Temporary ASP.NET Files/vs/9604e6b9/f23b9eeb/System.Net.Http/System.Net.Http.EXE。
+日志: 尝试下载新的 URL file:///D:/WorkProject/Economicalleague/Economicalleague.Api/bin/System.Net.Http.EXE。
+日志: 尝试下载新的 URL file:///D:/WorkProject/Economicalleague/Economicalleague.Api/bin/System.Net.Http/System.Net.Http.EXE。
+
+
+ 
+记录时间：2018-03-12 10:55:00,950 
+线程ID:[11] 
+日志级别：  ERROR 
+错误描述：ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=未能加载文件或程序集“System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。系统找不到指定的文件。
+ 
+System.IO.FileNotFoundException: 未能加载文件或程序集“System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+   在 Economicalleague.Api.Functions.ApiLogTrackFilterAttribute.OnActionExecuting(HttpActionContext actionContext)
+   在 System.Web.Http.Filters.ActionFilterAttribute.OnActionExecutingAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+
+=== 预绑定状态信息 ===
+日志: DisplayName = System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+ (Fully-specified)
+日志: Appbase = file:///D:/WorkProject/Economicalleague/Economicalleague.Api/
+日志: 初始 PrivatePath = D:\WorkProject\Economicalleague\Economicalleague.Api\bin
+调用程序集: Economicalleague.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: D:\WorkProject\Economicalleague\Economicalleague.Api\web.config
+日志: 使用主机配置文件: C:\Users\pc\Documents\IISExpress\config\aspnet.config
+日志: 使用 C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 策略后引用: System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+日志: 尝试下载新的 URL file:///C:/Users/pc/AppData/Local/Temp/Temporary ASP.NET Files/vs/9604e6b9/f23b9eeb/System.Net.Http.DLL。
+日志: 尝试下载新的 URL file:///C:/Users/pc/AppData/Local/Temp/Temporary ASP.NET Files/vs/9604e6b9/f23b9eeb/System.Net.Http/System.Net.Http.DLL。
+日志: 尝试下载新的 URL file:///D:/WorkProject/Economicalleague/Economicalleague.Api/bin/System.Net.Http.DLL。
+日志: 尝试下载新的 URL file:///D:/WorkProject/Economicalleague/Economicalleague.Api/bin/System.Net.Http/System.Net.Http.DLL。
+日志: 尝试下载新的 URL file:///C:/Users/pc/AppData/Local/Temp/Temporary ASP.NET Files/vs/9604e6b9/f23b9eeb/System.Net.Http.EXE。
+日志: 尝试下载新的 URL file:///C:/Users/pc/AppData/Local/Temp/Temporary ASP.NET Files/vs/9604e6b9/f23b9eeb/System.Net.Http/System.Net.Http.EXE。
+日志: 尝试下载新的 URL file:///D:/WorkProject/Economicalleague/Economicalleague.Api/bin/System.Net.Http.EXE。
+日志: 尝试下载新的 URL file:///D:/WorkProject/Economicalleague/Economicalleague.Api/bin/System.Net.Http/System.Net.Http.EXE。
+
+
+ 
+记录时间：2018-03-12 10:55:03,551 
+线程ID:[5] 
+日志级别：  ERROR 
+错误描述：ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=未能加载文件或程序集“System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。系统找不到指定的文件。
+ 
+System.IO.FileNotFoundException: 未能加载文件或程序集“System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+   在 Economicalleague.Api.Functions.ApiLogTrackFilterAttribute.OnActionExecuting(HttpActionContext actionContext)
+   在 System.Web.Http.Filters.ActionFilterAttribute.OnActionExecutingAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+
+=== 预绑定状态信息 ===
+日志: DisplayName = System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+ (Fully-specified)
+日志: Appbase = file:///D:/WorkProject/Economicalleague/Economicalleague.Api/
+日志: 初始 PrivatePath = D:\WorkProject\Economicalleague\Economicalleague.Api\bin
+调用程序集: Economicalleague.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: D:\WorkProject\Economicalleague\Economicalleague.Api\web.config
+日志: 使用主机配置文件: C:\Users\pc\Documents\IISExpress\config\aspnet.config
+日志: 使用 C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 策略后引用: System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+日志: 相同的绑定已出现过，因 hr = 0x80070002 而失败。
+
+
+ 
+记录时间：2018-03-12 11:02:13,682 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=未能加载文件或程序集“System.Net.Http, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。系统找不到指定的文件。
+ 
+System.IO.FileNotFoundException: 未能加载文件或程序集“System.Net.Http, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“System.Net.Http, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+   在 Economicalleague.Api.Functions.ApiLogTrackFilterAttribute.OnActionExecuting(HttpActionContext actionContext)
+   在 System.Web.Http.Filters.ActionFilterAttribute.OnActionExecutingAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+
+=== 预绑定状态信息 ===
+日志: DisplayName = System.Net.Http, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+ (Fully-specified)
+日志: Appbase = file:///D:/WorkProject/Economicalleague/Economicalleague.Api/
+日志: 初始 PrivatePath = D:\WorkProject\Economicalleague\Economicalleague.Api\bin
+调用程序集: Economicalleague.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: D:\WorkProject\Economicalleague\Economicalleague.Api\web.config
+日志: 使用主机配置文件: C:\Users\pc\Documents\IISExpress\config\aspnet.config
+日志: 使用 C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 策略后引用: System.Net.Http, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+日志: 尝试下载新的 URL file:///C:/Users/pc/AppData/Local/Temp/Temporary ASP.NET Files/vs/9604e6b9/f23b9eeb/System.Net.Http.DLL。
+日志: 尝试下载新的 URL file:///C:/Users/pc/AppData/Local/Temp/Temporary ASP.NET Files/vs/9604e6b9/f23b9eeb/System.Net.Http/System.Net.Http.DLL。
+日志: 尝试下载新的 URL file:///D:/WorkProject/Economicalleague/Economicalleague.Api/bin/System.Net.Http.DLL。
+日志: 尝试下载新的 URL file:///D:/WorkProject/Economicalleague/Economicalleague.Api/bin/System.Net.Http/System.Net.Http.DLL。
+日志: 尝试下载新的 URL file:///C:/Users/pc/AppData/Local/Temp/Temporary ASP.NET Files/vs/9604e6b9/f23b9eeb/System.Net.Http.EXE。
+日志: 尝试下载新的 URL file:///C:/Users/pc/AppData/Local/Temp/Temporary ASP.NET Files/vs/9604e6b9/f23b9eeb/System.Net.Http/System.Net.Http.EXE。
+日志: 尝试下载新的 URL file:///D:/WorkProject/Economicalleague/Economicalleague.Api/bin/System.Net.Http.EXE。
+日志: 尝试下载新的 URL file:///D:/WorkProject/Economicalleague/Economicalleague.Api/bin/System.Net.Http/System.Net.Http.EXE。
+
+
+ 
+记录时间：2018-03-12 11:02:14,978 
+线程ID:[9] 
+日志级别：  ERROR 
+错误描述：ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=未能加载文件或程序集“System.Net.Http, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。系统找不到指定的文件。
+ 
+System.IO.FileNotFoundException: 未能加载文件或程序集“System.Net.Http, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“System.Net.Http, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+   在 Economicalleague.Api.Functions.ApiLogTrackFilterAttribute.OnActionExecuting(HttpActionContext actionContext)
+   在 System.Web.Http.Filters.ActionFilterAttribute.OnActionExecutingAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+
+=== 预绑定状态信息 ===
+日志: DisplayName = System.Net.Http, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+ (Fully-specified)
+日志: Appbase = file:///D:/WorkProject/Economicalleague/Economicalleague.Api/
+日志: 初始 PrivatePath = D:\WorkProject\Economicalleague\Economicalleague.Api\bin
+调用程序集: Economicalleague.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: D:\WorkProject\Economicalleague\Economicalleague.Api\web.config
+日志: 使用主机配置文件: C:\Users\pc\Documents\IISExpress\config\aspnet.config
+日志: 使用 C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 策略后引用: System.Net.Http, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+日志: 相同的绑定已出现过，因 hr = 0x80070002 而失败。
+
+
+ 
+记录时间：2018-03-12 11:02:16,204 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=未能加载文件或程序集“System.Net.Http, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。系统找不到指定的文件。
+ 
+System.IO.FileNotFoundException: 未能加载文件或程序集“System.Net.Http, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“System.Net.Http, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”
+   在 Economicalleague.Api.Functions.ApiLogTrackFilterAttribute.OnActionExecuting(HttpActionContext actionContext)
+   在 System.Web.Http.Filters.ActionFilterAttribute.OnActionExecutingAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+
+=== 预绑定状态信息 ===
+日志: DisplayName = System.Net.Http, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+ (Fully-specified)
+日志: Appbase = file:///D:/WorkProject/Economicalleague/Economicalleague.Api/
+日志: 初始 PrivatePath = D:\WorkProject\Economicalleague\Economicalleague.Api\bin
+调用程序集: Economicalleague.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: D:\WorkProject\Economicalleague\Economicalleague.Api\web.config
+日志: 使用主机配置文件: C:\Users\pc\Documents\IISExpress\config\aspnet.config
+日志: 使用 C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 策略后引用: System.Net.Http, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+日志: 相同的绑定已出现过，因 hr = 0x80070002 而失败。
+

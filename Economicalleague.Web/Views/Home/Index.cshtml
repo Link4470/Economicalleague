@@ -1,0 +1,155 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div>
+    <div id="app">
+        <div style="width:100%; overflow-x:hidden;">
+            <el-row :gutter="20">
+                <el-col :span="6">
+                    <div class="grid-content bg-purple">
+                        <el-input placeholder="请输入订单编号" v-model="tradeid" style="width:250px;"></el-input>
+
+                    </div>
+                </el-col>
+                <el-col :span="6">
+                    <div class="grid-content bg-purple">
+                        <el-input placeholder="请输入推广位编号" v-model="pid" style="width:250px;"></el-input>
+                    </div>
+                </el-col>
+                <el-col :span="6">
+                    <div class="grid-content bg-purple">
+                        <el-button type="success" v-on:click="search()" style="width:100px;">搜索</el-button>
+                    </div>
+                </el-col>
+                <el-col :span="6">
+                    <div class="grid-content bg-purple">
+                        <el-upload class="upload-demo"
+                                   action="@Url.Action("Upload")"
+                                   :on-preview="handlePreview"
+                                   :on-remove="handleRemove"
+                                   :before-remove="beforeRemove"
+                                   multiple
+                                   :limit="1"
+                                   :on-exceed="handleExceed"
+                                   :file-list="fileList">
+                            <el-button size="small" type="primary">点击上传</el-button>
+                            <div slot="tip" class="el-upload__tip">只能上传jpg/png文件，且不超过500kb</div>
+                        </el-upload>
+                    </div>
+                </el-col>
+            </el-row>
+        </div>
+        <template>
+            <el-table :data="orderlist" stripe style="width: 100%">
+                <el-table-column prop="OrderId" label="订单编号" width="200">
+                </el-table-column>
+                <el-table-column prop="AdzoneId" label="推广位编号" width="120">
+                </el-table-column>
+                <el-table-column prop="TkStatus" label="订单状态" width="100">
+                </el-table-column>
+                <el-table-column prop="ItemText" label="商品信息" width="300">
+                </el-table-column>
+                <el-table-column prop="Price" label="商品单价" width="80">
+                </el-table-column>
+                <el-table-column prop="ItemNum" label="商品数量" width="80">
+                </el-table-column>
+                <el-table-column prop="PayPrice" label="付款金额" width="80">
+                </el-table-column>
+                <el-table-column prop="StatementPrice" label="结算金额" width="80">
+                </el-table-column>
+                <el-table-column prop="PrePay" label="预估收入" width="80">
+                </el-table-column>
+                <el-table-column prop="Commission" label="佣金金额" width="80">
+                </el-table-column>
+                @*<el-table-column label="操作" width="100">
+                    <template slot-scope="scope">
+                        <el-button type="text" size="small">查看</el-button>
+                        <el-button type="text" size="small">编辑</el-button>
+                    </template>
+                </el-table-column>*@
+            </el-table>
+            <el-pagination  background layout="prev, pager, next" :total="totalcount" :page-size="pageSize" v-on:current-change="pageIndexChange">
+            </el-pagination>
+        </template>
+    </div>
+</div>
+<script src="~/Content/jquery/vue.js"></script>
+<script src="~/Content/jquery/index.js"></script>
+<script src="~/Content/jquery/Main.js"></script>
+<script>
+    new Vue({
+        el: "#app",
+        data: function () {
+            return {
+                orderlist: [],
+                fileList: [],
+                tradeid: '',
+                pid: '',
+                currentPage: 1,
+                pageSize: 10,
+                totalcount: 100,
+            }
+        },
+        methods: {
+            search() {
+                var vue = this;
+                var url = "/Home/GetOrderList?tradeid=" + vue.tradeid + "&pid=" + vue.pid
+                    + "&pageIndex=" + vue.currentPage + "&pageSize=" + vue.pageSize;
+                $.get(url, function (data) {
+                    vue.orderlist = data.list;
+                    vue.totalcount = data.totalcount;
+                    console.log(vue.orderlist);
+                    //$(".head_search_input").val($.cookie('ApiToken'));
+                    //console.log($.cookie('ApiToken'));
+                    //vue.head_search_input = $.cookie('ApiToken');
+                });
+            },
+            onSearch() {
+                this.search();
+            },
+            pageIndexChange(val) {
+                var vue = this;
+                vue.currentPage = val;
+                this.search();
+            },
+            handleRemove(file, fileList) {
+                console.log(file, fileList);
+            },
+            handlePreview(file) {
+                console.log(file);
+            },
+            handleExceed(files, fileList) {
+                this.$message.warning(`当前限制选择1个文件，本次选择了 ${files.length} 个文件，共选择了 ${files.length + fileList.length} 个文件`);
+            },
+            beforeRemove(file, fileList) {
+                return this.$confirm(`确定移除 ${file.name}？`);
+            }
+        },
+        mounted: function () {
+            this.search();
+        }
+    });
+</script>
+@*<script>
+        export default {
+            data() {
+                return {
+                    fileList: [{ name: 'food.jpeg', url: 'https://fuss10.elemecdn.com/3/63/4e7f3a15429bfda99bce42a18cdd1jpeg.jpeg?imageMogr2/thumbnail/360x360/format/webp/quality/100' }, { name: 'food2.jpeg', url: 'https://fuss10.elemecdn.com/3/63/4e7f3a15429bfda99bce42a18cdd1jpeg.jpeg?imageMogr2/thumbnail/360x360/format/webp/quality/100' }]
+                };
+            },
+            methods: {
+                handleRemove(file, fileList) {
+                    console.log(file, fileList);
+                },
+                handlePreview(file) {
+                    console.log(file);
+                },
+                handleExceed(files, fileList) {
+                    this.$message.warning(`当前限制选择 3 个文件，本次选择了 ${files.length} 个文件，共选择了 ${files.length + fileList.length} 个文件`);
+                },
+                beforeRemove(file, fileList) {
+                    return this.$confirm(`确定移除 ${file.name}？`);
+                }
+            }
+        }
+    </script>*@

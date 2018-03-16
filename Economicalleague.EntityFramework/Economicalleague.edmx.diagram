@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e8cc48080f244747bff1ff9f0a705c86" Name="Diagram1" >
+        <EntityTypeShape EntityType="Economicalleague.CustomerInfo" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Economicalleague.Log_ExceptionLog" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Economicalleague.Log_LoginLog" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Economicalleague.PlatformCommission" Width="1.5" PointX="0.75" PointY="4.75" />
+        <EntityTypeShape EntityType="Economicalleague.Sys_UserInfo" Width="1.5" PointX="2.75" PointY="4.75" />
+        <EntityTypeShape EntityType="Economicalleague.CustomerRelatedInfo" Width="1.5" PointX="6.75" PointY="3.75" />
+        <EntityTypeShape EntityType="Economicalleague.PlatformOrders" Width="1.5" PointX="6.75" PointY="6.75" />
+        <EntityTypeShape EntityType="Economicalleague.TBItemsList" Width="1.5" PointX="8.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Economicalleague.UserRelation" Width="1.5" PointX="0.75" PointY="9.75" />
+        <EntityTypeShape EntityType="Economicalleague.UserInfo" Width="1.5" PointX="11.375" PointY="0.75" />
+        <EntityTypeShape EntityType="Economicalleague.UserManager" Width="1.5" PointX="11.375" PointY="4.75" />
+        <EntityTypeShape EntityType="Economicalleague.TBrebateOrders" Width="1.5" PointX="9.375" PointY="7.75" />
+        <EntityTypeShape EntityType="Economicalleague.Favorites" Width="1.5" PointX="11.375" PointY="7.75" />
+        <EntityTypeShape EntityType="Economicalleague.UatmFavoritItems" Width="1.5" PointX="3.375" PointY="8.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

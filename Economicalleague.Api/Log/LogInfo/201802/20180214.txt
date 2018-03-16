@@ -1,0 +1,36 @@
+
+ 
+记录时间：2018-02-14 13:06:18,220 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:6af300cd-d42b-43d1-991a-24fc2e09b8a5
+GET http://localhost:18428/api/goods/getfavoritesdetail?favoritesId=16072504&numiid=560974612201 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoUatmTbkItemDetail,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-14 13:06:28,913 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:6af300cd-d42b-43d1-991a-24fc2e09b8a5
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoUatmTbkItemDetail,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Category":0,"ClickUrl":null,"CommissionRate":null,"CouponClickUrl":null,"CouponEndTime":null,"CouponInfo":null,"CouponRemainCount":0,"CouponStartTime":null,"CouponTotalCount":0,"EventEndTime":"1970-01-01 00:00:00","EventStartTime":"1970-01-01 00:00:00","ItemUrl":"http://item.taobao.com/item.htm?id=560974612201","Nick":"蓄聪旗舰店","NumIid":560974612201,"PictUrl":"https://img.alicdn.com/tfscom/i1/3085866678/TB1L.HPXcj_B1NjSZFHXXaDWpXa_!!0-item_pic.jpg","Provcity":"山东 青岛","ReservePrice":"69.00","SellerId":3085866678,"ShopTitle":"蓄聪旗舰店","SmallImages":["https://img.alicdn.com/tfscom/i2/3085866678/TB21mQ0jhPI8KJjSspoXXX6MFXa_!!3085866678.jpg","https://img.alicdn.com/tfscom/i4/3085866678/TB2EYcSiv2H8KJjy0FcXXaDlFXa_!!3085866678.jpg","https://img.alicdn.com/tfscom/i3/3085866678/TB2n7cWitrJ8KJjSspaXXXuKpXa_!!3085866678.jpg","https://img.alicdn.com/tfscom/i3/3085866678/TB2KFx6o8DH8KJjSspnXXbNAVXa_!!3085866678.jpg"],"Status":1,"Title":"蓄聪婴儿指甲剪新生儿指甲刀宝宝专用防夹肉指甲钳安全儿童指甲锉","TkRate":"20.50","Type":4,"UserType":1,"Volume":3310,"ZkFinalPrice":"19.90","ZkFinalPriceWap":"19.90"}}
+ 
+
+ 
+记录时间：2018-02-14 13:10:56,143 
+线程ID:[26] 
+日志级别：  INFO  
+日志描述：RequestID:0a461357-1ca1-41da-b7b7-7793ca9092a3
+GET http://localhost:18428/api/goods/searchresult?searchwords=安琪 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetSearchResult,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-14 13:11:40,238 
+线程ID:[26] 
+日志级别：  INFO  
+日志描述：RequestID:0a461357-1ca1-41da-b7b7-7793ca9092a3
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetSearchResult,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Count":0,"DataList":[{"Category":0,"ClickUrl":null,"CommissionRate":null,"CouponClickUrl":null,"CouponEndTime":null,"CouponInfo":null,"CouponRemainCount":0,"CouponStartTime":null,"CouponTotalCount":0,"EventEndTime":"1970-01-01 00:00:00","EventStartTime":"1970-01-01 00:00:00","ItemUrl":"http://item.taobao.com/item.htm?id=559409234330","Nick":"安琪小鼠旗舰店","NumIid":559409234330,"PictUrl":"https://img.alicdn.com/tfscom/i2/2013404363/TB1Gf7MaEMgYeJjSZFGXXXsMXXa_!!0-item_pic.jpg","Provcity":"浙江 杭州","ReservePrice":"89.00","SellerId":2013404363,"ShopTitle":"安琪小鼠旗舰店","SmallImages":["https://img.alicdn.com/tfscom/i2/2013404363/TB2QG8MhrsTMeJjy1zeXXcOCVXa_!!2013404363.jpg","https://img.alicdn.com/tfscom/i3/2013404363/TB2pbXwdvMTUeJjSZFKXXagopXa_!!2013404363.jpg","https://img.alicdn.com/tfscom/i4/2013404363/TB2Po4HlyAKL1JjSZFoXXagCFXa_!!2013404363.jpg","https://img.alicdn.com/tfscom/i2/2013404363/TB2AuQCc1KAUKJjSZFzXXXdQFXa_!!2013404363.jpg"],"Status":1,"Title":"安琪小鼠宝宝高腰护肚衣服婴儿对襟保暖内衣套装男女儿童秋衣秋裤","TkRate":"10.50","Type":1,"UserType":1,"Volume":26,"ZkFinalPrice":"59.00","ZkFinalPriceWap":"59.00"}]}}
+ 

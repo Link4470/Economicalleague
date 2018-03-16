@@ -1,0 +1,695 @@
+
+ 
+记录时间：2018-03-06 09:24:10,300 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:2843434d-e78d-4558-9801-dc7de8b92f2e
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg=code=123164af6afafa
+ 
+
+ 
+记录时间：2018-03-06 09:24:10,420 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:2843434d-e78d-4558-9801-dc7de8b92f2e
+HTTP/1.1 200 OK
+ControllerName=CustomerApi,ActionName=Login,Msg={"Head":{"Ret":-1,"Code":10040,"Token":null,"Msg":"授权认证失败"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-06 09:24:40,104 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:caf6b056-d01d-40ac-9431-7b7da1c1b99d
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg=code=123164af6afafa
+ 
+
+ 
+记录时间：2018-03-06 09:28:03,815 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:caf6b056-d01d-40ac-9431-7b7da1c1b99d
+ControllerName=CustomerApi,ActionName=Login,Msg=无响应内容
+ 
+
+ 
+记录时间：2018-03-06 09:28:03,844 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：{"Head":{"Ret":-1,"Code":10039,"Token":null,"Msg":"用户状态已过期，请重新登录！"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-06 09:28:21,631 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:39162ab7-f863-4dfe-a141-0bd82c3da32d
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg=code=123164af6afafa&nickName=ces
+ 
+
+ 
+记录时间：2018-03-06 09:32:26,002 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:39162ab7-f863-4dfe-a141-0bd82c3da32d
+ControllerName=CustomerApi,ActionName=Login,Msg=无响应内容
+ 
+
+ 
+记录时间：2018-03-06 09:32:26,009 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：{"Head":{"Ret":-1,"Code":10039,"Token":null,"Msg":"用户状态已过期，请重新登录！"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-06 09:32:28,841 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：RequestID:a0c4a6d0-e01e-4aec-875d-2b28bea1ab80
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg={"req":{"code":"081Yas0Z0Aloc22pzzZY0Tw70Z0Yas08","UserInfo":{"nickName":"Eddie","gender":1,"language":"zh_CN","city":"Nanchang","province":"Jiangxi","country":"China","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJcV2vAn8sIXRib3VE2Pibb983kgJQSzDAYcY59Pibf4Q8pvvpSWbm56MKAGVM9jNQVW6pk40QXFSW8Q/0"}}}
+ 
+
+ 
+记录时间：2018-03-06 09:32:59,801 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：RequestID:a0c4a6d0-e01e-4aec-875d-2b28bea1ab80
+HTTP/1.1 200 OK
+ControllerName=CustomerApi,ActionName=Login,Msg={"Head":{"Ret":-1,"Code":10019,"Token":null,"Msg":"输入的参数不能为空"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-06 09:33:02,442 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：RequestID:b41426d9-f629-4848-b701-85b15f28a95b
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg={"code":"081Yas0Z0Aloc22pzzZY0Tw70Z0Yas08","UserInfo":{"nickName":"Eddie","gender":1,"language":"zh_CN","city":"Nanchang","province":"Jiangxi","country":"China","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJcV2vAn8sIXRib3VE2Pibb983kgJQSzDAYcY59Pibf4Q8pvvpSWbm56MKAGVM9jNQVW6pk40QXFSW8Q/0"}}
+ 
+
+ 
+记录时间：2018-03-06 09:35:17,881 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:460318c2-891e-49d3-bd3f-f9765562b055
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg={"code":"081Yas0Z0Aloc22pzzZY0Tw70Z0Yas08","UserInfo":{"nickName":"Eddie","gender":1,"language":"zh_CN","city":"Nanchang","province":"Jiangxi","country":"China","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJcV2vAn8sIXRib3VE2Pibb983kgJQSzDAYcY59Pibf4Q8pvvpSWbm56MKAGVM9jNQVW6pk40QXFSW8Q/0"}}
+ 
+
+ 
+记录时间：2018-03-06 09:39:01,213 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：RequestID:c881ada3-e02e-4751-9174-87c67a860464
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg={"Head":{
+	
+},
+"Content":
+{"code":"081Yas0Z0Aloc22pzzZY0Tw70Z0Yas08","UserInfo":{"nickName":"Eddie","gender":1,"language":"zh_CN","city":"Nanchang","province":"Jiangxi","country":"China","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJcV2vAn8sIXRib3VE2Pibb983kgJQSzDAYcY59Pibf4Q8pvvpSWbm56MKAGVM9jNQVW6pk40QXFSW8Q/0"}}}
+ 
+
+ 
+记录时间：2018-03-06 09:51:48,670 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:58624199-0a47-478e-883e-d38f1b8856cc
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg={"Head":{
+	"Token":"",
+	"AppType":"3",
+	"AppVersion":"1.0.0",
+	"ApiType":"1.0.0"
+},
+"Content":
+{"code":"081Yas0Z0Aloc22pzzZY0Tw70Z0Yas08","UserInfo":{"nickName":"Eddie","gender":1,"language":"zh_CN","city":"Nanchang","province":"Jiangxi","country":"China","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJcV2vAn8sIXRib3VE2Pibb983kgJQSzDAYcY59Pibf4Q8pvvpSWbm56MKAGVM9jNQVW6pk40QXFSW8Q/0"}}}
+ 
+
+ 
+记录时间：2018-03-06 09:53:11,243 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:58624199-0a47-478e-883e-d38f1b8856cc
+ControllerName=CustomerApi,ActionName=Login,Msg=无响应内容
+ 
+
+ 
+记录时间：2018-03-06 09:53:11,285 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：{"Head":{"Ret":-1,"Code":10039,"Token":null,"Msg":"用户状态已过期，请重新登录！"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-06 09:54:44,006 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:850e8508-c256-4e03-a101-bb347f62369f
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg={"Head":{
+	"Token":"",
+	"AppType":"3",
+	"AppVersion":"1.0.0",
+	"ApiType":"1.0.0"
+},
+"Content":
+{"code":"081JeH6C1j22530QdM4C13YO6C1JeH66","UserInfo":{"nickName":"Eddie","gender":1,"language":"zh_CN","city":"Nanchang","province":"Jiangxi","country":"China","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJcV2vAn8sIXRib3VE2Pibb983kgJQSzDAYcY59Pibf4Q8pvvpSWbm56MKAGVM9jNQVW6pk40QXFSW8Q/0"}}}
+ 
+
+ 
+记录时间：2018-03-06 09:55:41,382 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:850e8508-c256-4e03-a101-bb347f62369f
+ControllerName=CustomerApi,ActionName=Login,Msg=无响应内容
+ 
+
+ 
+记录时间：2018-03-06 09:55:45,517 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:bbf3bd7e-5434-44b7-91d7-9bf6e12e3724
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg={"Head":{
+	"Token":"",
+	"AppType":"3",
+	"AppVersion":"1.0.0",
+	"ApiType":"1.0.0"
+},
+"Content":
+{"code":"081JeH6C1j22530QdM4C13YO6C1JeH66","UserInfo":{"nickName":"Eddie","gender":1,"language":"zh_CN","city":"Nanchang","province":"Jiangxi","country":"China","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJcV2vAn8sIXRib3VE2Pibb983kgJQSzDAYcY59Pibf4Q8pvvpSWbm56MKAGVM9jNQVW6pk40QXFSW8Q/0"}}}
+ 
+
+ 
+记录时间：2018-03-06 09:56:01,040 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:bbf3bd7e-5434-44b7-91d7-9bf6e12e3724
+ControllerName=CustomerApi,ActionName=Login,Msg=无响应内容
+ 
+
+ 
+记录时间：2018-03-06 09:56:01,046 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：{"Head":{"Ret":-1,"Code":10039,"Token":null,"Msg":"用户状态已过期，请重新登录！"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-06 09:56:03,373 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:9f475e73-8347-4cef-abf5-dbec62ca536e
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg={"Head":{
+	"Token":"",
+	"AppType":"3",
+	"AppVersion":"1.0.0",
+	"ApiType":"1.0.0"
+},
+"Content":
+{"code":"081JeH6C1j22530QdM4C13YO6C1JeH66","UserInfo":{"nickName":"Eddie","gender":1,"language":"zh_CN","city":"Nanchang","province":"Jiangxi","country":"China","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJcV2vAn8sIXRib3VE2Pibb983kgJQSzDAYcY59Pibf4Q8pvvpSWbm56MKAGVM9jNQVW6pk40QXFSW8Q/0"}}}
+ 
+
+ 
+记录时间：2018-03-06 09:57:34,449 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:9f475e73-8347-4cef-abf5-dbec62ca536e
+ControllerName=CustomerApi,ActionName=Login,Msg=无响应内容
+ 
+
+ 
+记录时间：2018-03-06 09:57:34,456 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：{"Head":{"Ret":-1,"Code":10039,"Token":null,"Msg":"用户状态已过期，请重新登录！"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-06 09:58:06,370 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:d4d2f7d2-aa97-4a2c-84a8-879ba8bb3d00
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg={"Head":{
+	"Token":"",
+	"AppType":"3",
+	"AppVersion":"1.0.0",
+	"ApiType":"1.0.0"
+},
+"Content":
+{"code":"061RqUWd21r8KE0Dz2Vd2JsYWd2RqUWb","UserInfo":{"nickName":"Eddie","gender":1,"language":"zh_CN","city":"Nanchang","province":"Jiangxi","country":"China","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJcV2vAn8sIXRib3VE2Pibb983kgJQSzDAYcY59Pibf4Q8pvvpSWbm56MKAGVM9jNQVW6pk40QXFSW8Q/0"}}}
+ 
+
+ 
+记录时间：2018-03-06 10:01:19,013 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:d4d2f7d2-aa97-4a2c-84a8-879ba8bb3d00
+HTTP/1.1 200 OK
+ControllerName=CustomerApi,ActionName=Login,Msg={"Head":{"Ret":0,"Code":10000,"Token":"a752ef9d-1090-4265-8304-1ae46e946e96","Msg":"接口调用成功"},"Content":{"thrdsession":"a752ef9d-1090-4265-8304-1ae46e946e96"}}
+ 
+
+ 
+记录时间：2018-03-06 10:09:37,401 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：RequestID:c391c8ed-f251-482a-aeaa-28355f197185
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 10:09:37,512 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：RequestID:c391c8ed-f251-482a-aeaa-28355f197185
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":-1,"Code":10029,"Token":null,"Msg":"输入的令牌信息不能为空"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-06 10:12:03,450 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：RequestID:d76997e4-233a-48bb-a434-bf77680ce018
+GET http://localhost:18428/api/goods/getfavorites?Token=a752ef9d-1090-4265-8304-1ae46e946e96 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 10:12:06,051 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：RequestID:d76997e4-233a-48bb-a434-bf77680ce018
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Count":3,"DataList":[{"FavoritesId":16310879,"FavoritesTitle":"自用冲量","Type":1},{"FavoritesId":16122045,"FavoritesTitle":"家居生活","Type":1},{"FavoritesId":16120037,"FavoritesTitle":"9块9","Type":1}]}}
+ 
+
+ 
+记录时间：2018-03-06 10:12:42,238 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：RequestID:37fe92ee-1f5d-482e-9a20-84cabf946dbf
+GET http://localhost:18428/api/goods/getfavorites?Token=a752ef9d-1090-4265-8304-1ae46e946e96 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 10:13:45,173 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：RequestID:0fb23591-128b-4e45-b308-fdfe9017ff04
+GET http://localhost:18428/api/goods/getfavorites?Token=a752ef9d-1090-4265-8304-1ae46e946e96 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 10:14:26,843 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：RequestID:0fb23591-128b-4e45-b308-fdfe9017ff04
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无响应内容
+ 
+
+ 
+记录时间：2018-03-06 10:14:26,948 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：{"Head":{"Ret":-1,"Code":10039,"Token":null,"Msg":"用户状态已过期，请重新登录！"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-06 10:14:45,963 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:50bbddf9-5c9c-4b24-b0ca-be29363eb454
+GET http://localhost:18428/api/goods/getfavorites?Token=a752ef9d-1090-4265-8304-1ae46e946e96 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 10:15:35,437 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:50bbddf9-5c9c-4b24-b0ca-be29363eb454
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无响应内容
+ 
+
+ 
+记录时间：2018-03-06 10:15:39,576 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：{"Head":{"Ret":-1,"Code":10039,"Token":null,"Msg":"用户状态已过期，请重新登录！"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-06 10:16:30,544 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:fa139113-1c79-41fe-90e8-fead669fbdcf
+GET http://localhost:18428/api/goods/getfavorites?Token=a752ef9d-1090-4265-8304-1ae46e946e96 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 10:16:41,718 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:fa139113-1c79-41fe-90e8-fead669fbdcf
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无响应内容
+ 
+
+ 
+记录时间：2018-03-06 10:16:41,725 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：{"Head":{"Ret":-1,"Code":10039,"Token":null,"Msg":"用户状态已过期，请重新登录！"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-06 10:17:09,193 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:5ed63280-d02d-4ec6-b9e6-ff93f3e98146
+GET http://localhost:18428/api/goods/getfavorites?Token=a752ef9d-1090-4265-8304-1ae46e946e96 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 10:17:12,383 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:5ed63280-d02d-4ec6-b9e6-ff93f3e98146
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无响应内容
+ 
+
+ 
+记录时间：2018-03-06 10:17:12,383 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：{"Head":{"Ret":-1,"Code":10039,"Token":null,"Msg":"用户状态已过期，请重新登录！"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-06 10:20:12,128 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:b7e42051-a0a4-4495-adb9-d60ecb56bb37
+GET http://localhost:18428/api/goods/getfavorites?Token=a752ef9d-1090-4265-8304-1ae46e946e96 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 10:20:17,184 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:b7e42051-a0a4-4495-adb9-d60ecb56bb37
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Count":3,"DataList":[{"FavoritesId":16310879,"FavoritesTitle":"自用冲量","Type":1},{"FavoritesId":16122045,"FavoritesTitle":"家居生活","Type":1},{"FavoritesId":16120037,"FavoritesTitle":"9块9","Type":1}]}}
+ 
+
+ 
+记录时间：2018-03-06 11:14:31,998 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:288f41f4-2183-4249-a107-145f25759f0c
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 11:14:32,125 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:288f41f4-2183-4249-a107-145f25759f0c
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":-1,"Code":10029,"Token":null,"Msg":"输入的令牌信息不能为空"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-06 11:15:25,798 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:4b7b14fe-e2b4-435a-92a8-a1c5389e7d03
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 11:15:52,938 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:4b7b14fe-e2b4-435a-92a8-a1c5389e7d03
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":-1,"Code":10029,"Token":null,"Msg":"输入的令牌信息不能为空"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-06 11:20:12,433 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:56e0d86a-304d-4748-91ed-f3da43ed4b44
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 11:21:04,871 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:56e0d86a-304d-4748-91ed-f3da43ed4b44
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":-1,"Code":10029,"Token":null,"Msg":"输入的令牌信息不能为空"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-06 13:31:25,159 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:5dfbdc0d-336e-4cb7-bb3d-cec6f7571fe0
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 13:31:26,520 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:5dfbdc0d-336e-4cb7-bb3d-cec6f7571fe0
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":-1,"Code":10029,"Token":null,"Msg":"输入的令牌信息不能为空"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-06 14:09:45,370 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:d83c1718-2c8c-4bed-85c3-6a11f21b437f
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 14:09:45,545 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:d83c1718-2c8c-4bed-85c3-6a11f21b437f
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":-1,"Code":10029,"Token":null,"Msg":"输入的令牌信息不能为空"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-06 14:10:36,026 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:74c5f164-c4dd-4074-b838-dfa3eef37488
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 14:13:20,602 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:74c5f164-c4dd-4074-b838-dfa3eef37488
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":-1,"Code":10029,"Token":null,"Msg":"输入的令牌信息不能为空"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-06 14:14:58,635 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:3331224d-dc39-4cdd-803c-0ce6d57a92fe
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 14:14:59,948 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:3331224d-dc39-4cdd-803c-0ce6d57a92fe
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无响应内容
+ 
+
+ 
+记录时间：2018-03-06 14:15:00,092 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：{"Head":{"Ret":-1,"Code":10039,"Token":null,"Msg":"用户状态已过期，请重新登录！"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-06 14:16:19,588 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:3092d975-051b-4c35-8056-e490d64296f9
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 14:16:19,719 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:3092d975-051b-4c35-8056-e490d64296f9
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":-1,"Code":10029,"Token":null,"Msg":"输入的令牌信息不能为空"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-06 14:17:10,426 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:0fdef8d7-bf3b-4cd3-9dfa-6b01c9600b99
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 14:18:56,280 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:0fdef8d7-bf3b-4cd3-9dfa-6b01c9600b99
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无响应内容
+ 
+
+ 
+记录时间：2018-03-06 14:18:56,297 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：{"Head":{"Ret":-1,"Code":10039,"Token":null,"Msg":"用户状态已过期，请重新登录！"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-06 14:19:16,581 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:17320a15-47cb-4664-bf94-f8bc1f3b41bf
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 14:20:57,551 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:ebe13a92-7911-4c8d-b925-7b610b87acc3
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 14:26:18,372 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:f462ca8f-9977-4893-8984-5e47b2724936
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 14:27:16,695 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:8d3a243f-60d6-4883-8c22-841edc568b89
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 14:29:26,354 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:60d31f07-22d7-4b82-b8da-84b8e0d50686
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 14:29:50,079 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:60d31f07-22d7-4b82-b8da-84b8e0d50686
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Count":3,"DataList":[{"FavoritesId":16310879,"FavoritesTitle":"自用冲量","Type":1},{"FavoritesId":16122045,"FavoritesTitle":"家居生活","Type":1},{"FavoritesId":16120037,"FavoritesTitle":"9块9","Type":1}]}}
+ 
+
+ 
+记录时间：2018-03-06 14:31:27,208 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:de775c0b-4bd7-4f43-bf70-0021df0531be
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 14:31:41,440 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:de775c0b-4bd7-4f43-bf70-0021df0531be
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无响应内容
+ 
+
+ 
+记录时间：2018-03-06 14:31:41,547 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：{"Head":{"Ret":-1,"Code":10039,"Token":null,"Msg":"用户状态已过期，请重新登录！"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-06 14:33:05,618 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:34e92661-b360-4b12-a265-fc3dad78cc91
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 14:46:09,007 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:5e1da204-46ba-4b1d-b1f0-327be79b8bac
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-06 14:46:16,243 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:5e1da204-46ba-4b1d-b1f0-327be79b8bac
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Count":3,"DataList":[{"FavoritesId":16310879,"FavoritesTitle":"自用冲量","Type":1},{"FavoritesId":16122045,"FavoritesTitle":"家居生活","Type":1},{"FavoritesId":16120037,"FavoritesTitle":"9块9","Type":1}]}}
+ 

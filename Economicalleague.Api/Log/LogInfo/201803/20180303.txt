@@ -1,0 +1,284 @@
+
+ 
+记录时间：2018-03-03 22:03:17,314 
+线程ID:[4] 
+日志级别：  INFO  
+日志描述：RequestID:4468379f-5594-4e19-b89f-ea9a01049e36
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg=code=061yTQGU1vf7RU01oGIU16D0HU1yTQGL&nickName=test&gender=%E7%94%B7
+ 
+
+ 
+记录时间：2018-03-03 22:03:17,473 
+线程ID:[4] 
+日志级别：  INFO  
+日志描述：RequestID:4468379f-5594-4e19-b89f-ea9a01049e36
+HTTP/1.1 200 OK
+ControllerName=CustomerApi,ActionName=Login,Msg={"Head":{"Ret":-1,"Code":10040,"Token":null,"Msg":"授权认证失败"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-03 22:03:44,348 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:b8323416-7f0d-41f7-ac86-454d6de71f83
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg=code=061yTQGU1vf7RU01oGIU16D0HU1yTQGL&nickName=test&gender=%E7%94%B7
+ 
+
+ 
+记录时间：2018-03-03 22:11:07,330 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：RequestID:359305f2-6b51-425e-8e33-1f33c7143bb0
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg=code=061yTQGU1vf7RU01oGIU16D0HU1yTQGL&nickName=test&gender=%E7%94%B7
+ 
+
+ 
+记录时间：2018-03-03 22:21:04,287 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：RequestID:ad594821-a16b-4743-8f9d-7436dc129d69
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg=code=061yTQGU1vf7RU01oGIU16D0HU1yTQGL
+ 
+
+ 
+记录时间：2018-03-03 22:31:37,818 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：RequestID:773292d2-93a3-45de-9d7a-d246edf1a8de
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg={
+    "Head": {
+        "ApiType": 0,
+        "AppType": 10000,
+        "Token": null,
+        "AppVersion": "接口调用成功"
+        "ApiVersion": "接口调用成功"
+    },
+    "Content": {
+       
+        "code":"061yTQGU1vf7RU01oGIU16D0HU1yTQGL"
+    }
+}
+
+ 
+
+ 
+记录时间：2018-03-03 22:33:10,450 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：RequestID:773292d2-93a3-45de-9d7a-d246edf1a8de
+HTTP/1.1 200 OK
+ControllerName=CustomerApi,ActionName=Login,Msg={"Head":{"Ret":-1,"Code":10019,"Token":null,"Msg":"输入的参数不能为空"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-03 22:35:41,612 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:e250c7f8-ec8e-4a48-b4f2-3a59bac9e941
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg={
+    "Head": {
+        "ApiType": 0,
+        "AppType": 10000,
+        "Token": null,
+        "AppVersion": "接口调用成功"
+        "ApiVersion": "接口调用成功"
+    },
+    "Content": {
+       
+        "code":"061yTQGU1vf7RU01oGIU16D0HU1yTQGL"
+    }
+}
+
+ 
+
+ 
+记录时间：2018-03-03 22:35:54,230 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:e250c7f8-ec8e-4a48-b4f2-3a59bac9e941
+HTTP/1.1 200 OK
+ControllerName=CustomerApi,ActionName=Login,Msg={"Head":{"Ret":-1,"Code":10019,"Token":null,"Msg":"输入的参数不能为空"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-03 22:36:30,282 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:1bc55755-d3bc-45f0-bc25-93b540dc62a3
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg={
+    "Head": {
+        "ApiType": 0,
+        "AppType": 10000,
+        "Token": null,
+        "AppVersion": "接口调用成功"
+        "ApiVersion": "接口调用成功"
+    },
+    "Content": {
+       
+        "code":"061yTQGU1vf7RU01oGIU16D0HU1yTQGL"
+    }
+}
+
+ 
+
+ 
+记录时间：2018-03-03 22:39:18,342 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：RequestID:34f2701c-d5c5-4b7e-80f0-3d56c4d4dfa3
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg=code=061yTQGU1vf7RU01oGIU16D0HU1yTQGL
+ 
+
+ 
+记录时间：2018-03-03 22:39:46,071 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：RequestID:34f2701c-d5c5-4b7e-80f0-3d56c4d4dfa3
+ControllerName=CustomerApi,ActionName=Login,Msg=无响应内容
+ 
+
+ 
+记录时间：2018-03-03 22:39:46,196 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：{"Head":{"Ret":-1,"Code":10039,"Token":null,"Msg":"用户状态已过期，请重新登录！"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-03 22:39:54,603 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:64fb39ff-b83b-41ca-93a3-afc1f11c4dfc
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg=code=061yTQGU1vf7RU01oGIU16D0HU1yTQGL
+ 
+
+ 
+记录时间：2018-03-03 22:41:01,139 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:64fb39ff-b83b-41ca-93a3-afc1f11c4dfc
+ControllerName=CustomerApi,ActionName=Login,Msg=无响应内容
+ 
+
+ 
+记录时间：2018-03-03 22:41:01,146 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：{"Head":{"Ret":-1,"Code":10039,"Token":null,"Msg":"用户状态已过期，请重新登录！"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-03 22:42:10,035 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:3abe969e-a7c2-4971-b420-97a42aa4edf1
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg=code=0114Yi810gpoDE1PD8810DMS7104Yi8b
+ 
+
+ 
+记录时间：2018-03-03 22:42:23,878 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:3abe969e-a7c2-4971-b420-97a42aa4edf1
+ControllerName=CustomerApi,ActionName=Login,Msg=无响应内容
+ 
+
+ 
+记录时间：2018-03-03 22:47:16,983 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:e13aadb5-d056-4b01-b070-84dd85303091
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg=code=0114Yi810gpoDE1PD8810DMS7104Yi8b
+ 
+
+ 
+记录时间：2018-03-03 22:47:31,132 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:e13aadb5-d056-4b01-b070-84dd85303091
+ControllerName=CustomerApi,ActionName=Login,Msg=无响应内容
+ 
+
+ 
+记录时间：2018-03-03 22:47:31,139 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：{"Head":{"Ret":-1,"Code":10039,"Token":null,"Msg":"用户状态已过期，请重新登录！"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-03 22:47:39,411 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:98d4c1b5-1ad3-4206-82ea-b9b92b2d9877
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg=code=0114Yi810gpoDE1PD8810DMS7104Yi8b
+ 
+
+ 
+记录时间：2018-03-03 22:48:25,987 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:98d4c1b5-1ad3-4206-82ea-b9b92b2d9877
+ControllerName=CustomerApi,ActionName=Login,Msg=无响应内容
+ 
+
+ 
+记录时间：2018-03-03 22:48:25,993 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：{"Head":{"Ret":-1,"Code":10039,"Token":null,"Msg":"用户状态已过期，请重新登录！"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-03 22:48:28,642 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:7665f90c-b131-463e-8eae-1bef205f7d73
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg=code=0114Yi810gpoDE1PD8810DMS7104Yi8b
+ 
+
+ 
+记录时间：2018-03-03 23:05:29,894 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:7665f90c-b131-463e-8eae-1bef205f7d73
+ControllerName=CustomerApi,ActionName=Login,Msg=无响应内容
+ 
+
+ 
+记录时间：2018-03-03 23:05:29,900 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：{"Head":{"Ret":-1,"Code":10039,"Token":null,"Msg":"用户状态已过期，请重新登录！"},"Content":null}
+ 
+
+ 
+记录时间：2018-03-03 23:05:57,590 
+线程ID:[45] 
+日志级别：  INFO  
+日志描述：RequestID:bcebe3fe-5372-478e-b4b8-4dec785cc16a
+POST http://localhost:18428/api/user/login HTTP/1.1
+ControllerName=CustomerApi,ActionName=Login,Msg=code=0114Yi810gpoDE1PD8810DMS7104Yi8b
+ 
+
+ 
+记录时间：2018-03-03 23:14:02,604 
+线程ID:[45] 
+日志级别：  INFO  
+日志描述：RequestID:bcebe3fe-5372-478e-b4b8-4dec785cc16a
+HTTP/1.1 200 OK
+ControllerName=CustomerApi,ActionName=Login,Msg={"Head":{"Ret":0,"Code":10000,"Token":"25536c65-7396-4903-88d3-d0a99a9fe9d5","Msg":"接口调用成功"},"Content":{"userid":"25536c65-7396-4903-88d3-d0a99a9fe9d5"}}
+ 

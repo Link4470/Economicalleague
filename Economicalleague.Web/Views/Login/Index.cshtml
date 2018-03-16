@@ -1,0 +1,91 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="~/Content/style/index.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/style/login.css" />
+    <script src="~/Content/jquery/jquery.js" type="text/javascript"></script>
+    <script src="~/Content/jquery/jquery.cookie.js" type="text/javascript"> </script>
+</head>
+<body>
+    <div class="login_box">
+        @*<div class="login_top">
+            <div class="img_box">
+                <img src="~/images/logo.png">
+            </div>
+        </div>*@
+        <div class="login_center">
+            @*<div class="login_banner_box">
+                <img src="~/images/login_banner.png">
+            </div>*@
+            <div class="login_form_box">
+                <div class="login_title">
+                    系统登录
+                </div>
+                <div class="login_tip">
+                    密码登录
+                </div>
+                <div class="login_input_box">
+                    <div id="app">
+                        <el-form id="login_form" ref="form" :model="UserForm" method="POST" action="@Url.Action("Index")" v-on:submit.prevent="onSubmit">
+                            <el-input v-model="UserForm.UserName" name="UserName" placeholder="请输入用户名" class="text_input">
+                                <template slot="prepend">
+                                    <img src="~/Content/images/icon_user.png" style="width:25px;height:25px;">
+                                </template>
+                            </el-input>
+                            <el-input v-model="UserForm.Password" name="password" placeholder="请输入密码" class="text_input" type="password">
+                                <template slot="prepend">
+                                    <img src="~/Content/images/icon_password.png" style="width:25px;height:25px;">
+                                </template>
+                            </el-input>
+                            <span class="red">@TempData["errmsg"]</span>
+                            <el-button v-on:click="submit()" class="input_button" type="submit">登录</el-button>
+                        </el-form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="~/Content/jquery/vue.js"></script>
+    <script src="~/Content/jquery/index.js"></script>
+    <script src="~/Content/jquery/Main.js"></script>
+    <script>
+        new Vue({
+            el: "#app",
+            data: function () {
+                return {
+                    UserForm: {
+                        UserName: '',
+                        Password: ''
+                    }
+                }
+            },
+            methods: {
+                submit() {
+                    if (this.UserForm.UserName.trim() == '') {
+                        $(".red").html("用户名不能为空！");
+                    }
+                    else
+                        if (this.UserForm.Password.trim() == '') {
+                            $(".red").html("密码不能为空！");
+                        }
+                        else {
+                            $(".red").html();
+                            $("#login_form").submit();
+                        }
+                },
+                onSubmit() {
+                    this.submit();
+                }
+            }
+
+        });
+    </script>
+</body>
+
+</html>

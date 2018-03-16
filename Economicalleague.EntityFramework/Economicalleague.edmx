@@ -1,0 +1,796 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Economicalleague.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CustomerInfo">
+          <Key>
+            <PropertyRef Name="CustomerId" />
+          </Key>
+          <Property Name="CustomerId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CustomerName" Type="varchar" MaxLength="50" />
+          <Property Name="PassWord" Type="varchar" MaxLength="50" />
+          <Property Name="Email" Type="varchar" MaxLength="50" />
+          <Property Name="CustomerTel" Type="varchar" MaxLength="20" />
+          <Property Name="Sex" Type="bit" />
+          <Property Name="CustomerIdentity" Type="int" />
+          <Property Name="AlipayAccount" Type="varchar" MaxLength="50" />
+          <Property Name="Avatar" Type="varchar" MaxLength="100" />
+          <Property Name="IsDeleted" Type="bit" Nullable="false" />
+          <Property Name="CreateTime" Type="datetime" Nullable="false" />
+          <Property Name="UpdateTime" Type="datetime" Nullable="false" />
+        </EntityType>
+        <!--生成过程中发现错误:
+警告 6002: 表/视图“Economicalleague.dbo.CustomerRelatedInfo”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+        <EntityType Name="CustomerRelatedInfo">
+          <Key>
+            <PropertyRef Name="CustomerId" />
+          </Key>
+          <Property Name="CustomerId" Type="bigint" Nullable="false" />
+          <Property Name="DirectId" Type="varchar(max)" />
+          <Property Name="InDirectId" Type="varchar(max)" />
+          <Property Name="IsDelete" Type="bit" />
+          <Property Name="CreateTime" Type="datetime" />
+          <Property Name="UpdateTime" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Favorites">
+          <Key>
+            <PropertyRef Name="FavoritesId" />
+          </Key>
+          <Property Name="FavoritesId" Type="bigint" Nullable="false" />
+          <Property Name="FavoritesTitle" Type="nvarchar" MaxLength="200" Nullable="false" />
+          <Property Name="Type" Type="bigint" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Log_ExceptionLog">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ControllerName" Type="nvarchar" MaxLength="50" />
+          <Property Name="ActionName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Message" Type="nvarchar(max)" />
+          <Property Name="StackTrace" Type="nvarchar(max)" />
+          <Property Name="RemoteAddr" Type="nvarchar" MaxLength="20" />
+          <Property Name="RequestID" Type="nvarchar" MaxLength="50" />
+          <Property Name="LoginUser" Type="nvarchar" MaxLength="50" />
+          <Property Name="OccurTime" Type="datetime" />
+          <Property Name="AppId" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Log_LoginLog">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="LoginCustomer" Type="bigint" />
+          <Property Name="AppVersion" Type="nvarchar" MaxLength="20" />
+          <Property Name="AppType" Type="int" />
+          <Property Name="ApiVersion" Type="varchar" MaxLength="20" />
+          <Property Name="ApiType" Type="int" />
+          <Property Name="RemoteAddr" Type="varchar" MaxLength="20" />
+          <Property Name="OccurTime" Type="datetime" />
+        </EntityType>
+        <EntityType Name="PlatformCommission">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" Nullable="false" />
+          <Property Name="CustomerId" Type="bigint" Nullable="false" />
+          <Property Name="CustomerName" Type="varchar" MaxLength="50" />
+          <Property Name="trade_parent_id" Type="bigint" />
+          <Property Name="trade_id" Type="bigint" />
+          <Property Name="WeChatAccount" Type="varchar" MaxLength="50" />
+          <Property Name="commission" Type="float" />
+          <Property Name="InDirectcommission" Type="float" />
+          <Property Name="Teamcommission" Type="float" />
+          <Property Name="Remark" Type="varchar" MaxLength="200" />
+          <Property Name="Complete" Type="bit" />
+          <Property Name="CreateTime" Type="datetime" />
+          <Property Name="UpdateTimed" Type="datetime" />
+        </EntityType>
+        <!--生成过程中发现错误:
+警告 6002: 表/视图“Economicalleague.dbo.PlatformOrders”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+        <EntityType Name="PlatformOrders">
+          <Key>
+            <PropertyRef Name="trade_parent_id" />
+            <PropertyRef Name="trade_id" />
+            <PropertyRef Name="CustomerId" />
+          </Key>
+          <Property Name="trade_parent_id" Type="bigint" Nullable="false" />
+          <Property Name="trade_id" Type="bigint" Nullable="false" />
+          <Property Name="CustomerId" Type="bigint" Nullable="false" />
+          <Property Name="CustomerName" Type="varchar" MaxLength="50" />
+          <Property Name="unid" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Sys_UserInfo">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="UserName" Type="varchar" MaxLength="50" />
+          <Property Name="PassWord" Type="varchar" MaxLength="50" />
+          <Property Name="Email" Type="varchar" MaxLength="50" />
+          <Property Name="Phone" Type="varchar" MaxLength="20" />
+          <Property Name="Sex" Type="bit" />
+          <Property Name="Avatar" Type="varchar" MaxLength="100" />
+          <Property Name="IsDeleted" Type="int" />
+          <Property Name="CreateTime" Type="datetime" />
+          <Property Name="UpdateTime" Type="datetime" />
+        </EntityType>
+        <!--生成过程中发现错误:
+警告 6002: 表/视图“Economicalleague.dbo.TBItemsList”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+        <EntityType Name="TBItemsList">
+          <Key>
+            <PropertyRef Name="type" />
+            <PropertyRef Name="favorites_id" />
+            <PropertyRef Name="favorites_title" />
+          </Key>
+          <Property Name="type" Type="int" Nullable="false" />
+          <Property Name="favorites_id" Type="int" Nullable="false" />
+          <Property Name="favorites_title" Type="varchar" MaxLength="200" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TBrebateOrders">
+          <Key>
+            <PropertyRef Name="TradeId" />
+          </Key>
+          <Property Name="TradeId" Type="bigint" Nullable="false" />
+          <Property Name="NumIid" Type="bigint" Nullable="false" />
+          <Property Name="ItemText" Type="varchar" MaxLength="5000" />
+          <Property Name="ItemNum" Type="bigint" Nullable="false" />
+          <Property Name="Price" Type="float" />
+          <Property Name="PayPrice" Type="float" />
+          <Property Name="SellerNick" Type="varchar" MaxLength="50" />
+          <Property Name="SellerShopTitle" Type="varchar" MaxLength="50" />
+          <Property Name="TkStatus" Type="nvarchar" MaxLength="50" />
+          <Property Name="IncomeRate" Type="nvarchar" MaxLength="50" />
+          <Property Name="Proportions" Type="nvarchar" MaxLength="50" />
+          <Property Name="OrderType" Type="varchar" MaxLength="50" />
+          <Property Name="PubSharePreFee" Type="float" />
+          <Property Name="StatementPrice" Type="float" />
+          <Property Name="PrePay" Type="float" />
+          <Property Name="Commission" Type="float" Nullable="false" />
+          <Property Name="CommissionRate" Type="nvarchar" MaxLength="50" />
+          <Property Name="SubsidyRate" Type="nvarchar" MaxLength="50" />
+          <Property Name="SubsidyFee" Type="float" />
+          <Property Name="SubsidyType" Type="nvarchar" MaxLength="50" />
+          <Property Name="TerminalType" Type="nvarchar" MaxLength="50" />
+          <Property Name="Tk3rdType" Type="nvarchar" MaxLength="50" />
+          <Property Name="Category" Type="varchar" MaxLength="100" />
+          <Property Name="Tk3rdPubId" Type="bigint" />
+          <Property Name="Tk3rdPubName" Type="varchar" MaxLength="50" />
+          <Property Name="AdzoneId" Type="bigint" />
+          <Property Name="AdzoneName" Type="varchar" MaxLength="50" />
+          <Property Name="ClickTime" Type="datetime" />
+          <Property Name="CreateTime" Type="datetime" />
+          <Property Name="EarningTime" Type="datetime" />
+        </EntityType>
+        <EntityType Name="UatmFavoritItems">
+          <Key>
+            <PropertyRef Name="NumIid" />
+          </Key>
+          <Property Name="NumIid" Type="bigint" Nullable="false" />
+          <Property Name="Typeid" Type="bigint" />
+          <Property Name="Title" Type="varchar" MaxLength="1000" />
+          <Property Name="PictUrl" Type="varchar" MaxLength="1000" />
+          <Property Name="SmallImages" Type="varchar" MaxLength="2000" />
+          <Property Name="ReservePrice" Type="float" />
+          <Property Name="ZkFinalPrice" Type="float" />
+          <Property Name="UserType" Type="bigint" />
+          <Property Name="Provcity" Type="varchar" MaxLength="50" />
+          <Property Name="ItemUrl" Type="varchar" MaxLength="1000" />
+          <Property Name="ClickUrl" Type="varchar" MaxLength="1000" />
+          <Property Name="Nick" Type="varchar" MaxLength="50" />
+          <Property Name="SellerId" Type="bigint" />
+          <Property Name="Volume" Type="bigint" />
+          <Property Name="TkRate" Type="float" />
+          <Property Name="ZkFinalPriceWap" Type="float" />
+          <Property Name="Category" Type="bigint" />
+          <Property Name="CouponClickUrl" Type="varchar" MaxLength="2000" />
+          <Property Name="CouponEndTime" Type="datetime" />
+          <Property Name="CouponInfo" Type="varchar" MaxLength="50" />
+          <Property Name="CouponStartTime" Type="datetime" />
+          <Property Name="CouponTotalCount" Type="bigint" />
+          <Property Name="CouponRemainCount" Type="bigint" />
+          <Property Name="CommissionRate" Type="varchar" MaxLength="50" />
+          <Property Name="EventEndTime" Type="varchar" MaxLength="50" />
+          <Property Name="EventStartTime" Type="varchar" MaxLength="50" />
+          <Property Name="ShopTitle" Type="varchar" MaxLength="1000" />
+          <Property Name="Status" Type="bigint" />
+          <Property Name="Type" Type="bigint" />
+          <Property Name="FavoritesTitle" Type="nvarchar" MaxLength="200" />
+          <Property Name="FavoritesId" Type="bigint" />
+          <Property Name="isSale" Type="int" Nullable="false" />
+          <Property Name="score" Type="int" />
+          <Property Name="CreateTime" Type="datetime" />
+        </EntityType>
+        <EntityType Name="UserInfo">
+          <Key>
+            <PropertyRef Name="userid" />
+          </Key>
+          <Property Name="userid" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="openid" Type="nvarchar" MaxLength="500" />
+          <Property Name="createtime" Type="datetime" />
+          <Property Name="nickName" Type="varchar" MaxLength="100" />
+          <Property Name="avatarUrl" Type="varchar" MaxLength="200" />
+          <Property Name="gender" Type="varchar" MaxLength="50" />
+          <Property Name="city" Type="varchar" MaxLength="200" />
+          <Property Name="province" Type="varchar" MaxLength="50" />
+          <Property Name="country" Type="varchar" MaxLength="200" />
+          <Property Name="language" Type="varchar" MaxLength="50" />
+          <Property Name="adzoneid" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="UserManager">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+          <Property Name="PassWord" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <!--生成过程中发现错误:
+警告 6002: 表/视图“Economicalleague.dbo.UserRelation”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+        <EntityType Name="UserRelation">
+          <Key>
+            <PropertyRef Name="openid" />
+            <PropertyRef Name="adzoneid" />
+          </Key>
+          <Property Name="openid" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="adzoneid" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="EconomicalleagueStoreContainer">
+          <EntitySet Name="CustomerInfo" EntityType="Self.CustomerInfo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Favorites" EntityType="Self.Favorites" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Log_ExceptionLog" EntityType="Self.Log_ExceptionLog" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Log_LoginLog" EntityType="Self.Log_LoginLog" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PlatformCommission" EntityType="Self.PlatformCommission" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Sys_UserInfo" EntityType="Self.Sys_UserInfo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBrebateOrders" EntityType="Self.TBrebateOrders" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UatmFavoritItems" EntityType="Self.UatmFavoritItems" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UserInfo" EntityType="Self.UserInfo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UserManager" EntityType="Self.UserManager" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CustomerRelatedInfo" EntityType="Self.CustomerRelatedInfo" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [CustomerRelatedInfo].[CustomerId] AS [CustomerId], 
+    [CustomerRelatedInfo].[DirectId] AS [DirectId], 
+    [CustomerRelatedInfo].[InDirectId] AS [InDirectId], 
+    [CustomerRelatedInfo].[IsDelete] AS [IsDelete], 
+    [CustomerRelatedInfo].[CreateTime] AS [CreateTime], 
+    [CustomerRelatedInfo].[UpdateTime] AS [UpdateTime]
+    FROM [dbo].[CustomerRelatedInfo] AS [CustomerRelatedInfo]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="PlatformOrders" EntityType="Self.PlatformOrders" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [PlatformOrders].[trade_parent_id] AS [trade_parent_id], 
+    [PlatformOrders].[trade_id] AS [trade_id], 
+    [PlatformOrders].[CustomerId] AS [CustomerId], 
+    [PlatformOrders].[CustomerName] AS [CustomerName], 
+    [PlatformOrders].[unid] AS [unid]
+    FROM [dbo].[PlatformOrders] AS [PlatformOrders]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="TBItemsList" EntityType="Self.TBItemsList" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [TBItemsList].[type] AS [type], 
+    [TBItemsList].[favorites_id] AS [favorites_id], 
+    [TBItemsList].[favorites_title] AS [favorites_title]
+    FROM [dbo].[TBItemsList] AS [TBItemsList]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="UserRelation" EntityType="Self.UserRelation" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [UserRelation].[openid] AS [openid], 
+    [UserRelation].[adzoneid] AS [adzoneid]
+    FROM [dbo].[UserRelation] AS [UserRelation]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Economicalleague" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="EconomicalleagueContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CustomerInfo" EntityType="Economicalleague.CustomerInfo" />
+          <EntitySet Name="Log_ExceptionLog" EntityType="Economicalleague.Log_ExceptionLog" />
+          <EntitySet Name="Log_LoginLog" EntityType="Economicalleague.Log_LoginLog" />
+          <EntitySet Name="PlatformCommission" EntityType="Economicalleague.PlatformCommission" />
+          <EntitySet Name="Sys_UserInfo" EntityType="Economicalleague.Sys_UserInfo" />
+          <EntitySet Name="CustomerRelatedInfo" EntityType="Economicalleague.CustomerRelatedInfo" />
+          <EntitySet Name="PlatformOrders" EntityType="Economicalleague.PlatformOrders" />
+          <EntitySet Name="TBItemsList" EntityType="Economicalleague.TBItemsList" />
+          <EntitySet Name="UserRelation" EntityType="Economicalleague.UserRelation" />
+          <EntitySet Name="UserInfo" EntityType="Economicalleague.UserInfo" />
+          <EntitySet Name="UserManager" EntityType="Economicalleague.UserManager" />
+          <EntitySet Name="TBrebateOrders" EntityType="Economicalleague.TBrebateOrders" />
+          <EntitySet Name="Favorites" EntityType="Economicalleague.Favorites" />
+          <EntitySet Name="UatmFavoritItems" EntityType="Economicalleague.UatmFavoritItems" />
+        </EntityContainer>
+        <EntityType Name="CustomerInfo">
+          <Key>
+            <PropertyRef Name="CustomerId" />
+          </Key>
+          <Property Name="CustomerId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CustomerName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="PassWord" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CustomerTel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Sex" Type="Boolean" />
+          <Property Name="CustomerIdentity" Type="Int32" />
+          <Property Name="AlipayAccount" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Avatar" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="IsDeleted" Type="Boolean" Nullable="false" />
+          <Property Name="CreateTime" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="UpdateTime" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityType Name="Log_ExceptionLog">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ControllerName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ActionName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Message" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="StackTrace" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="RemoteAddr" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="RequestID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="LoginUser" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="OccurTime" Type="DateTime" Precision="3" />
+          <Property Name="AppId" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Log_LoginLog">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="LoginCustomer" Type="Int64" />
+          <Property Name="AppVersion" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="AppType" Type="Int32" />
+          <Property Name="ApiVersion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="ApiType" Type="Int32" />
+          <Property Name="RemoteAddr" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="OccurTime" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="PlatformCommission">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" />
+          <Property Name="CustomerId" Type="Int64" Nullable="false" />
+          <Property Name="CustomerName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="trade_parent_id" Type="Int64" />
+          <Property Name="trade_id" Type="Int64" />
+          <Property Name="WeChatAccount" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="commission" Type="Double" />
+          <Property Name="InDirectcommission" Type="Double" />
+          <Property Name="Teamcommission" Type="Double" />
+          <Property Name="Remark" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="Complete" Type="Boolean" />
+          <Property Name="CreateTime" Type="DateTime" Precision="3" />
+          <Property Name="UpdateTimed" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="Sys_UserInfo">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="PassWord" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Sex" Type="Boolean" />
+          <Property Name="Avatar" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="IsDeleted" Type="Int32" />
+          <Property Name="CreateTime" Type="DateTime" Precision="3" />
+          <Property Name="UpdateTime" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="CustomerRelatedInfo">
+          <Key>
+            <PropertyRef Name="CustomerId" />
+          </Key>
+          <Property Name="CustomerId" Type="Int64" Nullable="false" />
+          <Property Name="DirectId" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="InDirectId" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="IsDelete" Type="Boolean" />
+          <Property Name="CreateTime" Type="DateTime" Precision="3" />
+          <Property Name="UpdateTime" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="PlatformOrders">
+          <Key>
+            <PropertyRef Name="trade_parent_id" />
+            <PropertyRef Name="trade_id" />
+            <PropertyRef Name="CustomerId" />
+          </Key>
+          <Property Name="trade_parent_id" Type="Int64" Nullable="false" />
+          <Property Name="trade_id" Type="Int64" Nullable="false" />
+          <Property Name="CustomerId" Type="Int64" Nullable="false" />
+          <Property Name="CustomerName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="unid" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="TBItemsList">
+          <Key>
+            <PropertyRef Name="type" />
+            <PropertyRef Name="favorites_id" />
+            <PropertyRef Name="favorites_title" />
+          </Key>
+          <Property Name="type" Type="Int32" Nullable="false" />
+          <Property Name="favorites_id" Type="Int32" Nullable="false" />
+          <Property Name="favorites_title" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="UserRelation">
+          <Key>
+            <PropertyRef Name="openid" />
+            <PropertyRef Name="adzoneid" />
+          </Key>
+          <Property Name="openid" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="adzoneid" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="UserInfo">
+          <Key>
+            <PropertyRef Name="userid" />
+          </Key>
+          <Property Name="userid" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="openid" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="createtime" Type="DateTime" Precision="3" />
+          <Property Name="nickName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="avatarUrl" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="city" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="province" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="country" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="language" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="adzoneid" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="UserManager">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PassWord" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TBrebateOrders">
+          <Key>
+            <PropertyRef Name="TradeId" />
+          </Key>
+          <Property Name="TradeId" Type="Int64" Nullable="false" />
+          <Property Name="NumIid" Type="Int64" Nullable="false" />
+          <Property Name="ItemText" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" />
+          <Property Name="ItemNum" Type="Int64" Nullable="false" />
+          <Property Name="Price" Type="Double" />
+          <Property Name="PayPrice" Type="Double" />
+          <Property Name="SellerNick" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="SellerShopTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="TkStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="IncomeRate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Proportions" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="OrderType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="PubSharePreFee" Type="Double" />
+          <Property Name="StatementPrice" Type="Double" />
+          <Property Name="PrePay" Type="Double" />
+          <Property Name="Commission" Type="Double" Nullable="false" />
+          <Property Name="CommissionRate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="SubsidyRate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="SubsidyFee" Type="Double" />
+          <Property Name="SubsidyType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="TerminalType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Tk3rdType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Category" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Tk3rdPubId" Type="Int64" />
+          <Property Name="Tk3rdPubName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="AdzoneId" Type="Int64" />
+          <Property Name="AdzoneName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ClickTime" Type="DateTime" Precision="3" />
+          <Property Name="CreateTime" Type="DateTime" Precision="3" />
+          <Property Name="EarningTime" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="Favorites">
+          <Key>
+            <PropertyRef Name="FavoritesId" />
+          </Key>
+          <Property Name="FavoritesId" Type="Int64" Nullable="false" />
+          <Property Name="FavoritesTitle" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="Type" Type="Int64" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UatmFavoritItems">
+          <Key>
+            <PropertyRef Name="NumIid" />
+          </Key>
+          <Property Name="NumIid" Type="Int64" Nullable="false" />
+          <Property Name="Typeid" Type="Int64" />
+          <Property Name="Title" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="PictUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="SmallImages" Type="String" MaxLength="2000" FixedLength="false" Unicode="false" />
+          <Property Name="ReservePrice" Type="Double" />
+          <Property Name="ZkFinalPrice" Type="Double" />
+          <Property Name="UserType" Type="Int64" />
+          <Property Name="Provcity" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ItemUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="ClickUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="Nick" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="SellerId" Type="Int64" />
+          <Property Name="Volume" Type="Int64" />
+          <Property Name="TkRate" Type="Double" />
+          <Property Name="ZkFinalPriceWap" Type="Double" />
+          <Property Name="Category" Type="Int64" />
+          <Property Name="CouponClickUrl" Type="String" MaxLength="2000" FixedLength="false" Unicode="false" />
+          <Property Name="CouponEndTime" Type="DateTime" Precision="3" />
+          <Property Name="CouponInfo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CouponStartTime" Type="DateTime" Precision="3" />
+          <Property Name="CouponTotalCount" Type="Int64" />
+          <Property Name="CouponRemainCount" Type="Int64" />
+          <Property Name="CommissionRate" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="EventEndTime" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="EventStartTime" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ShopTitle" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="Status" Type="Int64" />
+          <Property Name="Type" Type="Int64" />
+          <Property Name="FavoritesTitle" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="FavoritesId" Type="Int64" />
+          <Property Name="isSale" Type="Int32" Nullable="false" />
+          <Property Name="score" Type="Int32" />
+          <Property Name="CreateTime" Type="DateTime" Precision="3" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs" Space="C-S">
+        <Alias Key="Model" Value="Economicalleague" />
+        <Alias Key="Target" Value="Economicalleague.Store" />
+        <EntityContainerMapping CdmEntityContainer="EconomicalleagueContainer" StorageEntityContainer="EconomicalleagueStoreContainer">
+          <EntitySetMapping Name="CustomerInfo">
+            <EntityTypeMapping TypeName="Economicalleague.CustomerInfo">
+              <MappingFragment StoreEntitySet="CustomerInfo">
+                <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+                <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+                <ScalarProperty Name="Avatar" ColumnName="Avatar" />
+                <ScalarProperty Name="AlipayAccount" ColumnName="AlipayAccount" />
+                <ScalarProperty Name="CustomerIdentity" ColumnName="CustomerIdentity" />
+                <ScalarProperty Name="Sex" ColumnName="Sex" />
+                <ScalarProperty Name="CustomerTel" ColumnName="CustomerTel" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="PassWord" ColumnName="PassWord" />
+                <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+                <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Log_ExceptionLog">
+            <EntityTypeMapping TypeName="Economicalleague.Log_ExceptionLog">
+              <MappingFragment StoreEntitySet="Log_ExceptionLog">
+                <ScalarProperty Name="AppId" ColumnName="AppId" />
+                <ScalarProperty Name="OccurTime" ColumnName="OccurTime" />
+                <ScalarProperty Name="LoginUser" ColumnName="LoginUser" />
+                <ScalarProperty Name="RequestID" ColumnName="RequestID" />
+                <ScalarProperty Name="RemoteAddr" ColumnName="RemoteAddr" />
+                <ScalarProperty Name="StackTrace" ColumnName="StackTrace" />
+                <ScalarProperty Name="Message" ColumnName="Message" />
+                <ScalarProperty Name="ActionName" ColumnName="ActionName" />
+                <ScalarProperty Name="ControllerName" ColumnName="ControllerName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Log_LoginLog">
+            <EntityTypeMapping TypeName="Economicalleague.Log_LoginLog">
+              <MappingFragment StoreEntitySet="Log_LoginLog">
+                <ScalarProperty Name="OccurTime" ColumnName="OccurTime" />
+                <ScalarProperty Name="RemoteAddr" ColumnName="RemoteAddr" />
+                <ScalarProperty Name="ApiType" ColumnName="ApiType" />
+                <ScalarProperty Name="ApiVersion" ColumnName="ApiVersion" />
+                <ScalarProperty Name="AppType" ColumnName="AppType" />
+                <ScalarProperty Name="AppVersion" ColumnName="AppVersion" />
+                <ScalarProperty Name="LoginCustomer" ColumnName="LoginCustomer" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PlatformCommission">
+            <EntityTypeMapping TypeName="Economicalleague.PlatformCommission">
+              <MappingFragment StoreEntitySet="PlatformCommission">
+                <ScalarProperty Name="UpdateTimed" ColumnName="UpdateTimed" />
+                <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+                <ScalarProperty Name="Complete" ColumnName="Complete" />
+                <ScalarProperty Name="Remark" ColumnName="Remark" />
+                <ScalarProperty Name="Teamcommission" ColumnName="Teamcommission" />
+                <ScalarProperty Name="InDirectcommission" ColumnName="InDirectcommission" />
+                <ScalarProperty Name="commission" ColumnName="commission" />
+                <ScalarProperty Name="WeChatAccount" ColumnName="WeChatAccount" />
+                <ScalarProperty Name="trade_id" ColumnName="trade_id" />
+                <ScalarProperty Name="trade_parent_id" ColumnName="trade_parent_id" />
+                <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+                <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Sys_UserInfo">
+            <EntityTypeMapping TypeName="Economicalleague.Sys_UserInfo">
+              <MappingFragment StoreEntitySet="Sys_UserInfo">
+                <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+                <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+                <ScalarProperty Name="Avatar" ColumnName="Avatar" />
+                <ScalarProperty Name="Sex" ColumnName="Sex" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="PassWord" ColumnName="PassWord" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CustomerRelatedInfo">
+            <EntityTypeMapping TypeName="Economicalleague.CustomerRelatedInfo">
+              <MappingFragment StoreEntitySet="CustomerRelatedInfo">
+                <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+                <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+                <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+                <ScalarProperty Name="InDirectId" ColumnName="InDirectId" />
+                <ScalarProperty Name="DirectId" ColumnName="DirectId" />
+                <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PlatformOrders">
+            <EntityTypeMapping TypeName="Economicalleague.PlatformOrders">
+              <MappingFragment StoreEntitySet="PlatformOrders">
+                <ScalarProperty Name="unid" ColumnName="unid" />
+                <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+                <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+                <ScalarProperty Name="trade_id" ColumnName="trade_id" />
+                <ScalarProperty Name="trade_parent_id" ColumnName="trade_parent_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TBItemsList">
+            <EntityTypeMapping TypeName="Economicalleague.TBItemsList">
+              <MappingFragment StoreEntitySet="TBItemsList">
+                <ScalarProperty Name="favorites_title" ColumnName="favorites_title" />
+                <ScalarProperty Name="favorites_id" ColumnName="favorites_id" />
+                <ScalarProperty Name="type" ColumnName="type" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserRelation">
+            <EntityTypeMapping TypeName="Economicalleague.UserRelation">
+              <MappingFragment StoreEntitySet="UserRelation">
+                <ScalarProperty Name="adzoneid" ColumnName="adzoneid" />
+                <ScalarProperty Name="openid" ColumnName="openid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserInfo">
+            <EntityTypeMapping TypeName="Economicalleague.UserInfo">
+              <MappingFragment StoreEntitySet="UserInfo">
+                <ScalarProperty Name="adzoneid" ColumnName="adzoneid" />
+                <ScalarProperty Name="language" ColumnName="language" />
+                <ScalarProperty Name="country" ColumnName="country" />
+                <ScalarProperty Name="province" ColumnName="province" />
+                <ScalarProperty Name="city" ColumnName="city" />
+                <ScalarProperty Name="gender" ColumnName="gender" />
+                <ScalarProperty Name="avatarUrl" ColumnName="avatarUrl" />
+                <ScalarProperty Name="nickName" ColumnName="nickName" />
+                <ScalarProperty Name="createtime" ColumnName="createtime" />
+                <ScalarProperty Name="openid" ColumnName="openid" />
+                <ScalarProperty Name="userid" ColumnName="userid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserManager">
+            <EntityTypeMapping TypeName="Economicalleague.UserManager">
+              <MappingFragment StoreEntitySet="UserManager">
+                <ScalarProperty Name="PassWord" ColumnName="PassWord" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TBrebateOrders">
+            <EntityTypeMapping TypeName="Economicalleague.TBrebateOrders">
+              <MappingFragment StoreEntitySet="TBrebateOrders">
+                <ScalarProperty Name="EarningTime" ColumnName="EarningTime" />
+                <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+                <ScalarProperty Name="ClickTime" ColumnName="ClickTime" />
+                <ScalarProperty Name="AdzoneName" ColumnName="AdzoneName" />
+                <ScalarProperty Name="AdzoneId" ColumnName="AdzoneId" />
+                <ScalarProperty Name="Tk3rdPubName" ColumnName="Tk3rdPubName" />
+                <ScalarProperty Name="Tk3rdPubId" ColumnName="Tk3rdPubId" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
+                <ScalarProperty Name="Tk3rdType" ColumnName="Tk3rdType" />
+                <ScalarProperty Name="TerminalType" ColumnName="TerminalType" />
+                <ScalarProperty Name="SubsidyType" ColumnName="SubsidyType" />
+                <ScalarProperty Name="SubsidyFee" ColumnName="SubsidyFee" />
+                <ScalarProperty Name="SubsidyRate" ColumnName="SubsidyRate" />
+                <ScalarProperty Name="CommissionRate" ColumnName="CommissionRate" />
+                <ScalarProperty Name="Commission" ColumnName="Commission" />
+                <ScalarProperty Name="PrePay" ColumnName="PrePay" />
+                <ScalarProperty Name="StatementPrice" ColumnName="StatementPrice" />
+                <ScalarProperty Name="PubSharePreFee" ColumnName="PubSharePreFee" />
+                <ScalarProperty Name="OrderType" ColumnName="OrderType" />
+                <ScalarProperty Name="Proportions" ColumnName="Proportions" />
+                <ScalarProperty Name="IncomeRate" ColumnName="IncomeRate" />
+                <ScalarProperty Name="TkStatus" ColumnName="TkStatus" />
+                <ScalarProperty Name="SellerShopTitle" ColumnName="SellerShopTitle" />
+                <ScalarProperty Name="SellerNick" ColumnName="SellerNick" />
+                <ScalarProperty Name="PayPrice" ColumnName="PayPrice" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="ItemNum" ColumnName="ItemNum" />
+                <ScalarProperty Name="ItemText" ColumnName="ItemText" />
+                <ScalarProperty Name="NumIid" ColumnName="NumIid" />
+                <ScalarProperty Name="TradeId" ColumnName="TradeId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Favorites">
+            <EntityTypeMapping TypeName="Economicalleague.Favorites">
+              <MappingFragment StoreEntitySet="Favorites">
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="FavoritesTitle" ColumnName="FavoritesTitle" />
+                <ScalarProperty Name="FavoritesId" ColumnName="FavoritesId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UatmFavoritItems">
+            <EntityTypeMapping TypeName="Economicalleague.UatmFavoritItems">
+              <MappingFragment StoreEntitySet="UatmFavoritItems">
+                <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+                <ScalarProperty Name="score" ColumnName="score" />
+                <ScalarProperty Name="isSale" ColumnName="isSale" />
+                <ScalarProperty Name="FavoritesId" ColumnName="FavoritesId" />
+                <ScalarProperty Name="FavoritesTitle" ColumnName="FavoritesTitle" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="ShopTitle" ColumnName="ShopTitle" />
+                <ScalarProperty Name="EventStartTime" ColumnName="EventStartTime" />
+                <ScalarProperty Name="EventEndTime" ColumnName="EventEndTime" />
+                <ScalarProperty Name="CommissionRate" ColumnName="CommissionRate" />
+                <ScalarProperty Name="CouponRemainCount" ColumnName="CouponRemainCount" />
+                <ScalarProperty Name="CouponTotalCount" ColumnName="CouponTotalCount" />
+                <ScalarProperty Name="CouponStartTime" ColumnName="CouponStartTime" />
+                <ScalarProperty Name="CouponInfo" ColumnName="CouponInfo" />
+                <ScalarProperty Name="CouponEndTime" ColumnName="CouponEndTime" />
+                <ScalarProperty Name="CouponClickUrl" ColumnName="CouponClickUrl" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
+                <ScalarProperty Name="ZkFinalPriceWap" ColumnName="ZkFinalPriceWap" />
+                <ScalarProperty Name="TkRate" ColumnName="TkRate" />
+                <ScalarProperty Name="Volume" ColumnName="Volume" />
+                <ScalarProperty Name="SellerId" ColumnName="SellerId" />
+                <ScalarProperty Name="Nick" ColumnName="Nick" />
+                <ScalarProperty Name="ClickUrl" ColumnName="ClickUrl" />
+                <ScalarProperty Name="ItemUrl" ColumnName="ItemUrl" />
+                <ScalarProperty Name="Provcity" ColumnName="Provcity" />
+                <ScalarProperty Name="UserType" ColumnName="UserType" />
+                <ScalarProperty Name="ZkFinalPrice" ColumnName="ZkFinalPrice" />
+                <ScalarProperty Name="ReservePrice" ColumnName="ReservePrice" />
+                <ScalarProperty Name="SmallImages" ColumnName="SmallImages" />
+                <ScalarProperty Name="PictUrl" ColumnName="PictUrl" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Typeid" ColumnName="Typeid" />
+                <ScalarProperty Name="NumIid" ColumnName="NumIid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

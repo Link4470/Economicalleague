@@ -1,0 +1,79 @@
+﻿@{
+    ViewBag.Title = "";
+}
+<div>
+    <div id="items">
+        <div style="width: 100%; overflow-x: hidden;">
+            <div class="grid-content bg-purple">
+                <el-button type="success" v-on:click="search()" style="width:100px;">添加商品</el-button>
+            </div>
+        </div>
+        
+        <template>
+            <el-table :data="orderlist" stripe style="width: 100%">
+                <el-table-column prop="Title" label="商品名称" width="200">
+                </el-table-column>
+                <el-table-column prop="ItemUrl" label="商品链接" width="120">
+                </el-table-column>
+                <el-table-column prop="" label="券后价" width="100">
+                </el-table-column>
+                <el-table-column prop="" label="返佣" width="300">
+                </el-table-column>
+                <el-table-column prop="Volume" label="销量" width="80">
+                </el-table-column>
+                <el-table-column prop="score" label="前端位置" width="80">
+                </el-table-column>                
+                <el-table-column label="操作" width="100">
+                    <template slot-scope="scope">
+                        <el-button type="text" size="small">删除</el-button>
+                        <el-button type="text" size="small">修改位置</el-button>
+                    </template>
+                </el-table-column>
+            </el-table>
+            <el-pagination  background layout="prev, pager, next" :total="totalcount" :page-size="pageSize" v-on:current-change="pageIndexChange">
+            </el-pagination>
+        </template>
+    </div>
+</div>
+
+<script src="~/Content/jquery/vue.js"></script>
+<script src="~/Content/jquery/index.js"></script>
+<script src="~/Content/jquery/Main.js"></script>
+<script>
+    new Vue({
+        el: "#app",
+        data: function () {
+            return {
+                itemlist: [],
+                fileList: [],
+                numid: '',
+                currentPage: 1,
+                pageSize: 10,
+                totalcount: 100
+            }
+        },
+        methods: {
+            search() {
+                var vue = this;
+                var url = "/Home/";
+                $.get(url, function (data) {
+                    vue.itemlist = data.list;
+                    vue.totalcount = data.totalcount;
+                    console.log(vue.itemlist);                  
+                });
+            },
+            onSearch() {
+                this.search();
+            },
+            pageIndexChange(val) {
+                var vue = this;
+                vue.currentPage = val;
+                this.search();
+            }
+            
+        },
+        mounted: function () {
+            this.search();
+        }
+    });
+</script>

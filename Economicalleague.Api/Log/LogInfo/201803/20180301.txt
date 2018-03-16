@@ -1,0 +1,369 @@
+
+ 
+记录时间：2018-03-01 13:29:20,045 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:2908201d-9915-4592-b2cf-600dbc4848b8
+GET http://localhost:18428/api/goods/getordersinfo?openId=openid123 HTTP/1.1
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 13:29:21,265 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:2908201d-9915-4592-b2cf-600dbc4848b8
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":[]}
+ 
+
+ 
+记录时间：2018-03-01 13:29:36,309 
+线程ID:[17] 
+日志级别：  INFO  
+日志描述：RequestID:e52a455e-2da3-4482-a548-e21920038c7f
+GET http://localhost:18428/api/goods/getordersinfo?openId=openid123 HTTP/1.1
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 13:30:07,228 
+线程ID:[17] 
+日志级别：  INFO  
+日志描述：RequestID:e52a455e-2da3-4482-a548-e21920038c7f
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":[]}
+ 
+
+ 
+记录时间：2018-03-01 13:30:23,924 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:df51cb45-cfaf-44c1-9aeb-717e6d497567
+GET http://localhost:18428/api/goods/getordersinfo?openId=openid123&pageSize=10&pageIndex=1 HTTP/1.1
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 13:35:43,551 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:91d9cbc9-f65a-4554-bee0-44bd9d9d54d1
+GET http://localhost:18428/api/goods/getordersinfo?openId=openid123&pageSize=10&pageIndex=0 HTTP/1.1
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 13:35:50,192 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:91d9cbc9-f65a-4554-bee0-44bd9d9d54d1
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":[{"trade_id":124262610039474969,"num_iid":559864134812,"item_text":"刻凡老农家手工锅巴130g*3袋麻辣多口味的零食特产小吃大礼包\r\n","item_num":1,"price":69.0,"pay_price":12.9,"seller_nick":"咖滋莱食品专营店\r\n","seller_shop_title":"咖滋莱食品专营店\r\n","tk_status":2,"income_rate":0.15,"proportions":1.0,"order_type":"2","pub_share_pre_fee":2.1,"statement_price":50.2,"pre_pay":3.5,"commission":5.6,"commission_rate":0.09,"subsidy_rate":0.09,"subsidy_fee":6.3,"subsidy_type":2,"terminal_type":2,"tk3rd_type":2,"category":"0","tk3rd_pub_id":232,"tk3rd_pub_name":"232","adzone_id":123456,"adzone_name":"省钱王牌","click_time":"2018-02-08T13:12:51","create_time":"2018-02-08T13:13:36","earning_time":"2018-01-24T16:28:45"},{"trade_id":124262610039474988,"num_iid":549932765618,"item_text":"POPTOU 入耳式耳机通用小米oppor9华为荣耀8v9魅族vivox7手机耳塞\r\n","item_num":2,"price":238.0,"pay_price":9.9,"seller_nick":"poptou数码旗舰店\r\n","seller_shop_title":"poptou数码旗舰店\r\n","tk_status":3,"income_rate":0.53,"proportions":1.0,"order_type":"2","pub_share_pre_fee":3.3,"statement_price":5.5,"pre_pay":2.1,"commission":63.0,"commission_rate":0.25,"subsidy_rate":0.25,"subsidy_fee":6.0,"subsidy_type":2,"terminal_type":2,"tk3rd_type":2,"category":"0","tk3rd_pub_id":123,"tk3rd_pub_name":"123","adzone_id":123456,"adzone_name":"省钱王牌","click_time":"2018-01-21T23:52:08","create_time":"2018-01-21T23:54:59","earning_time":"2018-01-21T23:54:59"}]}
+ 
+
+ 
+记录时间：2018-03-01 13:56:30,137 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:70bbdb07-522d-4d3b-b723-49f83a4721c6
+GET http://localhost:18428/api/goods/getordersinfo?openId=openid123&pageSize=10&pageIndex=0 HTTP/1.1
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 13:56:31,985 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:70bbdb07-522d-4d3b-b723-49f83a4721c6
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":[{"TradeId":124262610039474969,"NumIid":559864134812,"ItemText":"刻凡老农家手工锅巴130g*3袋麻辣多口味的零食特产小吃大礼包\r\n","ItemNum":1,"Price":69.0,"PayPrice":12.9,"SellerNick":"咖滋莱食品专营店\r\n","SellerShopTitle":"咖滋莱食品专营店\r\n","TkStatus":2,"IncomeRate":0.15,"Proportions":1.0,"OrderType":"2","PubSharePreFee":2.1,"StatementPrice":50.2,"PrePay":3.5,"Commission":5.6,"CommissionRate":0.09,"SubsidyRate":0.09,"SubsidyFee":6.3,"SubsidyType":2,"TerminalType":2,"Tk3rdType":2,"Category":"0","Tk3rdPubId":232,"Tk3rdPubName":"232","AdzoneId":123456,"AdzoneName":"省钱王牌","ClickTime":"2018-02-08T13:12:51","CreateTime":"2018-02-08T13:13:36","EarningTime":"2018-01-24T16:28:45"},{"TradeId":124262610039474988,"NumIid":549932765618,"ItemText":"POPTOU 入耳式耳机通用小米oppor9华为荣耀8v9魅族vivox7手机耳塞\r\n","ItemNum":2,"Price":238.0,"PayPrice":9.9,"SellerNick":"poptou数码旗舰店\r\n","SellerShopTitle":"poptou数码旗舰店\r\n","TkStatus":3,"IncomeRate":0.53,"Proportions":1.0,"OrderType":"2","PubSharePreFee":3.3,"StatementPrice":5.5,"PrePay":2.1,"Commission":63.0,"CommissionRate":0.25,"SubsidyRate":0.25,"SubsidyFee":6.0,"SubsidyType":2,"TerminalType":2,"Tk3rdType":2,"Category":"0","Tk3rdPubId":123,"Tk3rdPubName":"123","AdzoneId":123456,"AdzoneName":"省钱王牌","ClickTime":"2018-01-21T23:52:08","CreateTime":"2018-01-21T23:54:59","EarningTime":"2018-01-21T23:54:59"}]}
+ 
+
+ 
+记录时间：2018-03-01 14:00:47,337 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:2e8f6260-14d2-4e57-b573-0d8721c089aa
+GET http://localhost:18428/api/goods/getordersinfo?openId=openid123&pageSize=10&pageIndex=0 HTTP/1.1
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 14:00:49,116 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:2e8f6260-14d2-4e57-b573-0d8721c089aa
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":[{"TradeId":124262610039474969,"NumIid":559864134812,"ItemText":"刻凡老农家手工锅巴130g*3袋麻辣多口味的零食特产小吃大礼包\r\n","ItemNum":1,"Price":69.0,"PayPrice":12.9,"SellerNick":"咖滋莱食品专营店\r\n","SellerShopTitle":"咖滋莱食品专营店\r\n","TkStatus":2,"IncomeRate":0.15,"Proportions":1.0,"OrderType":"2","PubSharePreFee":2.1,"StatementPrice":50.2,"PrePay":3.5,"Commission":5.6,"CommissionRate":0.09,"SubsidyRate":0.09,"SubsidyFee":6.3,"SubsidyType":2,"TerminalType":2,"Tk3rdType":2,"Category":"0","Tk3rdPubId":232,"Tk3rdPubName":"232","AdzoneId":123456,"AdzoneName":"省钱王牌","ClickTime":"02  8 2018  1:12PM","CreateTime":"02  8 2018  1:13PM","EarningTime":"01 24 2018  4:28PM"},{"TradeId":124262610039474988,"NumIid":549932765618,"ItemText":"POPTOU 入耳式耳机通用小米oppor9华为荣耀8v9魅族vivox7手机耳塞\r\n","ItemNum":2,"Price":238.0,"PayPrice":9.9,"SellerNick":"poptou数码旗舰店\r\n","SellerShopTitle":"poptou数码旗舰店\r\n","TkStatus":3,"IncomeRate":0.53,"Proportions":1.0,"OrderType":"2","PubSharePreFee":3.3,"StatementPrice":5.5,"PrePay":2.1,"Commission":63.0,"CommissionRate":0.25,"SubsidyRate":0.25,"SubsidyFee":6.0,"SubsidyType":2,"TerminalType":2,"Tk3rdType":2,"Category":"0","Tk3rdPubId":123,"Tk3rdPubName":"123","AdzoneId":123456,"AdzoneName":"省钱王牌","ClickTime":"01 21 2018 11:52PM","CreateTime":"01 21 2018 11:54PM","EarningTime":"01 21 2018 11:54PM"}]}
+ 
+
+ 
+记录时间：2018-03-01 14:06:42,565 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:c598d9bf-ea9e-411b-9e1c-4e8e46bec429
+GET http://localhost:18428/api/goods/getordersinfo?openId=openid123&pageSize=10&pageIndex=0 HTTP/1.1
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 14:06:44,551 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:c598d9bf-ea9e-411b-9e1c-4e8e46bec429
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":[{"TradeId":124262610039474969,"NumIid":559864134812,"ItemText":"刻凡老农家手工锅巴130g*3袋麻辣多口味的零食特产小吃大礼包\r\n","ItemNum":1,"Price":69.0,"PayPrice":12.9,"SellerNick":"咖滋莱食品专营店\r\n","SellerShopTitle":"咖滋莱食品专营店\r\n","TkStatus":2,"IncomeRate":0.15,"Proportions":1.0,"OrderType":"2","PubSharePreFee":2.1,"StatementPrice":50.2,"PrePay":3.5,"Commission":5.6,"CommissionRate":0.09,"SubsidyRate":0.09,"SubsidyFee":6.3,"SubsidyType":2,"TerminalType":2,"Tk3rdType":2,"Category":"0","Tk3rdPubId":232,"Tk3rdPubName":"232","AdzoneId":123456,"AdzoneName":"省钱王牌","ClickTime":"2018-02-08T13:12:00","CreateTime":"2018-02-08T13:13:00","EarningTime":"2018-01-24T16:28:00"},{"TradeId":124262610039474988,"NumIid":549932765618,"ItemText":"POPTOU 入耳式耳机通用小米oppor9华为荣耀8v9魅族vivox7手机耳塞\r\n","ItemNum":2,"Price":238.0,"PayPrice":9.9,"SellerNick":"poptou数码旗舰店\r\n","SellerShopTitle":"poptou数码旗舰店\r\n","TkStatus":3,"IncomeRate":0.53,"Proportions":1.0,"OrderType":"2","PubSharePreFee":3.3,"StatementPrice":5.5,"PrePay":2.1,"Commission":63.0,"CommissionRate":0.25,"SubsidyRate":0.25,"SubsidyFee":6.0,"SubsidyType":2,"TerminalType":2,"Tk3rdType":2,"Category":"0","Tk3rdPubId":123,"Tk3rdPubName":"123","AdzoneId":123456,"AdzoneName":"省钱王牌","ClickTime":"2018-01-21T23:52:00","CreateTime":"2018-01-21T23:54:00","EarningTime":"2018-01-21T23:54:00"}]}
+ 
+
+ 
+记录时间：2018-03-01 14:47:29,941 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：RequestID:08c2fe5a-fafd-4fac-889d-9dc4ca021a37
+GET http://localhost:18428/api/goods/getordersinfo?openId=openid123&pageSize=10&pageIndex=0 HTTP/1.1
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 14:47:30,413 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：RequestID:08c2fe5a-fafd-4fac-889d-9dc4ca021a37
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":[{"Title":"POPTOU 入耳式耳机通用小米oppor9华为荣耀8v9魅族vivox7手机耳塞\r\n","PicUrl":null,"Price":"238","PrePay":"2.1"},{"Title":"POPTOU 入耳式耳机通用小米oppor9华为荣耀8v9魅族vivox7手机耳塞\r\n","PicUrl":null,"Price":"238","PrePay":"2.1"}]}
+ 
+
+ 
+记录时间：2018-03-01 15:07:50,930 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:52374125-4d1b-4e50-9dc7-23059771a501
+GET http://localhost:18428/api/goods/getordersinfo?openId=openid123&pageSize=10&pageIndex=0 HTTP/1.1
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 15:07:51,413 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:52374125-4d1b-4e50-9dc7-23059771a501
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":[{"Title":"POPTOU 入耳式耳机通用小米oppor9华为荣耀8v9魅族vivox7手机耳塞\r\n","PicUrl":null,"Price":"238","PrePay":"2.1"},{"Title":"POPTOU 入耳式耳机通用小米oppor9华为荣耀8v9魅族vivox7手机耳塞\r\n","PicUrl":null,"Price":"238","PrePay":"2.1"}]}
+ 
+
+ 
+记录时间：2018-03-01 15:24:32,696 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:5468fc42-d44e-4259-bad7-216759c6acf1
+GET http://localhost:18428/api/goods/getorderslist?openId=openid123&pageSize=10&pageIndex=0 HTTP/1.1
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 15:24:33,118 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:5468fc42-d44e-4259-bad7-216759c6acf1
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":[{"Title":"POPTOU 入耳式耳机通用小米oppor9华为荣耀8v9魅族vivox7手机耳塞\r\n","PicUrl":null,"Price":"238","PrePay":"2.1"},{"Title":"POPTOU 入耳式耳机通用小米oppor9华为荣耀8v9魅族vivox7手机耳塞\r\n","PicUrl":null,"Price":"238","PrePay":"2.1"}]}
+ 
+
+ 
+记录时间：2018-03-01 15:25:22,835 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:757a1e81-5277-4a1c-b51d-bcd4d28f2fc2
+GET http://localhost:18428/api/goods/getorderdetail?traId=124262610039474969 HTTP/1.1
+ControllerName=Orders,ActionName=GetOrderDetail,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 15:25:22,911 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:757a1e81-5277-4a1c-b51d-bcd4d28f2fc2
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=GetOrderDetail,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"CreateTime":"2018-02-08 13:13","PlatformFee":"0.28","Commission":"5.6","Title":"刻凡老农家手工锅巴130g*3袋麻辣多口味的零食特产小吃大礼包\r\n","PicUrl":null,"Price":"69","PrePay":"3.5"}}
+ 
+
+ 
+记录时间：2018-03-01 15:29:14,694 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:1e8e811c-5549-4c4b-92ac-637afec32cdd
+GET http://localhost:18428/api/goods/getorderslist?openId=openid123&pageSize=10&pageIndex=0 HTTP/1.1
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 15:29:15,195 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:1e8e811c-5549-4c4b-92ac-637afec32cdd
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":[{"Title":"POPTOU 入耳式耳机通用小米oppor9华为荣耀8v9魅族vivox7手机耳塞\r\n","PicUrl":null,"Price":"238","PrePay":"2.1"},{"Title":"POPTOU 入耳式耳机通用小米oppor9华为荣耀8v9魅族vivox7手机耳塞\r\n","PicUrl":null,"Price":"238","PrePay":"2.1"}]}
+ 
+
+ 
+记录时间：2018-03-01 15:37:15,083 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:f437cfbd-96c4-4250-92b8-427113b89095
+GET http://localhost:18428/api/goods/getorderslist?openId=openid123&pageSize=10&pageIndex=0 HTTP/1.1
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 15:37:15,506 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:f437cfbd-96c4-4250-92b8-427113b89095
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":[{"Title":"POPTOU 入耳式耳机通用小米oppor9华为荣耀8v9魅族vivox7手机耳塞\r\n","PicUrl":null,"Price":"238","PrePay":"2.1","TradeId":124262610039474988},{"Title":"POPTOU 入耳式耳机通用小米oppor9华为荣耀8v9魅族vivox7手机耳塞\r\n","PicUrl":null,"Price":"238","PrePay":"2.1","TradeId":124262610039474988}]}
+ 
+
+ 
+记录时间：2018-03-01 15:41:32,689 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:bdeb8191-1d29-4a27-b8f3-dc4cb957af9b
+GET http://localhost:18428/api/goods/getorderlist?openId=openid123&pageSize=10&pageIndex=0 HTTP/1.1
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 15:41:33,071 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:bdeb8191-1d29-4a27-b8f3-dc4cb957af9b
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":[{"Title":"POPTOU 入耳式耳机通用小米oppor9华为荣耀8v9魅族vivox7手机耳塞\r\n","PicUrl":null,"Price":"238","PrePay":"2.1","TradeId":124262610039474988},{"Title":"POPTOU 入耳式耳机通用小米oppor9华为荣耀8v9魅族vivox7手机耳塞\r\n","PicUrl":null,"Price":"238","PrePay":"2.1","TradeId":124262610039474988}]}
+ 
+
+ 
+记录时间：2018-03-01 15:46:06,892 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:c456975d-0b70-4bc9-a8a7-5bfb94537687
+GET http://localhost:18428/api/goods/getorderlist?openId=openid123&pageSize=10&pageIndex=0 HTTP/1.1
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 15:46:07,280 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:c456975d-0b70-4bc9-a8a7-5bfb94537687
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=GetOrdersInfo,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":[{"Title":"包邮中华牌101木制铅笔HB 2B小学生儿童写字素描绘图铅笔批发36支","PicUrl":"https://img.alicdn.com/tfscom/i2/2298088647/TB1ZfZ.d0fJ8KJjy0FeXXXKEXXa_!!0-item_pic.jpg","Price":"238","PrePay":"2.1","TradeId":124262610039474988},{"Title":"包邮中华牌101木制铅笔HB 2B小学生儿童写字素描绘图铅笔批发36支","PicUrl":"https://img.alicdn.com/tfscom/i2/2298088647/TB1ZfZ.d0fJ8KJjy0FeXXXKEXXa_!!0-item_pic.jpg","Price":"238","PrePay":"2.1","TradeId":124262610039474988}]}
+ 
+
+ 
+记录时间：2018-03-01 15:47:17,750 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:7ff51779-b3ca-4476-9161-2bed80b187e9
+GET http://localhost:18428/api/goods/getorderdetail?tradeId=124262610039474969 HTTP/1.1
+ControllerName=Orders,ActionName=GetOrderDetail,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 15:47:17,793 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:7ff51779-b3ca-4476-9161-2bed80b187e9
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=GetOrderDetail,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"CreateTime":"2018-02-08 13:13","PlatformFee":"0.28","Commission":"5.6","Title":"苹果6s数据线iPhone6Plus充电器8puls平果x球i7P快充lphone7短六s","PicUrl":"https://img.alicdn.com/tfscom/i1/TB10YSSSXXXXXXwXpXXXXXXXXXX_!!0-item_pic.jpg","Price":"69","PrePay":"3.5","TradeId":0}}
+ 
+
+ 
+记录时间：2018-03-01 15:47:26,973 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:4f3d89d3-40d7-4158-a57f-2cc44ad60a5c
+GET http://localhost:18428/api/goods/getorderdetail?tradeId=124262610039474969 HTTP/1.1
+ControllerName=Orders,ActionName=GetOrderDetail,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 15:47:27,004 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:4f3d89d3-40d7-4158-a57f-2cc44ad60a5c
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=GetOrderDetail,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"CreateTime":"2018-02-08 13:13","PlatformFee":"0.28","Commission":"5.6","Title":"苹果6s数据线iPhone6Plus充电器8puls平果x球i7P快充lphone7短六s","PicUrl":"https://img.alicdn.com/tfscom/i1/TB10YSSSXXXXXXwXpXXXXXXXXXX_!!0-item_pic.jpg","Price":"69","PrePay":"3.5","TradeId":0}}
+ 
+
+ 
+记录时间：2018-03-01 15:48:16,726 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:1df258d1-514d-4f02-8398-29f6d8a791d1
+GET http://localhost:18428/api/goods/getorderdetail?tradeId=124262610039474969 HTTP/1.1
+ControllerName=Orders,ActionName=GetOrderDetail,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 15:48:17,085 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:1df258d1-514d-4f02-8398-29f6d8a791d1
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=GetOrderDetail,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"CreateTime":"2018-02-08 13:13","PlatformFee":"0.28","Commission":"5.6","Title":"苹果6s数据线iPhone6Plus充电器8puls平果x球i7P快充lphone7短六s","PicUrl":"https://img.alicdn.com/tfscom/i1/TB10YSSSXXXXXXwXpXXXXXXXXXX_!!0-item_pic.jpg","Price":"69","PrePay":"3.5","TradeId":124262610039474969}}
+ 
+
+ 
+记录时间：2018-03-01 16:55:17,299 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:91bdb682-6e7f-41a7-a714-e360a998700a
+GET http://localhost:18428/api/goods/getincominfo?openId=openid123 HTTP/1.1
+ControllerName=Orders,ActionName=GetIncomInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 16:56:41,282 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:6892e4bb-6475-4d2b-9c42-4c9090ba323a
+GET http://localhost:18428/api/goods/getincominfo?openId=openid123 HTTP/1.1
+ControllerName=Orders,ActionName=GetIncomInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 16:57:36,263 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:ef20c324-51ce-4ef8-9ade-49be3c9c1e4b
+GET http://localhost:18428/api/goods/getincominfo?openId=openid123 HTTP/1.1
+ControllerName=Orders,ActionName=GetIncomInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 17:01:56,762 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:79d50770-8148-4f56-a0ee-353ea120914e
+GET http://localhost:18428/api/goods/getincominfo?openId=openid123 HTTP/1.1
+ControllerName=Orders,ActionName=GetIncomInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 17:03:07,429 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:589c944b-387d-4498-850a-fab5bb2c5d25
+GET http://localhost:18428/api/goods/getincominfo?openId=openid123 HTTP/1.1
+ControllerName=Orders,ActionName=GetIncomInfo,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-03-01 17:03:11,416 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:589c944b-387d-4498-850a-fab5bb2c5d25
+HTTP/1.1 200 OK
+ControllerName=Orders,ActionName=GetIncomInfo,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"PrePay":5.6,"StatementPrice":55.7}}
+ 

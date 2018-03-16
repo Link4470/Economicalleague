@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Economicalleague.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CustomerInfo">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="CustomerId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerName" Type="varchar" MaxLength="50" />
+    <Property Name="PassWord" Type="varchar" MaxLength="50" />
+    <Property Name="Email" Type="varchar" MaxLength="50" />
+    <Property Name="CustomerTel" Type="varchar" MaxLength="20" />
+    <Property Name="Sex" Type="bit" />
+    <Property Name="CustomerIdentity" Type="int" />
+    <Property Name="AlipayAccount" Type="varchar" MaxLength="50" />
+    <Property Name="Avatar" Type="varchar" MaxLength="100" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="UpdateTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <!--生成过程中发现错误:
+警告 6002: 表/视图“Economicalleague.dbo.CustomerRelatedInfo”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+  <EntityType Name="CustomerRelatedInfo">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="CustomerId" Type="bigint" Nullable="false" />
+    <Property Name="DirectId" Type="varchar(max)" />
+    <Property Name="InDirectId" Type="varchar(max)" />
+    <Property Name="IsDelete" Type="bit" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Favorites">
+    <Key>
+      <PropertyRef Name="FavoritesId" />
+    </Key>
+    <Property Name="FavoritesId" Type="bigint" Nullable="false" />
+    <Property Name="FavoritesTitle" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Type" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Log_ExceptionLog">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ControllerName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ActionName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Message" Type="nvarchar(max)" />
+    <Property Name="StackTrace" Type="nvarchar(max)" />
+    <Property Name="RemoteAddr" Type="nvarchar" MaxLength="20" />
+    <Property Name="RequestID" Type="nvarchar" MaxLength="50" />
+    <Property Name="LoginUser" Type="nvarchar" MaxLength="50" />
+    <Property Name="OccurTime" Type="datetime" />
+    <Property Name="AppId" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Log_LoginLog">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LoginCustomer" Type="bigint" />
+    <Property Name="AppVersion" Type="nvarchar" MaxLength="20" />
+    <Property Name="AppType" Type="int" />
+    <Property Name="ApiVersion" Type="varchar" MaxLength="20" />
+    <Property Name="ApiType" Type="int" />
+    <Property Name="RemoteAddr" Type="varchar" MaxLength="20" />
+    <Property Name="OccurTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="PlatformCommission">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" />
+    <Property Name="CustomerId" Type="bigint" Nullable="false" />
+    <Property Name="CustomerName" Type="varchar" MaxLength="50" />
+    <Property Name="trade_parent_id" Type="bigint" />
+    <Property Name="trade_id" Type="bigint" />
+    <Property Name="WeChatAccount" Type="varchar" MaxLength="50" />
+    <Property Name="commission" Type="float" />
+    <Property Name="InDirectcommission" Type="float" />
+    <Property Name="Teamcommission" Type="float" />
+    <Property Name="Remark" Type="varchar" MaxLength="200" />
+    <Property Name="Complete" Type="bit" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTimed" Type="datetime" />
+  </EntityType>
+  <!--生成过程中发现错误:
+警告 6002: 表/视图“Economicalleague.dbo.PlatformOrders”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+  <EntityType Name="PlatformOrders">
+    <Key>
+      <PropertyRef Name="trade_parent_id" />
+      <PropertyRef Name="trade_id" />
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="trade_parent_id" Type="bigint" Nullable="false" />
+    <Property Name="trade_id" Type="bigint" Nullable="false" />
+    <Property Name="CustomerId" Type="bigint" Nullable="false" />
+    <Property Name="CustomerName" Type="varchar" MaxLength="50" />
+    <Property Name="unid" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Sys_UserInfo">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="50" />
+    <Property Name="PassWord" Type="varchar" MaxLength="50" />
+    <Property Name="Email" Type="varchar" MaxLength="50" />
+    <Property Name="Phone" Type="varchar" MaxLength="20" />
+    <Property Name="Sex" Type="bit" />
+    <Property Name="Avatar" Type="varchar" MaxLength="100" />
+    <Property Name="IsDeleted" Type="int" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+  </EntityType>
+  <!--生成过程中发现错误:
+警告 6002: 表/视图“Economicalleague.dbo.TBItemsList”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+  <EntityType Name="TBItemsList">
+    <Key>
+      <PropertyRef Name="type" />
+      <PropertyRef Name="favorites_id" />
+      <PropertyRef Name="favorites_title" />
+    </Key>
+    <Property Name="type" Type="int" Nullable="false" />
+    <Property Name="favorites_id" Type="int" Nullable="false" />
+    <Property Name="favorites_title" Type="varchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TBrebateOrders">
+    <Key>
+      <PropertyRef Name="TradeId" />
+    </Key>
+    <Property Name="TradeId" Type="bigint" Nullable="false" />
+    <Property Name="NumIid" Type="bigint" Nullable="false" />
+    <Property Name="ItemText" Type="varchar" MaxLength="5000" />
+    <Property Name="ItemNum" Type="bigint" Nullable="false" />
+    <Property Name="Price" Type="float" />
+    <Property Name="PayPrice" Type="float" />
+    <Property Name="SellerNick" Type="varchar" MaxLength="50" />
+    <Property Name="SellerShopTitle" Type="varchar" MaxLength="50" />
+    <Property Name="TkStatus" Type="nvarchar" MaxLength="50" />
+    <Property Name="IncomeRate" Type="nvarchar" MaxLength="50" />
+    <Property Name="Proportions" Type="nvarchar" MaxLength="50" />
+    <Property Name="OrderType" Type="varchar" MaxLength="50" />
+    <Property Name="PubSharePreFee" Type="float" />
+    <Property Name="StatementPrice" Type="float" />
+    <Property Name="PrePay" Type="float" />
+    <Property Name="Commission" Type="float" Nullable="false" />
+    <Property Name="CommissionRate" Type="nvarchar" MaxLength="50" />
+    <Property Name="SubsidyRate" Type="nvarchar" MaxLength="50" />
+    <Property Name="SubsidyFee" Type="float" />
+    <Property Name="SubsidyType" Type="nvarchar" MaxLength="50" />
+    <Property Name="TerminalType" Type="nvarchar" MaxLength="50" />
+    <Property Name="Tk3rdType" Type="nvarchar" MaxLength="50" />
+    <Property Name="Category" Type="varchar" MaxLength="100" />
+    <Property Name="Tk3rdPubId" Type="bigint" />
+    <Property Name="Tk3rdPubName" Type="varchar" MaxLength="50" />
+    <Property Name="AdzoneId" Type="bigint" />
+    <Property Name="AdzoneName" Type="varchar" MaxLength="50" />
+    <Property Name="ClickTime" Type="datetime" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="EarningTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="UatmFavoritItems">
+    <Key>
+      <PropertyRef Name="NumIid" />
+    </Key>
+    <Property Name="NumIid" Type="bigint" Nullable="false" />
+    <Property Name="Typeid" Type="bigint" />
+    <Property Name="Title" Type="varchar" MaxLength="1000" />
+    <Property Name="PictUrl" Type="varchar" MaxLength="1000" />
+    <Property Name="SmallImages" Type="varchar" MaxLength="2000" />
+    <Property Name="ReservePrice" Type="float" />
+    <Property Name="ZkFinalPrice" Type="float" />
+    <Property Name="UserType" Type="bigint" />
+    <Property Name="Provcity" Type="varchar" MaxLength="50" />
+    <Property Name="ItemUrl" Type="varchar" MaxLength="1000" />
+    <Property Name="ClickUrl" Type="varchar" MaxLength="1000" />
+    <Property Name="Nick" Type="varchar" MaxLength="50" />
+    <Property Name="SellerId" Type="bigint" />
+    <Property Name="Volume" Type="bigint" />
+    <Property Name="TkRate" Type="float" />
+    <Property Name="ZkFinalPriceWap" Type="float" />
+    <Property Name="Category" Type="bigint" />
+    <Property Name="CouponClickUrl" Type="varchar" MaxLength="2000" />
+    <Property Name="CouponEndTime" Type="datetime" />
+    <Property Name="CouponInfo" Type="varchar" MaxLength="50" />
+    <Property Name="CouponStartTime" Type="datetime" />
+    <Property Name="CouponTotalCount" Type="bigint" />
+    <Property Name="CouponRemainCount" Type="bigint" />
+    <Property Name="CommissionRate" Type="varchar" MaxLength="50" />
+    <Property Name="EventEndTime" Type="varchar" MaxLength="50" />
+    <Property Name="EventStartTime" Type="varchar" MaxLength="50" />
+    <Property Name="ShopTitle" Type="varchar" MaxLength="1000" />
+    <Property Name="Status" Type="bigint" />
+    <Property Name="Type" Type="bigint" />
+    <Property Name="FavoritesTitle" Type="nvarchar" MaxLength="200" />
+    <Property Name="FavoritesId" Type="bigint" />
+    <Property Name="isSale" Type="int" Nullable="false" />
+    <Property Name="score" Type="int" />
+    <Property Name="CreateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="UserInfo">
+    <Key>
+      <PropertyRef Name="userid" />
+    </Key>
+    <Property Name="userid" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="openid" Type="nvarchar" MaxLength="500" />
+    <Property Name="createtime" Type="datetime" />
+    <Property Name="nickName" Type="varchar" MaxLength="100" />
+    <Property Name="avatarUrl" Type="varchar" MaxLength="200" />
+    <Property Name="gender" Type="varchar" MaxLength="50" />
+    <Property Name="city" Type="varchar" MaxLength="200" />
+    <Property Name="province" Type="varchar" MaxLength="50" />
+    <Property Name="country" Type="varchar" MaxLength="200" />
+    <Property Name="language" Type="varchar" MaxLength="50" />
+    <Property Name="adzoneid" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="UserManager">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="PassWord" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--生成过程中发现错误:
+警告 6002: 表/视图“Economicalleague.dbo.UserRelation”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+  <EntityType Name="UserRelation">
+    <Key>
+      <PropertyRef Name="openid" />
+      <PropertyRef Name="adzoneid" />
+    </Key>
+    <Property Name="openid" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="adzoneid" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="EconomicalleagueStoreContainer">
+    <EntitySet Name="CustomerInfo" EntityType="Self.CustomerInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Favorites" EntityType="Self.Favorites" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Log_ExceptionLog" EntityType="Self.Log_ExceptionLog" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Log_LoginLog" EntityType="Self.Log_LoginLog" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PlatformCommission" EntityType="Self.PlatformCommission" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sys_UserInfo" EntityType="Self.Sys_UserInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBrebateOrders" EntityType="Self.TBrebateOrders" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UatmFavoritItems" EntityType="Self.UatmFavoritItems" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserInfo" EntityType="Self.UserInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserManager" EntityType="Self.UserManager" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CustomerRelatedInfo" EntityType="Self.CustomerRelatedInfo" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [CustomerRelatedInfo].[CustomerId] AS [CustomerId], 
+    [CustomerRelatedInfo].[DirectId] AS [DirectId], 
+    [CustomerRelatedInfo].[InDirectId] AS [InDirectId], 
+    [CustomerRelatedInfo].[IsDelete] AS [IsDelete], 
+    [CustomerRelatedInfo].[CreateTime] AS [CreateTime], 
+    [CustomerRelatedInfo].[UpdateTime] AS [UpdateTime]
+    FROM [dbo].[CustomerRelatedInfo] AS [CustomerRelatedInfo]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="PlatformOrders" EntityType="Self.PlatformOrders" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [PlatformOrders].[trade_parent_id] AS [trade_parent_id], 
+    [PlatformOrders].[trade_id] AS [trade_id], 
+    [PlatformOrders].[CustomerId] AS [CustomerId], 
+    [PlatformOrders].[CustomerName] AS [CustomerName], 
+    [PlatformOrders].[unid] AS [unid]
+    FROM [dbo].[PlatformOrders] AS [PlatformOrders]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TBItemsList" EntityType="Self.TBItemsList" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TBItemsList].[type] AS [type], 
+    [TBItemsList].[favorites_id] AS [favorites_id], 
+    [TBItemsList].[favorites_title] AS [favorites_title]
+    FROM [dbo].[TBItemsList] AS [TBItemsList]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="UserRelation" EntityType="Self.UserRelation" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [UserRelation].[openid] AS [openid], 
+    [UserRelation].[adzoneid] AS [adzoneid]
+    FROM [dbo].[UserRelation] AS [UserRelation]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

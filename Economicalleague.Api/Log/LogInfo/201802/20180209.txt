@@ -1,0 +1,359 @@
+
+ 
+记录时间：2018-02-09 15:27:23,887 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:b2769281-7605-4ff7-aa6f-c758366f3924
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 15:27:24,163 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:b2769281-7605-4ff7-aa6f-c758366f3924
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":-1,"Code":10040,"Token":null,"Msg":"授权认证失败"},"Content":null}
+ 
+
+ 
+记录时间：2018-02-09 15:27:56,064 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:8e599adf-db4c-4696-b7af-34ce2e9d9eee
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 15:28:03,523 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:8e599adf-db4c-4696-b7af-34ce2e9d9eee
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无响应内容
+ 
+
+ 
+记录时间：2018-02-09 15:29:11,606 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:98ef56be-b585-4247-aad2-ba1e871538c5
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 15:29:58,827 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：RequestID:785362b5-78a2-481b-b92e-b710b861aa80
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 15:30:12,530 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：RequestID:785362b5-78a2-481b-b92e-b710b861aa80
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Count":1,"DataList":[{"<FavoritesId>k__BackingField":16072504,"<FavoritesTitle>k__BackingField":"777","<Type>k__BackingField":1}]}}
+ 
+
+ 
+记录时间：2018-02-09 15:31:35,022 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：RequestID:c29a7554-40b4-412e-b030-57a9afaeccbf
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 15:32:06,184 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:dec10aff-b9c0-487f-9ea2-b31b16bd679c
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 15:32:55,734 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:dec10aff-b9c0-487f-9ea2-b31b16bd679c
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Count":1,"DataList":[{"<FavoritesId>k__BackingField":16072504,"<FavoritesTitle>k__BackingField":"777","<Type>k__BackingField":1}]}}
+ 
+
+ 
+记录时间：2018-02-09 15:34:51,861 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:1688da0d-06a0-4b85-88f9-cc1ecf4ea684
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 15:34:51,925 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:1688da0d-06a0-4b85-88f9-cc1ecf4ea684
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=<ResponseContext xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Economicalleague.Infrastructure.Response"><Content i:nil="true" /><Head><Code>Unauthorized</Code><Msg>授权认证失败</Msg><Ret>-1</Ret><Token i:nil="true" /></Head></ResponseContext>
+ 
+
+ 
+记录时间：2018-02-09 15:35:32,239 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:e6fd6ab0-ad3a-4b58-92db-47957b07bf9d
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 15:35:32,242 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:e6fd6ab0-ad3a-4b58-92db-47957b07bf9d
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=<ResponseContext xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Economicalleague.Infrastructure.Response"><Content i:nil="true" /><Head><Code>Unauthorized</Code><Msg>授权认证失败</Msg><Ret>-1</Ret><Token i:nil="true" /></Head></ResponseContext>
+ 
+
+ 
+记录时间：2018-02-09 15:35:34,807 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：RequestID:1867bc27-b7fa-44a5-90e0-e4f37e86a200
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 15:35:34,812 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：RequestID:1867bc27-b7fa-44a5-90e0-e4f37e86a200
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=<ResponseContext xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Economicalleague.Infrastructure.Response"><Content i:nil="true" /><Head><Code>Unauthorized</Code><Msg>授权认证失败</Msg><Ret>-1</Ret><Token i:nil="true" /></Head></ResponseContext>
+ 
+
+ 
+记录时间：2018-02-09 15:35:55,848 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：RequestID:e864aa28-f6a6-4026-90dc-afcaea0a5604
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 15:37:00,962 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：RequestID:e864aa28-f6a6-4026-90dc-afcaea0a5604
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Count":1,"DataList":[{"<FavoritesId>k__BackingField":16072504,"<FavoritesTitle>k__BackingField":"777","<Type>k__BackingField":1}]}}
+ 
+
+ 
+记录时间：2018-02-09 15:40:07,439 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：RequestID:1c32a2b4-dd10-4dd5-b390-4dcf2166b3ae
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 16:00:16,374 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:0ab6bac1-65fc-40d6-b1c3-350f3863c73a
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 16:00:19,268 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:0ab6bac1-65fc-40d6-b1c3-350f3863c73a
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Count":1,"DataList":[{"<FavoritesId>k__BackingField":16072504,"<FavoritesTitle>k__BackingField":"777","<Type>k__BackingField":1}]}}
+ 
+
+ 
+记录时间：2018-02-09 16:06:07,110 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:2323639f-1e72-4742-97d6-bc033a5eb158
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 16:06:12,849 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：RequestID:2323639f-1e72-4742-97d6-bc033a5eb158
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Count":1,"DataList":[{"<FavoritesId>k__BackingField":16072504,"<FavoritesTitle>k__BackingField":"777","<Type>k__BackingField":1}]}}
+ 
+
+ 
+记录时间：2018-02-09 16:17:31,062 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:9cb77ea2-4784-433c-99c5-3b4d82dff068
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 16:17:35,528 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:9cb77ea2-4784-433c-99c5-3b4d82dff068
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":0,"Code":10000,"Msg":"接口调用成功"},"Content":{"Count":1,"DataList":[{"FavoritesId":16072504,"FavoritesTitle":"777","Type":1}]}}
+ 
+
+ 
+记录时间：2018-02-09 16:28:00,919 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：RequestID:3c70534a-bd45-40ed-b266-6884f1cd9d64
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 16:28:01,218 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：RequestID:3c70534a-bd45-40ed-b266-6884f1cd9d64
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Count":1,"DataList":[{"FavoritesId":16072504,"FavoritesTitle":"777","Type":1}]}}
+ 
+
+ 
+记录时间：2018-02-09 16:29:15,963 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:52e59081-e4c3-4bed-8e32-fc794ad7adcc
+GET http://localhost:18428/api/goods/getfavorites HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 16:29:16,258 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:52e59081-e4c3-4bed-8e32-fc794ad7adcc
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavorites,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Count":1,"DataList":[{"FavoritesId":16072504,"FavoritesTitle":"777","Type":1}]}}
+ 
+
+ 
+记录时间：2018-02-09 17:22:52,967 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:abae3f79-1886-4610-b4a3-b513033c631d
+GET http://localhost:18428/api/goods/getfavoriteslist?favoritesId=16072504 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavoritesList,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 17:27:35,488 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:550a94f6-71b1-47bf-9c15-ecf55b77ec9b
+GET http://localhost:18428/api/goods/getfavoriteslist?favoritesId=16072504 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavoritesList,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 17:27:35,942 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:550a94f6-71b1-47bf-9c15-ecf55b77ec9b
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavoritesList,Msg={"Head":{"Ret":0,"Code":10000,"Token":null,"Msg":"接口调用成功"},"Content":{"Count":0,"DataList":[]}}
+ 
+
+ 
+记录时间：2018-02-09 17:29:48,339 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：RequestID:8b7004da-caf8-402e-9640-26a4fdfd9559
+GET http://localhost:18428/api/goods/getfavoriteslist?favoritesId=16072504 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavoritesList,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 17:30:58,632 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:fb73d4bb-2a8f-4606-b53f-2efc317b5538
+GET http://localhost:18428/api/goods/getfavoriteslist?favoritesId=16072504 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavoritesList,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 17:30:59,378 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:fb73d4bb-2a8f-4606-b53f-2efc317b5538
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavoritesList,Msg={"Head":{"Ret":-1,"Code":10092,"Token":null,"Msg":"apk文件不存在"},"Content":null}
+ 
+
+ 
+记录时间：2018-02-09 17:31:22,282 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：RequestID:07f29d36-da3c-46a8-a86d-350b5ba18eef
+GET http://localhost:18428/api/goods/getfavoriteslist?favoritesId=16072504 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavoritesList,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 17:57:54,265 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:a9540037-bce3-4377-bb31-d78dbb2d2a0e
+GET http://localhost:18428/api/goods/getfavoriteslist?favoritesId=16072504 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavoritesList,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 17:58:08,284 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:a9540037-bce3-4377-bb31-d78dbb2d2a0e
+HTTP/1.1 200 OK
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavoritesList,Msg={"Head":{"Ret":-1,"Code":10141,"Token":null,"Msg":"获取淘宝联盟选品库的宝贝信息失败"},"Content":null}
+ 
+
+ 
+记录时间：2018-02-09 17:58:16,068 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:b83de282-4bb1-4844-ae8c-63dee4275aee
+GET http://localhost:18428/api/goods/getfavoriteslist?favoritesId=16072504 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavoritesList,Msg=无请求内容
+ 
+
+ 
+记录时间：2018-02-09 18:01:11,573 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：RequestID:d2f44a10-d413-4729-a500-2b234ef7832c
+GET http://localhost:18428/api/goods/getfavoriteslist?favoritesId=16072504 HTTP/1.1
+ControllerName=FavoritItems,ActionName=GetTaoBaoFavoritesList,Msg=无请求内容
+ 
